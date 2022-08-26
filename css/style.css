@@ -671,6 +671,15 @@ grid-row: 6/9;
 
 }
 .footer {
-  height: 45vh;
+  height: 66vh;
   border: 2px solid #3444c5;
+}
+.footer div{
+  display: flex;
+
+
+}
+.footer div img{
+  width: 100%;
+  
 }
