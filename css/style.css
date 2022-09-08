@@ -128,12 +128,12 @@ a {
 #circle {
   display: none;
 }
-#head {
+#head1 {
   font-size: clamp(30px, 4.1vw, 85px);
 
   grid-column: 1/13;
 }
-#head h1 b {
+#head1 h1 b {
   color: #fbb831;
 }
 #content1-txt {
@@ -161,6 +161,7 @@ a {
   margin-top: 40px;
 }
 #content1-img1 {
+ 
   grid-column: 5/13;
   grid-row: 2/11;
 }
@@ -1082,7 +1083,7 @@ a {
     border: 0px solid #f4f4f4;
   }
 
-  #head {
+  #head1 {
     font-size: clamp(25px, 7.5vw, 35px);
     grid-row: 1/3;
     grid-column: 1/13;
