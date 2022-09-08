@@ -40,7 +40,7 @@ function getImg1() {
         });
 
 
-    } , 370);
+    } , 380);
 
     $(".imgg1").animate({
         width : "0px",
@@ -67,7 +67,7 @@ function getImg2() {
         });
 
 
-    } , 370);
+    } , 380);
 
     $(".imgg1").animate({
         width : "0px",
@@ -94,7 +94,7 @@ function getImg3() {
         });
 
 
-    } , 370);
+    } , 380);
 
     $(".imgg1").animate({
         width : "0px",
