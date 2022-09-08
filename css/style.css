@@ -199,6 +199,10 @@ a {
   border-radius: 10px;
   margin-top: 40px;
 }
+.sticky-but{
+  position: fixed;
+
+}
 #button2 {
   position: relative;
   grid-column: 11/13;
@@ -209,7 +213,7 @@ a {
   z-index: 1;
 }
 #button2 button {
-  width: 100%;
+  width: 20%;
   border-radius: 10px 0 0 10px;
   font-size: clamp(16.3px, 1vw, 20px);
 }
