@@ -208,12 +208,12 @@ a {
   grid-column: 11/13;
   grid-row: 4/5;
   top: 35%;
-  left: 45%;
+  left: 30%;
   width: 100%;
   z-index: 7;
 }
 #button2 button {
-  width: 12%;
+  width: 15%;
   border-radius: 10px 0 0 10px;
   font-size: clamp(16.3px, 1vw, 20px);
 }
