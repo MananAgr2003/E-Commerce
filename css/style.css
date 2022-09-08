@@ -413,6 +413,9 @@ a {
   font-size: clamp(14px, 1vw, 16px);
   font-weight: 550;
 }
+.rm{
+   visibility: hidden;
+}
 
 #head4 {
   font-size: clamp(30px, 4vw, 65px);
@@ -736,6 +739,9 @@ a {
   font-family: "Montserrat", sans-serif;
   font-size: clamp(12px, 1vw, 15px);
   font-weight: 550;
+}
+#content5-img11{
+  display: none;
 }
 #content5-img1 {
   grid-column: 3/10;
@@ -1330,6 +1336,9 @@ a {
     grid-template-rows: repeat(17, 1fr);
     padding: 00px 3% 00px 3%;
   }
+  .rm{
+    visibility: visible;
+  }
   #view {
     display: none;
   }
@@ -1740,5 +1749,87 @@ a {
     bottom: 27%;
   }
 
+  .content5{
+    height: 200vh;
+    grid-template-rows: repeat(12, 1fr);
+    padding: 0px 5% 0px 5%;
+  }
+  #head5-1{
+    font-size: clamp(30px, 4vw, 65px);
+    color: #3444c5;
+    grid-column: 1/9;
+    grid-row: 1/2;
+    align-items: flex-start;
+  }
+  #head5-2{
+    display: block;
+    font-size: clamp(30px, 4vw, 65px);
+    color: #FBB831;
+    grid-column: 1/9;
+    grid-row: 9/10;
+    align-items: flex-start;
+    position: relative;
+    top: 25%;
+   left: 0%;
+  }
+  #content5-txt1 {
+    justify-content: flex-start;
+    grid-column: 1/11;
+    grid-row: 2/4;
+    font-size: clamp(14px, 1vw, 16px);
+  }
+  #content5-txt2 {
+    
+    justify-content: flex-start;
+    grid-column: 1/10;
+    grid-row: 10/11;
+    font-size: clamp(14px, 1vw, 16px);
+    bottom: 12%;
+    right: 50%;
+  }
+  #content5-txt2 p{
+    
+    position: relative;
+    bottom: 16%;
+    right: 7%;
+  }
+  #content5-img1{
+    display: none;
+  }
+  #content5-img11 {
+    display: block;
+    grid-column :1/11;
+    grid-row: 4/9;
+    z-index: -1;
+   
+  }
+  #content5-img11 img {
+    height: 100%;
+    width: 100%;
+  }
+  #content5-img2{
+
+    display: none;
+  }
+
+  #subhead5-1 {
+    grid-column: 1/6;
+    grid-row: 11/12;
+  }
+  #subhead5-2 {
+    grid-column: 7/10;
+    grid-row: 11/12;
+  }
+  #subhead5-3 {
+    grid-column: 1/6;
+    grid-row: 12/13;
+  }
+  #subhead5-4 {
+    grid-column: 7/10;
+    grid-row: 12/13;
+  }
+  .footer{
+    display: none;
+  }
  
 }
