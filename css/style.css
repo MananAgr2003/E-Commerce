@@ -108,9 +108,9 @@ a {
   right: 60%;
 }
 .content1 {
-  height: 95vh;
+  height: 100vh;
   background-color: #f4f4f4;
-  padding: 20px 5% 80px 5%;
+  padding: 10px 5% 80px 5%;
   display: grid;
   font-family: "Montserrat", sans-serif;
   grid-template-columns: repeat(12, 1fr);
@@ -301,7 +301,7 @@ a {
 }
 
 .c3-categories {
-  transition: 1s;
+  transition: 0.3s;
   margin: 10px;
   position: relative;
   top: 10%;
@@ -1192,8 +1192,10 @@ a {
   }
   .content3 {
     display: grid;
-    height: 90vh;
+    height: 75vh;
     padding: 0px 2% 0px 2%;
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-columns: repeat(21, 1fr);
   }
 
   #head3 {
@@ -1320,7 +1322,7 @@ a {
     width: 6%;
     height: 13%;
     position: relative;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 5px 0px 5px;
     border: 0px solid #f4f4f4;
     top: 10%;
   }
@@ -1329,18 +1331,19 @@ a {
     width: 6%;
     height: 13%;
     position: relative;
-    margin: 0px 10px 0px 10px;
-    border: 0px solid #f4f4f4;
+    margin: 0px 5px 0px 5px;
+    border: 1px solid #f4f4f4;
     top: 10%;
   }
 
   #content3-c3 {
     border-radius: 50%;
-    width: 3%;
-    height: 15%;
+    width: 6%;
+    height: 13%;
     position: relative;
-    margin: 0px 2px 0px 2px;
-    border: 0px solid #f4f4f4;
+    margin: 0px 5px 0px 5px;
+    border: 1px solid #f4f4f4;
+    top: 10%;
   }
 
   .content4 {
@@ -1410,7 +1413,7 @@ a {
     grid-row: 4/5;
 
     position: relative;
-    top:20%;
+    top:15%;
 
     font-size: clamp(8px, 1vw, 12px);
   }
@@ -1453,7 +1456,7 @@ a {
     grid-row: 5/6;
     
     position: relative;
-    bottom: 80%;
+    bottom: 85%;
     
     font-size: clamp(8px, 1vw, 12px);
   }
@@ -1514,7 +1517,7 @@ a {
     grid-row: 7/8;
 
     position: relative;
-    top: 20%;
+    top: 15%;
 
  
 
@@ -1568,7 +1571,7 @@ a {
     grid-row: 7/8;
 
     position: relative;
-    top: 20%;
+    top: 15%;
 
  
 
@@ -1622,7 +1625,7 @@ a {
   #b5 {
     grid-column: 1/6;
     grid-row: 10/11;
-    top: 20%;
+    top: 15%;
 
     position: relative;
     
@@ -1667,7 +1670,7 @@ a {
   #b6 {
     grid-column: 7/12;
     grid-row: 10/11;
-    top: 20%;
+    top: 15%;
     position: relative;
 
     font-size: clamp(8px, 1vw, 12px);
@@ -1726,7 +1729,7 @@ a {
     grid-row: 13/14;
 
     position: relative;
-    top: 20%;
+    top: 15%;
     font-size: clamp(8px, 1vw, 12px);
   }
   #b7 button {
@@ -1769,7 +1772,7 @@ a {
     grid-row: 13/14;
 
     position: relative;
-    top: 17%;
+    top: 15%;
     font-size: clamp(8px, 1vw, 12px);
   }
   #b8 button {
@@ -1786,7 +1789,7 @@ a {
   }
 
   .content5{
-    height: 170vh;
+    height: 150vh;
     grid-template-rows: repeat(12, 1fr);
     padding: 0px 5% 0px 5%;
   }
@@ -1812,6 +1815,9 @@ a {
     grid-column: 1/11;
     grid-row: 2/4;
     font-size: clamp(14px, 1vw, 16px);
+    position: relative;
+    bottom: 20%;
+
   }
   #content5-txt2 {
     
