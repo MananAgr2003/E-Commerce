@@ -456,6 +456,65 @@ a {
   top: 10%;
   transition: 0.2s;
 }
+.pro{
+  grid-column: 1/4;
+  grid-row: 3/9;
+  height: 110%;
+  z-index: 5;
+  background-color: transparent;
+  transition: 0.5s;
+}
+.pro:hover{
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+#pro1{
+
+  grid-column: 1/4;
+  grid-row: 3/9;
+
+}
+#pro2{
+
+  grid-column: 4/7;
+  grid-row: 3/9;
+
+}
+#pro3{
+
+  grid-column: 7/10;
+  grid-row: 3/9;
+
+}
+#pro4{
+
+  grid-column: 10/13;
+  grid-row: 3/9;
+
+}
+#pro5{
+
+  grid-column: 1/4;
+  grid-row: 10/16;
+
+}
+#pro6{
+
+  grid-column: 4/7;
+  grid-row: 10/16;
+
+}
+#pro7{
+
+  grid-column: 7/10;
+  grid-row: 10/16;
+
+}
+#pro8{
+
+  grid-column: 10/13;
+  grid-row: 10/16;
+
+}
 #p1 {
   grid-column: 1/4;
   grid-row: 3/7;
@@ -489,6 +548,7 @@ a {
   bottom: 22%;
   left: 10%;
   font-size: clamp(8px, 1vw, 12px);
+  z-index: 6;
 }
 #p2 {
   grid-column: 4/7;
@@ -522,6 +582,7 @@ a {
   bottom: 22%;
   left: 10%;
   font-size: clamp(12px, 1vw, 14x);
+  z-index: 6;
 }
 #p3 {
   grid-column: 7/10;
@@ -554,6 +615,7 @@ a {
   position: relative;
   bottom: 22%;
   left: 10%;
+  z-index: 6;
 }
 #p4 {
   grid-column: 10/13;
@@ -587,6 +649,7 @@ a {
   bottom: 22%;
   left: 10%;
   font-size: clamp(12px, 1vw, 14x);
+  z-index: 6;
 }
 #p5 {
   grid-column: 1/4;
@@ -619,6 +682,7 @@ a {
   position: relative;
   bottom: 22%;
   left: 10%;
+  z-index: 6;
 }
 #p6 {
   grid-column: 4/7;
@@ -651,6 +715,7 @@ a {
   position: relative;
   bottom: 22%;
   left: 10%;
+  z-index: 6;
 }
 #p7 {
   grid-column: 7/10;
@@ -683,6 +748,7 @@ a {
   position: relative;
   bottom: 22%;
   left: 10%;
+  z-index: 6;
 }
 #p8 {
   grid-column: 10/13;
@@ -715,6 +781,7 @@ a {
   position: relative;
   bottom: 22%;
   left: 10%;
+  z-index: 6;
 }
 
 #content4-btn {
