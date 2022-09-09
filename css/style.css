@@ -1605,7 +1605,7 @@ a {
     top: 10%;
   }
   #b1 {
-    grid-column: 1/6;
+    grid-column: 1/5;
     grid-row: 4/5;
 
     position: relative;
@@ -1615,7 +1615,7 @@ a {
   }
   #b1 button {
     border-radius: 0px;
-    width: 80%;
+    width: 95%;
     height: 45%;
   }
   #p2 {
@@ -1648,12 +1648,12 @@ a {
   }
 
   #b2 {
-    grid-column: 7/12;
+    grid-column: 5/10;
     grid-row: 5/6;
 
     position: relative;
     bottom: 85%;
-
+    left: 50%;
     font-size: clamp(8px, 1vw, 12px);
   }
   #b2 button {
@@ -1708,7 +1708,7 @@ a {
     grid-row: 8/9;
   }
   #b3 {
-    grid-column: 1/6;
+    grid-column: 1/5;
     grid-row: 7/8;
 
     position: relative;
@@ -1718,7 +1718,7 @@ a {
   }
   #b3 button {
     border-radius: 0px;
-    width: 80%;
+    width: 95%;
     height: 37%;
   }
   #p4 {
@@ -1759,12 +1759,12 @@ a {
     grid-row: 8/9;
   }
   #b4 {
-    grid-column: 7/12;
+    grid-column: 5/10;
     grid-row: 7/8;
 
     position: relative;
     top: 15%;
-
+    left: 50%;
     font-size: clamp(8px, 1vw, 12px);
   }
   #b4 button {
@@ -1813,7 +1813,7 @@ a {
     bottom: 0%;
   }
   #b5 {
-    grid-column: 1/6;
+    grid-column: 1/5;
     grid-row: 10/11;
     top: 15%;
 
@@ -1823,7 +1823,7 @@ a {
   }
   #b5 button {
     border-radius: 0px;
-    width: 80%;
+    width: 95%;
     height: 45%;
   }
   #p6 {
@@ -1857,9 +1857,10 @@ a {
   }
 
   #b6 {
-    grid-column: 7/12;
+    grid-column: 5/10;
     grid-row: 10/11;
     top: 15%;
+    left: 50%;
     position: relative;
 
     font-size: clamp(8px, 1vw, 12px);
@@ -1914,16 +1915,17 @@ a {
     top: 15%;
   }
   #b7 {
-    grid-column: 1/6;
+    grid-column: 1/5;
     grid-row: 13/14;
 
     position: relative;
     top: 15%;
+    
     font-size: clamp(8px, 1vw, 12px);
   }
   #b7 button {
     border-radius: 0px;
-    width: 80%;
+    width: 95%;
     height: 45%;
   }
   #p8 {
@@ -1956,11 +1958,14 @@ a {
   }
 
   #b8 {
-    grid-column: 7/12;
+    
+    grid-column: 5/10;
     grid-row: 13/14;
 
     position: relative;
     top: 15%;
+    left: 50%;
+   
     font-size: clamp(8px, 1vw, 12px);
   }
   #b8 button {
@@ -1974,6 +1979,9 @@ a {
     grid-row: 14/15;
     position: relative;
     top: 16%;
+  }
+  .pro:hover{
+    display: none;
   }
 
   .content5 {
