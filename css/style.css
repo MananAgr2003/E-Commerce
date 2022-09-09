@@ -181,6 +181,8 @@ a {
 #content1-img1 {
   grid-column: 5/14;
   grid-row: 2/11;
+  width: 100%;
+  padding-top: 20px;
 
   display: block;
   overflow: hidden;
@@ -232,11 +234,12 @@ a {
 }
 
 #content1-img2 {
-  width: 95%;
+  width: 96%;
   grid-column: 1 /5;
   grid-row: 6/11;
-  display: block;
+  display: inline;
   overflow: hidden;
+  margin-top: 60px;
 }
 #content1-img2 figure {
   position: relative;
@@ -282,12 +285,6 @@ a {
   }
 }
 
-
-#content1-img2 img {
-  padding-top: 20px;
-  height: 100%;
-  width: 97%;
-}
 #button1 {
   grid-column: 5/8;
   grid-row: 9/10;
@@ -307,6 +304,10 @@ a {
   border-radius: 10px;
   margin-top: 40px;
   transition: 0.5s;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 #content1-but:hover {
@@ -315,17 +316,20 @@ a {
 }
 .sticky-but {
   position: fixed;
-}
 
+  margin-right: 20px;
+}
 #call-icon {
   position: relative;
-  right: 36%;
-  top: 15%;
+  right: 10%;
 }
+
 #git {
-  position: relative;
-  bottom: 60%;
+  font-size: clamp(10px, 1vw, 14px);
 }
+/* #git span {
+ pos
+} */
 #button2 {
   position: relative;
   grid-column: 11/12;
@@ -341,7 +345,6 @@ a {
   border-radius: 15px 0 0 15px;
   background-color: #3444c5;
   color: white;
-  font-size: clamp(16.3px, 1vw, 20px);
 }
 
 .content2 {
