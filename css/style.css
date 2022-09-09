@@ -290,6 +290,9 @@ a {
   grid-row: 9/10;
   z-index: 1;
   width: 60%;
+  position: relative;
+  top: 15%;
+  left :8%;
 }
 #content1-but {
   font-family: "Montserrat", sans-serif;
@@ -319,9 +322,11 @@ a {
 
   margin-right: 20px;
 }
-#call-icon {
+.sticky-but img{
+
   position: relative;
   right: 10%;
+
 }
 
 #git {
