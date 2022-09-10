@@ -1,27 +1,6 @@
 
 
 
-        let counts=setInterval(updated);
-        let upto=0;
-        function updated(){
-            var count= document.getElementById("#subhead5-1");
-            count.innerHTML=++upto;
-            if(upto===2400)
-            {
-                clearInterval(counts);
-            }
-        }
-  
-
-
-
-
-
-
-
-
-
-
 
 
 
