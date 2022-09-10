@@ -1352,8 +1352,8 @@ a {
     display: none;
   }
   .content2 {
-    grid-template-rows: repeat(6, 1fr);
-    height: 50vh;
+    grid-template-rows: repeat(5, 1fr);
+    height: 45vh;
   }
   .content2 div {
     justify-content: flex-start;
@@ -1384,13 +1384,13 @@ a {
   }
 
   #circle2 {
-    grid-row: 6/7;
+    grid-row: 5/6;
     grid-column: 1/4;
     padding-top: 0px;
     padding-bottom: 0px;
 
     position: relative;
-    bottom: 80%;
+    top: 0%;
 
     display: flex;
     justify-content: center;
@@ -1449,55 +1449,68 @@ a {
     max-height: 200px;
   }
   #c3-categories-img1 {
+    position : relative;
+    right: 5%;
+    
     grid-row: 3/6;
     grid-column: 2/11;
+    
   }
   #c3-categories-img1 a img {
-    width: 100%;
+    width: 110%;
     height: 100%;
   }
   #c3-categories-img1 a {
-    width: 100%;
+    width: 110%;
     height: 100%;
   }
   #c3-categories-img2 {
+    position : relative;
+    right: 5%;
+    
     grid-row: 3/6;
     grid-column: 12/21;
   }
   #c3-categories-img2 a img {
-    width: 100%;
+    width: 110%;
     height: 100%;
   }
   #c3-categories-img2 a {
-    width: 100%;
+    width: 110%;
     height: 100%;
   }
   #c3-categories-img3 {
+    position : relative;
+    right: 5%;
+    
     grid-row: 5/8;
     grid-column: 2/11;
     position: relative;
     top: 45%;
   }
   #c3-categories-img3 a img {
-    width: 100%;
+    width: 110%;
     height: 100%;
   }
   #c3-categories-img3 a {
-    width: 100%;
+    width: 110%;
     height: 100%;
   }
   #c3-categories-img4 {
+    position : relative;
+    right: 5%;
+    
     grid-row: 5/8;
     grid-column: 12/21;
     position: relative;
     top: 45%;
   }
   #c3-categories-img4 a img {
-    width: 100%;
+    width: 110%;
     height: 100%;
   }
   #c3-categories-img4 a {
-    width: 100%;
+    width: 110%;
     height: 100%;
   }
   #c3-categories-img5 {
@@ -2202,6 +2215,7 @@ a {
   color: white;
 }
 #foot-links-2 {
+  width: 90%;
   position: relative;
   bottom: 64%;
   left: 30%;
