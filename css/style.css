@@ -327,11 +327,12 @@ a {
 .sticky-but {
   position: fixed;
 
+
   margin-right: 20px;
 }
 .sticky-but img {
   position: relative;
-  right: 10%;
+  right:3%;
 }
 
 #git {
@@ -345,13 +346,13 @@ a {
   grid-column: 11/12;
   grid-row: 4/5;
   top: 35%;
-  left: 150%;
+  left: 165%;
   width: 100%;
   z-index: 7;
 }
 #button2 button {
   height: 5.5%;
-  width: 14%;
+  width: 10%;
   border-radius: 15px 0 0 15px;
   background-color: #3444c5;
   color: white;
@@ -1124,8 +1125,8 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 10%;
-  height: 100%;
+  width: 10.5%;
+  height: 90%;
   margin: 0px 2% 0px 2%;
 }
 #foot-icons a img {
