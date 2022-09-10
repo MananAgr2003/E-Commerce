@@ -147,7 +147,7 @@ a {
 }
 #head1 {
   font-size: clamp(30px, 4.1vw, 85px);
-
+ grid-row: 1/2;
   grid-column: 1/13;
 }
 #head1 h1 b {
@@ -180,18 +180,21 @@ a {
 }
 #content1-img1 {
   grid-column: 5/14;
-  grid-row: 2/11;
+  grid-row: 2/12;
   width: 100%;
+  
   padding-top: 20px;
 
   display: block;
   overflow: hidden;
-  min-width: 300px;
+ 
 }
 
 #content1-img1 figure {
   position: relative;
+  height: 100%;
   width: 500%;
+  left: 0;
   margin: 0;
   animation: 24s slider infinite;
 }
@@ -199,6 +202,7 @@ a {
 #content1-img1 figure img {
   position: relative;
   width: 20%;
+  height: 110%;
   right: 100%;
 
   float: right;
@@ -235,8 +239,8 @@ a {
 }
 
 #content1-img2 {
-  width: 96%;
-  grid-column: 1 /5;
+  width: 76%;
+  grid-column: 1 /6;
   grid-row: 6/11;
   display: inline;
   overflow: hidden;
@@ -245,12 +249,14 @@ a {
 #content1-img2 figure {
   position: relative;
   width: 500%;
+  height: 100%;
   margin: 0;
   animation: 24s slider2 infinite;
 }
 #content1-img2 figure img {
   position: relative;
   width: 20%;
+  height: 100%;
   right: 100%;
 
   float: right;
@@ -288,11 +294,11 @@ a {
 
 #button1 {
   grid-column: 5/8;
-  grid-row: 9/10;
+  grid-row: 8/9;
   z-index: 1;
   width: 60%;
   position: relative;
-  top: 15%;
+  top: 90%;
   left: 8%;
 }
 #content1-but {
@@ -1110,7 +1116,7 @@ a {
   bottom: 60%;
   grid-row: 6/7;
   position: relative;
-  right: 11%;
+  right: 8%;
 }
 
 #foot-icons a {
@@ -1118,8 +1124,8 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 8%;
-  height: 80%;
+  width: 10%;
+  height: 100%;
   margin: 0px 2% 0px 2%;
 }
 #foot-icons a img {
@@ -1205,7 +1211,7 @@ a {
   font-size: clamp(13px, 1vw, 15px);
 }
 
-@media screen and (max-width: 1001px),
+/* @media screen and (max-width: 1001px),
   (min-device-width: 1001px) and (max-device-width: 1200px) {
   #content1-img1 figure {
     height: 100%;
@@ -1227,7 +1233,7 @@ a {
 
     height: 100%;
   }
-}
+} */
 
 @media screen and (max-width: 768px),
   (min-device-width: 768px) and (max-device-width: 1000px) {
