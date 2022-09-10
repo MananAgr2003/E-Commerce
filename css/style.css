@@ -146,8 +146,8 @@ a {
   display: none;
 }
 #head1 {
-  font-size: clamp(30px, 4.1vw, 85px);
- grid-row: 1/2;
+  font-size: clamp(25px, 4.1vw, 80px);
+  grid-row: 1/2;
   grid-column: 1/13;
 }
 #head1 h1 b {
@@ -182,12 +182,11 @@ a {
   grid-column: 5/14;
   grid-row: 2/12;
   width: 100%;
-  
+
   padding-top: 20px;
 
   display: block;
   overflow: hidden;
- 
 }
 
 #content1-img1 figure {
@@ -327,12 +326,11 @@ a {
 .sticky-but {
   position: fixed;
 
-
   margin-right: 20px;
 }
 .sticky-but img {
   position: relative;
-  right:3%;
+  right: 3%;
 }
 
 #git {
@@ -481,6 +479,23 @@ a {
   width: 100%;
   height: 100%;
 }
+#cat-1-div1 {
+  position: relative;
+  top: 97%;
+  left: 5%;
+
+  grid-row: 3/9;
+  grid-column: 1/4;
+  height: 2.5%;
+  width: 0%;
+  transition: 0.5s;
+
+  border-radius: 0px 0px 10px 10px;
+  background-color: #3444c5;
+
+  z-index: 8;
+}
+
 #c3-categories-img1 a {
   width: 100%;
   height: 100%;
@@ -498,6 +513,23 @@ a {
   width: 100%;
   height: 100%;
 }
+
+#cat-1-div2 {
+  position: relative;
+  top: 97%;
+  left: 5%;
+
+  grid-row: 3/9;
+  grid-column: 4/7;
+  height: 2.5%;
+  width: 0%;
+  transition: 0.5s;
+
+  border-radius: 0px 0px 10px 10px;
+  background-color: #3444c5;
+
+  z-index: 8;
+}
 #c3-categories-img3 {
   grid-row: 3/9;
   grid-column: 7/10;
@@ -509,6 +541,23 @@ a {
 #c3-categories-img3 a {
   width: 100%;
   height: 100%;
+}
+
+#cat-1-div3 {
+  position: relative;
+  top: 97%;
+  left: 5%;
+
+  grid-row: 3/9;
+  grid-column: 7/10;
+  height: 2.5%;
+  width: 0%;
+  transition: 0.5s;
+
+  border-radius: 0px 0px 10px 10px;
+  background-color: #3444c5;
+
+  z-index: 8;
 }
 #c3-categories-img4 {
   grid-row: 3/9;
@@ -522,6 +571,22 @@ a {
   width: 100%;
   height: 100%;
 }
+#cat-1-div4 {
+  position: relative;
+  top: 97%;
+  left: 5%;
+
+  grid-row: 3/9;
+  grid-column: 10/13;
+  height: 2.5%;
+  width: 0%;
+  transition: 0.5s;
+
+  border-radius: 0px 0px 10px 10px;
+  background-color: #3444c5;
+
+  z-index: 8;
+}
 #c3-categories-img5 {
   grid-row: 3/9;
   grid-column: 13/16;
@@ -533,6 +598,22 @@ a {
 #c3-categories-img5 a {
   width: 100%;
   height: 100%;
+}
+#cat-1-div5 {
+  position: relative;
+  top: 97%;
+  left: 5%;
+
+  grid-row: 3/9;
+  grid-column: 13/16;
+  height: 2.5%;
+  width: 0%;
+  transition: 0.5s;
+
+  border-radius: 0px 0px 10px 10px;
+  background-color: #3444c5;
+
+  z-index: 8;
 }
 #c3-categories-img6 {
   grid-row: 3/9;
@@ -546,6 +627,22 @@ a {
   width: 100%;
   height: 100%;
 }
+#cat-1-div6 {
+  position: relative;
+  top: 97%;
+  left: 5%;
+
+  grid-row: 3/9;
+  grid-column: 16/19;
+  height: 2.5%;
+  width: 0%;
+  transition: 0.5s;
+
+  border-radius: 0px 0px 10px 10px;
+  background-color: #3444c5;
+
+  z-index: 8;
+}
 #c3-categories-img7 {
   grid-row: 3/9;
   grid-column: 19/22;
@@ -557,6 +654,22 @@ a {
 #c3-categories-img7 a {
   width: 100%;
   height: 100%;
+}
+#cat-1-div7 {
+  position: relative;
+  top: 97%;
+  left: 5%;
+
+  grid-row: 3/9;
+  grid-column: 19/22;
+  height: 2.5%;
+  width: 0%;
+  transition: 0.5s;
+
+  border-radius: 0px 0px 10px 10px;
+  background-color: #3444c5;
+
+  z-index: 8;
 }
 
 .content4 {
@@ -1456,12 +1569,11 @@ a {
     max-height: 200px;
   }
   #c3-categories-img1 {
-    position : relative;
+    position: relative;
     right: 5%;
-    
+
     grid-row: 3/6;
     grid-column: 2/11;
-    
   }
   #c3-categories-img1 a img {
     width: 110%;
@@ -1472,9 +1584,9 @@ a {
     height: 100%;
   }
   #c3-categories-img2 {
-    position : relative;
+    position: relative;
     right: 5%;
-    
+
     grid-row: 3/6;
     grid-column: 12/21;
   }
@@ -1487,9 +1599,9 @@ a {
     height: 100%;
   }
   #c3-categories-img3 {
-    position : relative;
+    position: relative;
     right: 5%;
-    
+
     grid-row: 5/8;
     grid-column: 2/11;
     position: relative;
@@ -1504,9 +1616,9 @@ a {
     height: 100%;
   }
   #c3-categories-img4 {
-    position : relative;
+    position: relative;
     right: 5%;
-    
+
     grid-row: 5/8;
     grid-column: 12/21;
     position: relative;
@@ -1852,10 +1964,9 @@ a {
   #t5 {
     position: relative;
 
-    
     grid-column: 1/7;
     grid-row: 11/12;
-  
+
     padding: 0px 10px 0px 0px;
     bottom: 30%;
     font-weight: 600;
@@ -2136,7 +2247,7 @@ a {
     grid-row: 2/3;
     position: relative;
     top: 20%;
-  
+
     width: 75%;
   }
   #line3 {
@@ -2149,7 +2260,7 @@ a {
     position: relative;
     top: 20%;
     left: 30%;
-  
+
     width: 60%;
   }
   #footLogo {
@@ -2164,29 +2275,29 @@ a {
     width: 80%;
     height: 90%;
   }
-  
+
   #foot-txt {
     position: relative;
     font-weight: 500;
     bottom: 25%;
     left: 5%;
-   
+
     grid-column: 1/7;
     grid-row: 2/3;
     width: 90%;
   }
-  
+
   #foot-icons {
     flex-direction: row;
-   grid-row: 3/4;
+    grid-row: 3/4;
     grid-column: 1/6;
-   width: 150%;
-  
+    width: 150%;
+
     position: relative;
-   bottom: 10%;
+    bottom: 10%;
     right: 42%;
   }
-  
+
   #foot-icons a {
     display: flex;
     flex-direction: column;
@@ -2213,7 +2324,7 @@ a {
   #foot-links-1 a {
     margin: 3% 0px 3% 0px;
     font-size: clamp(14px, 1vw, 16px);
-  
+
     color: white;
   }
   #foot-links-1 a p {
@@ -2235,7 +2346,7 @@ a {
     margin: 1.8% 0px 1.8% 0px;
     font-size: clamp(14px, 1vw, 16px);
     width: 100%;
-  
+
     color: white;
   }
   #foot-links-2 a p {
@@ -2247,7 +2358,7 @@ a {
     position: relative;
     bottom: 45%;
     right: 30%;
-  
+
     align-items: flex-start;
     justify-content: flex-start;
     grid-column: 6/7;
@@ -2257,7 +2368,7 @@ a {
   #foot-links-3 a {
     margin: 3% 0px 3% 0px;
     font-size: clamp(14px, 1vw, 16px);
-  
+
     color: white;
   }
   #foot-links-3 a p {
@@ -2267,7 +2378,7 @@ a {
   #foot-links-4 {
     display: flex;
     flex-direction: row;
-  
+
     justify-content: space-between;
     text-align: center;
     position: relative;
@@ -2282,4 +2393,3 @@ a {
     font-size: clamp(13px, 1vw, 15px);
   }
 }
-
