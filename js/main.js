@@ -90,7 +90,7 @@ function getImg3() {
 
 $("#c3-categories-img1 img").hover(
   function () {
-    $("#cat-1-div1").css("width", "90%");
+    $("#cat-1-div1").css("width", "100%");
   },
   function () {
     $("#cat-1-div1").css("width", "0%");
@@ -98,7 +98,7 @@ $("#c3-categories-img1 img").hover(
 );
 $("#c3-categories-img2 img").hover(
   function () {
-    $("#cat-1-div2").css("width", "90%");
+    $("#cat-1-div2").css("width", "100%");
   },
   function () {
     $("#cat-1-div2").css("width", "0%");
@@ -106,7 +106,7 @@ $("#c3-categories-img2 img").hover(
 );
 $("#c3-categories-img3 img").hover(
   function () {
-    $("#cat-1-div3").css("width", "90%");
+    $("#cat-1-div3").css("width", "100%");
   },
   function () {
     $("#cat-1-div3").css("width", "0%");
@@ -114,7 +114,7 @@ $("#c3-categories-img3 img").hover(
 );
 $("#c3-categories-img4 img").hover(
   function () {
-    $("#cat-1-div4").css("width", "90%");
+    $("#cat-1-div4").css("width", "100%");
   },
   function () {
     $("#cat-1-div4").css("width", "0%");
@@ -122,7 +122,7 @@ $("#c3-categories-img4 img").hover(
 );
 $("#c3-categories-img5 img").hover(
   function () {
-    $("#cat-1-div5").css("width", "90%");
+    $("#cat-1-div5").css("width", "100%");
   },
   function () {
     $("#cat-1-div5").css("width", "0%");
@@ -130,7 +130,7 @@ $("#c3-categories-img5 img").hover(
 );
 $("#c3-categories-img6 img").hover(
   function () {
-    $("#cat-1-div6").css("width", "90%");
+    $("#cat-1-div6").css("width", "100%");
   },
   function () {
     $("#cat-1-div6").css("width", "0%");
@@ -138,7 +138,7 @@ $("#c3-categories-img6 img").hover(
 );
 $("#c3-categories-img7 img").hover(
   function () {
-    $("#cat-1-div7").css("width", "90%");
+    $("#cat-1-div7").css("width", "100%");
   },
   function () {
     $("#cat-1-div7").css("width", "0%");
@@ -146,7 +146,7 @@ $("#c3-categories-img7 img").hover(
 );
 $("#c3-categories-img8 img").hover(
   function () {
-    $("#cat-1-div8").css("width", "90%");
+    $("#cat-1-div8").css("width", "88%");
   },
   function () {
     $("#cat-1-div8").css("width", "0%");

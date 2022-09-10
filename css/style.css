@@ -195,7 +195,7 @@ a {
   width: 500%;
   left: 0;
   margin: 0;
-  animation: 24s slider infinite;
+  animation: 36s slider infinite;
 }
 
 #content1-img1 figure img {
@@ -211,21 +211,41 @@ a {
   0% {
     left: 100%;
   }
- 
-  25% {
+  10%{
+
     left: 200%;
   }
- 
-  50% {
+
+  20% {
     left: 300%;
   }
-  
-  75% {
+  30%{
     left: 400%;
+
+  }
+  40%{
+    left: 500%;
+
+  }
+  
+  50% {
+    left: 100%;
+  }
+  60%{
+    left: 200%;
   }
 
-  100% {
+  70% {
+    left: 300%;
+  }
+  80%{
+    left: 400%;
+  }
+  90%{
     left: 500%;
+  }
+  100% {
+    left: 100%;
   }
 }
 
@@ -242,7 +262,7 @@ a {
   width: 500%;
   height: 100%;
   margin: 0;
-  animation: 24s slider2 infinite;
+  animation: 36s slider2 infinite;
 }
 #content1-img2 figure img {
   position: relative;
@@ -257,21 +277,41 @@ a {
   0% {
     left: 100%;
   }
+  10%{
 
-  25% {
     left: 200%;
+  }
+
+  20% {
+    left: 300%;
+  }
+  30%{
+    left: 400%;
+
+  }
+  40%{
+    left: 500%;
+
   }
   
   50% {
-    left: 300%;
+    left: 100%;
+  }
+  60%{
+    left: 200%;
   }
 
-  75% {
+  70% {
+    left: 300%;
+  }
+  80%{
     left: 400%;
   }
-  
-  100% {
+  90%{
     left: 500%;
+  }
+  100% {
+    left: 100%;
   }
 }
 
@@ -452,6 +492,7 @@ a {
 }
 
 #c3-categories-img1 {
+  
   grid-row: 3/9;
   grid-column: 1/4;
 }
@@ -464,10 +505,9 @@ a {
   height: 100%;
 }
 #cat-1-div1 {
+  
   position: relative;
-  top: 97%;
-  left: 5%;
-
+  bottom: 4%;
   grid-row: 3/9;
   grid-column: 1/4;
   height: 2.5%;
@@ -500,8 +540,7 @@ a {
 
 #cat-1-div2 {
   position: relative;
-  top: 97%;
-  left: 5%;
+  bottom: 4%;
 
   grid-row: 3/9;
   grid-column: 4/7;
@@ -529,8 +568,7 @@ a {
 
 #cat-1-div3 {
   position: relative;
-  top: 97%;
-  left: 5%;
+  bottom: 4%;
 
   grid-row: 3/9;
   grid-column: 7/10;
@@ -557,8 +595,7 @@ a {
 }
 #cat-1-div4 {
   position: relative;
-  top: 97%;
-  left: 5%;
+  bottom: 4%;
 
   grid-row: 3/9;
   grid-column: 10/13;
@@ -585,8 +622,7 @@ a {
 }
 #cat-1-div5 {
   position: relative;
-  top: 97%;
-  left: 5%;
+  bottom: 4%;
 
   grid-row: 3/9;
   grid-column: 13/16;
@@ -613,8 +649,7 @@ a {
 }
 #cat-1-div6 {
   position: relative;
-  top: 97%;
-  left: 5%;
+  bottom: 4%;
 
   grid-row: 3/9;
   grid-column: 16/19;
@@ -641,9 +676,7 @@ a {
 }
 #cat-1-div7 {
   position: relative;
-  top: 97%;
-  left: 5%;
-
+  bottom: 4%;
   grid-row: 3/9;
   grid-column: 19/22;
   height: 2.5%;
