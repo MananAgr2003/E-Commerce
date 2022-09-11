@@ -190,6 +190,7 @@ a {
 
   padding-top: 20px;
 
+  
   display: block;
   overflow: hidden;
 }
@@ -204,11 +205,11 @@ a {
 }
 
 #content1-img1 figure img {
+  
   position: relative;
   width: 20%;
   height: 110%;
   right: 100%;
-
   float: right;
 }
 
@@ -1126,7 +1127,7 @@ a {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   position: relative;
-  top: 7%;
+  top: 5%;
   left: 120%;
 }
 #subhead3 {
