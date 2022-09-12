@@ -12,6 +12,10 @@
 
   });
 
+  function getImg1(){
+    $("#content1-figure1").css("left"  , "100%");
+
+  }
 
 
 
