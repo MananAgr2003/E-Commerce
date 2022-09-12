@@ -168,6 +168,7 @@
     background-color: rgb(241, 241, 241);
     padding-left: 5px;
     font-size: 20px;
+    margin-top: 7px;
   }
 
   
@@ -180,6 +181,7 @@
     background-color: rgb(241, 241, 241);
     padding-left: 5px;
     font-size: 20px;
+    margin-top: 7px;
   }
   
   #Email{
@@ -190,6 +192,7 @@
     background-color: rgb(241, 241, 241);
     padding-left: 5px;
     font-size: 20px;
+    margin-top: 7px;
 
   }
   #re-pwd{
@@ -200,6 +203,7 @@
     background-color: rgb(241, 241, 241);
     padding-left: 5px;
     font-size: 20px;
+    margin-top: 7px;
 
   }
   #forgot-password{
@@ -210,6 +214,7 @@
     width: 100%;
     display: flex;
     justify-content: right;
+    margin-top: 7px;
     
   }
   
@@ -233,6 +238,8 @@
   #no-account a{
     color: #3444c5;
     text-align: center;
+    position: relative;
+    left: 2%;
   }
   
   
