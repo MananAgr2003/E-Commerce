@@ -267,3 +267,49 @@
     }
   
   }
+  @media screen and (max-width: 768px) {
+    .material-symbols-outlined {
+      font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 48;
+    }
+    .nav {
+      height: 102px;
+      border: 2px solid #d0d0d0;
+      background-color: #f4f4f4;
+    }
+  
+    .nav-item a {
+      display: none;
+    }
+    #search {
+      grid-column: 13/14;
+      position: relative;
+      left: 0%;
+    }
+    #logo {
+      position: relative;
+      left: 50%;
+    }
+    #menu {
+      grid-column: 16/17;
+      position: relative;
+      right: 35%;
+      top: 1%;
+      display: flex;
+    }
+    #cart {
+      grid-column: 15/ 16;
+      position: relative;
+      top: 2%;
+      right: 60%;
+    }
+    #log {
+      display: none;
+    }
+    #sign {
+      display: none;
+    }
+  
+    #bag {
+      display: none;
+    }
+}

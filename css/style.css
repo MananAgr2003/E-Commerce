@@ -12,7 +12,7 @@ button:hover {
 .nav {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
-  height: 92px;
+  height: 10vh;
   border-bottom: 3.5px solid black;
   font-family: "Montserrat", sans-serif;
   font-size: clamp(8px, 1vw, 20px);
@@ -287,6 +287,10 @@ a {
   position: relative;
   top: 90%;
   left: 8%;
+}
+#button1{
+  grid-column: 8/10;
+  grid-row: 7/9;
 }
 #content1-but {
   font-family: "Montserrat", sans-serif;
