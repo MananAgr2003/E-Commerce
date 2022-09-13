@@ -159,7 +159,7 @@ a {
   color: #3444c5;
 
   background-color: white;
-  width: 86%;
+  width: 76%;
   height: 50px;
   border: 3px solid #3444c5;
   border-radius: 10px;
@@ -178,7 +178,6 @@ a {
 .sticky-but {
   position: fixed;
 
-  margin-right: 20px;
 }
 .sticky-but img {
   position: relative;
@@ -189,15 +188,15 @@ a {
   grid-column: 8/9;
   grid-row: 7/8;
   top: 30%;
-  left: 4%;
+  left: 20%;
 
   height: 100%;
-  width: 90%;
+  width: 70%;
   z-index: 7;
 }
 #button2 button {
   height: 6.5%;
-  width: 12%;
+  width: 10%;
   border-radius: 15px 0 0 15px;
   background-color: #3444c5;
   color: white;
@@ -213,22 +212,21 @@ a {
 }
 
 .box {
-  display: grid;
-  justify-content: center;
-  align-items: center;
 
-  grid-column: 8/12;
+
+  grid-column: 7/13;
   grid-row: 2/3;
   position: relative;
-  height: 100%;
+  height: 80%;
   width: 100%;
   position: relative;
-  left: 0%;
+
+ 
 }
 
 .input {
   padding: 10px;
-  width: 250px;
+  width: 350px;
   height: 25px;
   background: #f4f4f4;
   border: 1px solid #f4f4f4;
@@ -248,21 +246,24 @@ a {
   color: #3444c5;
   font-weight: 300;
   position: relative;
-  bottom: 35px;
-  left: 10px;
+  top: 40px;
+  left: 20px;
 }
 
 #filter {
-  grid-column: 13/14;
-  grid-row: 2/3;
   position: relative;
-  left: 50%;
-  width: 50%;
-  height: 50%;
+  left: 4%;
+  
+  width: 6%;
+  height: 70%;
 }
 #filter img {
+  position: relative;
+  
+  left: 380px;
+  bottom: 45px;
   width: 100%;
-  height: 100%;
+  height: 70%;
 }
 /************************************* Products ********************************/
 
@@ -292,6 +293,10 @@ a {
   z-index: 5;
   background-color: transparent;
   transition: 0.5s;
+}
+
+.pro:hover {
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 #pro1 {
@@ -379,7 +384,6 @@ a {
   grid-column: 7/11;
   grid-row: 8/9;
   z-index: 5;
-
 }
 #t1 {
   position: relative;
@@ -392,19 +396,15 @@ a {
   bottom: 52%;
   z-index: 5;
 }
-.rm{
+.rm {
   visibility: visible;
   z-index: 5;
-  
-  
 }
-.rm a{
+.rm a {
   font-weight: 600;
-  color: #FBB831;
-
+  color: #fbb831;
 }
-#r1{
-  
+#r1 {
   grid-column: 7/11;
   grid-row: 9/10;
   position: relative;
@@ -433,7 +433,6 @@ a {
   grid-column: 12/16;
   grid-row: 8/9;
   z-index: 5;
-
 }
 #t2 {
   position: relative;
@@ -446,19 +445,15 @@ a {
   bottom: 52%;
   z-index: 5;
 }
-.rm{
+.rm {
   visibility: visible;
   z-index: 5;
-  
-  
 }
-.rm a{
+.rm a {
   font-weight: 600;
-  color: #FBB831;
-
+  color: #fbb831;
 }
-#r2{
-  
+#r2 {
   grid-column: 12/16;
   grid-row: 10/11;
   position: relative;
@@ -487,7 +482,6 @@ a {
   grid-column: 17/21;
   grid-row: 8/9;
   z-index: 5;
-
 }
 #t3 {
   position: relative;
@@ -500,19 +494,15 @@ a {
   bottom: 52%;
   z-index: 5;
 }
-.rm{
+.rm {
   visibility: visible;
   z-index: 5;
-  
-  
 }
-.rm a{
+.rm a {
   font-weight: 600;
-  color: #FBB831;
-
+  color: #fbb831;
 }
-#r3{
-  
+#r3 {
   grid-column: 17/21;
   grid-row: 9/10;
   position: relative;
@@ -541,7 +531,6 @@ a {
   grid-column: 7/11;
   grid-row: 16/17;
   z-index: 5;
-
 }
 #t4 {
   position: relative;
@@ -554,19 +543,15 @@ a {
   bottom: 52%;
   z-index: 5;
 }
-.rm{
+.rm {
   visibility: visible;
   z-index: 5;
-  
-  
 }
-.rm a{
+.rm a {
   font-weight: 600;
-  color: #FBB831;
-
+  color: #fbb831;
 }
-#r4{
-  
+#r4 {
   grid-column: 7/11;
   grid-row: 17/18;
   position: relative;
@@ -595,7 +580,6 @@ a {
   grid-column: 12/16;
   grid-row: 16/17;
   z-index: 5;
-
 }
 #t5 {
   position: relative;
@@ -608,19 +592,15 @@ a {
   bottom: 52%;
   z-index: 5;
 }
-.rm{
+.rm {
   visibility: visible;
   z-index: 5;
-  
-  
 }
-.rm a{
+.rm a {
   font-weight: 600;
-  color: #FBB831;
-
+  color: #fbb831;
 }
-#r5{
-  
+#r5 {
   grid-column: 12/16;
   grid-row: 17/18;
   position: relative;
@@ -649,7 +629,6 @@ a {
   grid-column: 17/21;
   grid-row: 16/17;
   z-index: 5;
-
 }
 #t6 {
   position: relative;
@@ -662,20 +641,16 @@ a {
   bottom: 52%;
   z-index: 5;
 }
-.rm{
+.rm {
   visibility: visible;
-  z-index: 5;
-  
-  
+  z-index: 8;
 }
-.rm a{
+.rm a {
   font-weight: 600;
-  color: #FBB831;
-
+  color: #fbb831;
 }
-#r6{
-  
-  grid-column: 7/11;
+#r6 {
+  grid-column: 17/22;
   grid-row: 17/18;
   position: relative;
   top: 60%;
@@ -703,7 +678,6 @@ a {
   grid-column: 7/11;
   grid-row: 24/25;
   z-index: 5;
-
 }
 #t7 {
   position: relative;
@@ -716,19 +690,15 @@ a {
   bottom: 52%;
   z-index: 5;
 }
-.rm{
+.rm {
   visibility: visible;
   z-index: 5;
-  
-  
 }
-.rm a{
+.rm a {
   font-weight: 600;
-  color: #FBB831;
-
+  color: #fbb831;
 }
-#r7{
-  
+#r7 {
   grid-column: 7/11;
   grid-row: 25/26;
   position: relative;
@@ -757,7 +727,6 @@ a {
   grid-column: 12/16;
   grid-row: 24/25;
   z-index: 5;
-
 }
 #t8 {
   position: relative;
@@ -770,19 +739,15 @@ a {
   bottom: 52%;
   z-index: 5;
 }
-.rm{
+.rm {
   visibility: visible;
   z-index: 5;
-  
-  
 }
-.rm a{
+.rm a {
   font-weight: 600;
-  color: #FBB831;
-
+  color: #fbb831;
 }
-#r8{
-  
+#r8 {
   grid-column: 12/16;
   grid-row: 25/26;
   position: relative;
@@ -811,7 +776,6 @@ a {
   grid-column: 17/21;
   grid-row: 24/25;
   z-index: 5;
-
 }
 #t9 {
   position: relative;
@@ -824,19 +788,15 @@ a {
   bottom: 52%;
   z-index: 5;
 }
-.rm{
+.rm {
   visibility: visible;
   z-index: 5;
-  
-  
 }
-.rm a{
+.rm a {
   font-weight: 600;
-  color: #FBB831;
-
+  color: #fbb831;
 }
-#r9{
-  
+#r9 {
   grid-column: 17/21;
   grid-row: 25/26;
   position: relative;
@@ -844,7 +804,7 @@ a {
   left: 30%;
 }
 
-#b1{
+#b1 {
   grid-column: 7/11;
   grid-row: 7/8;
   z-index: 8;
@@ -852,7 +812,7 @@ a {
   left: 18%;
   bottom: 0%;
 }
-#b2{
+#b2 {
   grid-column: 12/16;
   grid-row: 7/8;
   z-index: 8;
@@ -860,7 +820,7 @@ a {
   left: 18%;
   bottom: 0%;
 }
-#b3{
+#b3 {
   grid-column: 17/21;
   grid-row: 7/8;
   z-index: 8;
@@ -868,7 +828,7 @@ a {
   left: 18%;
   bottom: 0%;
 }
-#b4{
+#b4 {
   grid-column: 7/11;
   grid-row: 15/16;
   z-index: 8;
@@ -876,7 +836,7 @@ a {
   left: 18%;
   bottom: 0%;
 }
-#b5{
+#b5 {
   grid-column: 12/16;
   grid-row: 15/16;
   z-index: 8;
@@ -884,7 +844,7 @@ a {
   left: 18%;
   bottom: 0%;
 }
-#b6{
+#b6 {
   grid-column: 17/21;
   grid-row: 15/16;
   z-index: 8;
@@ -892,7 +852,7 @@ a {
   left: 18%;
   bottom: 0%;
 }
-#b7{
+#b7 {
   grid-column: 7/11;
   grid-row: 23/24;
   z-index: 8;
@@ -900,7 +860,7 @@ a {
   left: 18%;
   bottom: 0%;
 }
-#b8{
+#b8 {
   grid-column: 12/16;
   grid-row: 23/24;
   z-index: 8;
@@ -908,7 +868,7 @@ a {
   left: 18%;
   bottom: 0%;
 }
-#b9{
+#b9 {
   grid-column: 17/21;
   grid-row: 23/24;
   z-index: 8;
@@ -916,9 +876,6 @@ a {
   left: 18%;
   bottom: 0%;
 }
-
-
-
 
 #content4-btn {
   font-family: "Montserrat", sans-serif;
@@ -930,127 +887,165 @@ a {
   width: 70%;
   height: 50px;
   border: 0;
-position: relative;
-left: 8%;
-  margin-bottom: 40px;
+  position: relative;
+  left: 8%;
+  margin-bottom: 20px;
 }
 
-#filter-bar{
+#filter-bar {
   position: relative;
   top: 5%;
+  display: grid;
+
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(11, 1fr);
 
   grid-column: 1/7;
   box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
-  height: 110%;
+  height: 120%;
   grid-row: 1/9;
   margin: 10px;
   width: 90%;
 }
 
-#filter-bar h1{
-  left: 13px;
-  font-size: clamp(16px , 1vw  , 18px);
+#filter-bar h1 {
+  grid-column: 1 / 3;
+  grid-row: 1/2;
+  left: 26px;
+  font-size: clamp(16px, 1vw, 18px);
   position: relative;
-  top: 35px;
+  top: 25px;
 }
-#filter-bar p{
-  font-size: clamp(14px , 1vw  , 16px);
-  
+#filter-bar p {
+  font-size: clamp(14px, 1vw, 16px);
 }
-#filter-bar a{
-  font-size: clamp(14px , 1vw  , 16px);
+#filter-bar a {
+  font-size: clamp(14px, 1vw, 16px);
   position: relative;
-  top: 15px;
-  left: 170px;
+  top: 25px;
+
+  grid-column: 4/5;
+
+  grid-row: 1/2;
 }
 
-#filter-bar img{
-  height: 20%;
+#filter-bar img {
+  grid-column: 1/6;
+
+  grid-row: 3/6;
+  height: 100%;
   width: 90%;
   left: 3%;
   position: relative;
-  top: 12%;
+  top: 5%;
 }
-#filter-bar button{
+#filter-bar button {
   position: relative;
-  top: 18%;
-  left:5%;
-  height: 7%;
-  width: 50%;
+  left: 20%;
+  bottom: 10%;
+  height: 85%;
+  width: 100%;
   border-radius: 5px;
 }
 
-.check{
+.check {
   border-radius: 50%;
-}
-#check-1{
+  height: 40%;
+  width: 40%;
   position: relative;
-  top: 18%;
-  left: 5.5%;
-
+  left: 30%;
 }
-#check-2{
+#check-1 {
   position: relative;
-  top: 10.2%;
-  left: 45.5%;
 
+  grid-row: 11/12;
+  grid-column: 1/2;
+}
+#check-2 {
+  position: relative;
 
+  grid-row: 11/12;
+  grid-column: 3/4;
 }
 
-#p-1{
-  left: 5%;
+.b-1 {
+  grid-row: 7/8;
+  grid-column: 1/3;
+  width: 100%;
+  height: 100%;
+}
+.b-2 {
+  grid-column: 1/3;
+  grid-row: 9/10;
+  width: 100%;
+  height: 100%;
+}
+
+#p-1 {
+  left: 25px;
   font-weight: 700;
   position: relative;
-  top:8%
+  top: 70px;
+  grid-row: 1/2;
+  grid-column: 1/4;
 }
-#p-2{
-  left: 5%;
+#p-2 {
   font-weight: 700;
   position: relative;
-  top:15%
+
+  grid-row: 6/7;
+  grid-column: 1/3;
+  top: 16px;
+  left: 22px;
 }
-#p-3{
-  left: 5%;
+#p-3 {
   font-weight: 700;
   position: relative;
-  top:15%
+
+  grid-row: 8/9;
+  grid-column: 1/3;
+  top: 16px;
+  left: 22px;
 }
-#p-4{
+#p-4 {
+  grid-row: 10/11;
+  grid-column: 1/3;
+
   font-size: 14px;
-  left: 5%;
+  left: 20%;
   font-weight: 700;
   position: relative;
-  top:15%
+  top: 15%;
 }
-#p-5{
+#p-5 {
   font-size: 14px;
-  left: 5%;
+  right: 22%;
   font-weight: 600;
   position: relative;
-  top:14%;
-  left: 14%;
+
+  grid-row: 11/12;
+  grid-column: 4/5;
 }
-#p-6{
+#p-6 {
   font-size: 14px;
-  left: 5%;
+  right: 22%;
   font-weight: 600;
   position: relative;
-  top:6.2%;
-  left: 54%; 
-}
-#scroll-btn{
 
+  grid-row: 11/12;
+  grid-column: 2/3;
+}
+#scroll-btn {
   display: flex;
   flex-direction: row;
   grid-column: 7/14;
   grid-row: 27/28;
   position: relative;
   bottom: 25%;
-  z-index:999 ;
-  
+  z-index: 999;
 }
 
-#scroll-btn button{
+#scroll-btn button {
   font-family: "Montserrat", sans-serif;
   font-size: clamp(14px, 1vw, 16px);
   font-weight: 600;
@@ -1061,42 +1056,26 @@ left: 8%;
   border-radius: 10px;
 }
 
-#btn-1{
+#btn-1 {
   position: relative;
-  
-  
-  
 }
-#btn-2{
-  
+#btn-2 {
   position: relative;
-  
+
   left: 6%;
-  
 }
-#btn-3{
+#btn-3 {
   position: relative;
   left: 12%;
-  
-  
-  
 }
-#btn-4{
+#btn-4 {
   position: relative;
   left: 18%;
-  
-  
-  
 }
-#btn-5{
-  
+#btn-5 {
   position: relative;
   left: 24%;
-  
 }
-
-
-
 
 /* footer  */
 /************************************* Footer ********************************/
