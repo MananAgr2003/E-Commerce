@@ -446,7 +446,7 @@ a {
   font-size: clamp(12px, 1vw, 14px);
   position: relative;
   left: 5%;
-  bottom: 20%;
+ 
   align-items: flex-start;
   grid-column: 7/11;
   grid-row: 8/9;
@@ -476,7 +476,7 @@ a {
   grid-row: 9/10;
   position: relative;
   top: 60%;
-  left: 30%;
+  left:45%;
   z-index:20;
 }
 
@@ -496,7 +496,7 @@ a {
   font-size: clamp(12px, 1vw, 14px);
   position: relative;
   left: 5%;
-  bottom: 20%;
+
   align-items: flex-start;
   grid-column: 12/16;
   grid-row: 8/9;
@@ -526,7 +526,7 @@ a {
   grid-row: 10/11;
   position: relative;
   bottom: 40%;
-  left: 30%;
+  left: 45%;
   z-index:20;
 }
 
@@ -546,7 +546,6 @@ a {
   font-size: clamp(12px, 1vw, 14px);
   position: relative;
   left: 5%;
-  bottom: 20%;
   align-items: flex-start;
   grid-column: 17/21;
   grid-row: 8/9;
@@ -576,7 +575,7 @@ a {
   grid-row: 9/10;
   position: relative;
   top: 60%;
-  left: 30%;
+  left: 45%;
   z-index:20;
 }
 
@@ -596,7 +595,6 @@ a {
   font-size: clamp(12px, 1vw, 14px);
   position: relative;
   left: 5%;
-  bottom: 20%;
   align-items: flex-start;
   grid-column: 7/11;
   grid-row: 16/17;
@@ -626,7 +624,7 @@ a {
   grid-row: 17/18;
   position: relative;
   top: 60%;
-  left: 30%;
+  left: 45%;
   z-index:20;
 }
 
@@ -646,7 +644,6 @@ a {
   font-size: clamp(12px, 1vw, 14px);
   position: relative;
   left: 5%;
-  bottom: 20%;
   align-items: flex-start;
   grid-column: 12/16;
   grid-row: 16/17;
@@ -676,7 +673,7 @@ a {
   grid-row: 17/18;
   position: relative;
   top: 60%;
-  left: 30%;
+  left:45%;
   z-index:20;
 }
 
@@ -696,7 +693,6 @@ a {
   font-size: clamp(12px, 1vw, 14px);
   position: relative;
   left: 5%;
-  bottom: 20%;
   align-items: flex-start;
   grid-column: 17/21;
   grid-row: 16/17;
@@ -726,7 +722,7 @@ a {
   grid-row: 17/18;
   position: relative;
   top: 60%;
-  left: 30%;
+  left: 45%;
   z-index:20;
 }
 
@@ -746,7 +742,6 @@ a {
   font-size: clamp(12px, 1vw, 14px);
   position: relative;
   left: 5%;
-  bottom: 20%;
   align-items: flex-start;
   grid-column: 7/11;
   grid-row: 24/25;
@@ -776,7 +771,7 @@ a {
   grid-row: 25/26;
   position: relative;
   top: 60%;
-  left: 30%;
+  left: 45%;
   z-index:20;
 }
 
@@ -796,7 +791,6 @@ a {
   font-size: clamp(12px, 1vw, 14px);
   position: relative;
   left: 5%;
-  bottom: 20%;
   align-items: flex-start;
   grid-column: 12/16;
   grid-row: 24/25;
@@ -826,7 +820,7 @@ a {
   grid-row: 25/26;
   position: relative;
   top: 60%;
-  left: 30%;
+  left: 45%;
   z-index:20;
 }
 
@@ -846,7 +840,6 @@ a {
   font-size: clamp(12px, 1vw, 14px);
   position: relative;
   left: 5%;
-  bottom: 20%;
   align-items: flex-start;
   grid-column: 17/21;
   grid-row: 24/25;
@@ -872,11 +865,12 @@ a {
   color: #fbb831;
 }
 #r9 {
+  
   grid-column: 17/21;
   grid-row: 25/26;
   position: relative;
   top: 60%;
-  left: 30%;
+  left: 45%;
   z-index:20;
 }
 
