@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/cartPage.css" />
+    <link rel="stylesheet" href="css/enquiry.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -48,7 +48,10 @@
     </section>
 
     <section class="content1">
-        <h1>My Cart</h1>
+        <h1>This Is A <span>Headline</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat esse temporibus ad velit sunt eius
+            architecto 
+            voluptates veniam?</p>
         <div id="pro-1">
             <div class="pro-img" id="img1"><img src="img/p1.png" alt=""></div>
             <h1>Product Name</h1>
@@ -112,13 +115,22 @@
 
         </div>
 
-        <div id="bill"><p id="p-1">Order Details</p>
-        <p id="p-2">Subtotal <span>$6400</span></p>
-        <p id="p-3">Shipping Charges <span>$230</span></p>
-        <p id="p-4">Tax <span>$30</span></p>
-        <p id="p-5">Total <span>$6660</span></p>
+        <div id="enq-form">
+            <h1>Please Fill The Form Below</h1>
 
-        <div id="btn"><button id="btn-1">Checkout</button></div>
+            <form action="">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="username" required /><br>
+                <label for="Email">Email</label><br>
+                <input type="email" id="Email" name="Email" required /><br>
+                <label for="pwd">Phone No.</label><br>
+                <input type="text" id="pwd" name="Number" required /><br>
+                <label for="re-pwd">Message</label><br>
+                <input type="text" id="re-pwd" name="Message" required /><br>
+
+                <button id="final-login">SignUp</button><br>
+
+            </form>
         </div>
     </section>
     <section class="footer"></section>
