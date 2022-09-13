@@ -227,27 +227,33 @@ a {
 .input {
   padding: 10px;
   width: 350px;
-  height: 25px;
+  height: 22px;
   background: #f4f4f4;
   border: 1px solid #f4f4f4;
-  border-radius: 10px;
+ 
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   color: black;
   outline: none;
   transition: 0.5s;
+  z-index: 99;
 }
 .input:focus {
-  font-size: 20px;
+  font-size: 16px;
+  padding-left: 50px;
 }
 
+
 #search1 {
+  width: 30px;
   font-size: 26px;
+ 
   color: #3444c5;
   font-weight: 300;
   position: relative;
   top: 40px;
-  left: 20px;
+  left: 13px;
+  z-index: 0;
 }
 
 #filter {
@@ -288,14 +294,21 @@ a {
 .pro {
   grid-column: 1/4;
   grid-row: 3/9;
-  width: 120%;
+  width: 117%;
   height: 70%;
   z-index: 5;
   background-color: transparent;
   transition: 0.5s;
 }
+.pro1{
+  z-index: 15;
+  background-color: transparent;
+  width: 117%;
+  transition: 0.5s;
 
-.pro:hover {
+}
+
+.pro1:hover {
   box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -362,6 +375,60 @@ a {
   background-color: #f4f4f4;
   height: 120%;
 }
+#pro-1 {
+  grid-column: 7/11;
+  grid-row: 3/9;
+
+  height: 120%;
+}
+#pro-2 {
+  grid-column: 12/16;
+  grid-row: 3/9;
+
+  height: 120%;
+}
+#pro-3 {
+  grid-column: 17/21;
+  grid-row: 3/9;
+
+  height: 120%;
+}
+#pro-4 {
+  grid-column: 7/11;
+  grid-row: 11/17;
+  
+  height: 120%;
+}
+#pro-5 {
+  grid-column: 12/16;
+  grid-row: 11/17;
+
+  height: 120%;
+}
+#pro-6 {
+  grid-column: 17/21;
+  grid-row: 11/17;
+
+  height: 120%;
+}
+#pro-7 {
+  grid-column: 7/11;
+  grid-row: 19/25;
+  
+  height: 120%;
+}
+#pro-8 {
+  grid-column: 12/16;
+  grid-row: 19/25;
+
+  height: 120%;
+}
+#pro-9 {
+  grid-column: 17/21;
+  grid-row: 19/25;
+ 
+  height: 120%;
+}
 
 #p1 {
   grid-column: 7/11;
@@ -410,6 +477,7 @@ a {
   position: relative;
   top: 60%;
   left: 30%;
+  z-index:20;
 }
 
 #p2 {
@@ -459,6 +527,7 @@ a {
   position: relative;
   bottom: 40%;
   left: 30%;
+  z-index:20;
 }
 
 #p3 {
@@ -508,6 +577,7 @@ a {
   position: relative;
   top: 60%;
   left: 30%;
+  z-index:20;
 }
 
 #p4 {
@@ -557,6 +627,7 @@ a {
   position: relative;
   top: 60%;
   left: 30%;
+  z-index:20;
 }
 
 #p5 {
@@ -606,6 +677,7 @@ a {
   position: relative;
   top: 60%;
   left: 30%;
+  z-index:20;
 }
 
 #p6 {
@@ -655,6 +727,7 @@ a {
   position: relative;
   top: 60%;
   left: 30%;
+  z-index:20;
 }
 
 #p7 {
@@ -704,6 +777,7 @@ a {
   position: relative;
   top: 60%;
   left: 30%;
+  z-index:20;
 }
 
 #p8 {
@@ -753,6 +827,7 @@ a {
   position: relative;
   top: 60%;
   left: 30%;
+  z-index:20;
 }
 
 #p9 {
@@ -802,79 +877,81 @@ a {
   position: relative;
   top: 60%;
   left: 30%;
+  z-index:20;
 }
 
 #b1 {
+  
   grid-column: 7/11;
   grid-row: 7/8;
-  z-index: 8;
   position: relative;
-  left: 18%;
-  bottom: 0%;
+  left: 25%;
+  top: 13%;
 }
 #b2 {
+  
   grid-column: 12/16;
   grid-row: 7/8;
-  z-index: 8;
+ 
   position: relative;
-  left: 18%;
-  bottom: 0%;
+  left: 25%;
+  top: 13%;
 }
 #b3 {
+  
   grid-column: 17/21;
   grid-row: 7/8;
-  z-index: 8;
   position: relative;
-  left: 18%;
-  bottom: 0%;
+  left: 25%;
+  top: 13%;
 }
 #b4 {
+  
   grid-column: 7/11;
   grid-row: 15/16;
-  z-index: 8;
   position: relative;
-  left: 18%;
-  bottom: 0%;
+  left: 25%;
+  top: 13%;
 }
 #b5 {
+  
   grid-column: 12/16;
   grid-row: 15/16;
-  z-index: 8;
   position: relative;
-  left: 18%;
-  bottom: 0%;
+  left: 25%;
+  top: 13%;
 }
 #b6 {
+  
   grid-column: 17/21;
   grid-row: 15/16;
-  z-index: 8;
   position: relative;
-  left: 18%;
-  bottom: 0%;
+  left: 25%;
+  top: 13%;
 }
 #b7 {
+  
   grid-column: 7/11;
   grid-row: 23/24;
-  z-index: 8;
   position: relative;
-  left: 18%;
-  bottom: 0%;
+  left: 25%;
+  top: 13%;
 }
 #b8 {
+  
   grid-column: 12/16;
   grid-row: 23/24;
-  z-index: 8;
   position: relative;
-  left: 18%;
-  bottom: 0%;
+  left: 25%;
+  top: 13%;
 }
 #b9 {
+  
   grid-column: 17/21;
   grid-row: 23/24;
-  z-index: 8;
   position: relative;
-  left: 18%;
-  bottom: 0%;
+  left: 25%;
+  top: 13%;
 }
 
 #content4-btn {
@@ -884,28 +961,32 @@ a {
   color: white;
 
   background-color: #3444c5;
-  width: 70%;
-  height: 50px;
+  width: 50%;
+  height: 37px;
   border: 0;
   position: relative;
   left: 8%;
   margin-bottom: 20px;
+  z-index: 20;
 }
 
 #filter-bar {
   position: relative;
   top: 5%;
+  right: 8%;
   display: grid;
 
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(11, 1fr);
 
-  grid-column: 1/7;
+  grid-column: 2/7;
   box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
-  height: 120%;
-  grid-row: 1/9;
-  margin: 10px;
-  width: 90%;
+  height: 100%;
+  width: 95%;
+  grid-row: 2/10;
+  margin: 0
+  px;
+ 
 }
 
 #filter-bar h1 {
