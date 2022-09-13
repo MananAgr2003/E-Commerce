@@ -374,7 +374,7 @@ a {
   font-size: clamp(12px, 1vw, 14px);
   position: relative;
   left: 5%;
-  bottom: 75%;
+  bottom: 20%;
   align-items: flex-start;
   grid-column: 7/11;
   grid-row: 8/9;
@@ -428,7 +428,7 @@ a {
   font-size: clamp(12px, 1vw, 14px);
   position: relative;
   left: 5%;
-  bottom: 75%;
+  bottom: 20%;
   align-items: flex-start;
   grid-column: 12/16;
   grid-row: 8/9;
@@ -482,7 +482,7 @@ a {
   font-size: clamp(12px, 1vw, 14px);
   position: relative;
   left: 5%;
-  bottom: 75%;
+  bottom: 20%;
   align-items: flex-start;
   grid-column: 17/21;
   grid-row: 8/9;
@@ -536,7 +536,7 @@ a {
   font-size: clamp(12px, 1vw, 14px);
   position: relative;
   left: 5%;
-  bottom: 75%;
+  bottom: 20%;
   align-items: flex-start;
   grid-column: 7/11;
   grid-row: 16/17;
@@ -590,7 +590,7 @@ a {
   font-size: clamp(12px, 1vw, 14px);
   position: relative;
   left: 5%;
-  bottom: 75%;
+  bottom: 20%;
   align-items: flex-start;
   grid-column: 12/16;
   grid-row: 16/17;
@@ -644,7 +644,7 @@ a {
   font-size: clamp(12px, 1vw, 14px);
   position: relative;
   left: 5%;
-  bottom: 75%;
+  bottom: 20%;
   align-items: flex-start;
   grid-column: 17/21;
   grid-row: 16/17;
@@ -698,7 +698,7 @@ a {
   font-size: clamp(12px, 1vw, 14px);
   position: relative;
   left: 5%;
-  bottom: 75%;
+  bottom: 20%;
   align-items: flex-start;
   grid-column: 7/11;
   grid-row: 24/25;
@@ -752,7 +752,7 @@ a {
   font-size: clamp(12px, 1vw, 14px);
   position: relative;
   left: 5%;
-  bottom: 75%;
+  bottom: 20%;
   align-items: flex-start;
   grid-column: 12/16;
   grid-row: 24/25;
@@ -806,7 +806,7 @@ a {
   font-size: clamp(12px, 1vw, 14px);
   position: relative;
   left: 5%;
-  bottom: 75%;
+  bottom: 20%;
   align-items: flex-start;
   grid-column: 17/21;
   grid-row: 24/25;
@@ -948,10 +948,10 @@ left: 8%;
 }
 
 #filter-bar h1{
-  left: 5%;
+  left: 13px;
   font-size: clamp(16px , 1vw  , 18px);
   position: relative;
-  top: 8%;
+  top: 35px;
 }
 #filter-bar p{
   font-size: clamp(14px , 1vw  , 16px);
@@ -960,8 +960,8 @@ left: 8%;
 #filter-bar a{
   font-size: clamp(14px , 1vw  , 16px);
   position: relative;
-  top: 3%;
-  left: 70%;
+  top: 15px;
+  left: 170px;
 }
 
 #filter-bar img{
@@ -1196,8 +1196,8 @@ left: 8%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 10.5%;
-  height: 90%;
+  width: 40px;
+  height: 40px;
   margin: 0px 2% 0px 2%;
 }
 #foot-icons a img {
