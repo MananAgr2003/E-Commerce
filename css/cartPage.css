@@ -269,6 +269,7 @@ a {
     background-color: #fbb831;
     position: relative;
     left: 20px;
+    bottom: 16px;
 }
 #img1 {
   grid-row: 1/5;
