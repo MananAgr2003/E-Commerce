@@ -298,7 +298,7 @@ input{
   position: relative;
   top: 40px;
   left: 13px;
-  z-index: 0;
+  z-index: 100;
 }
 
 #filter {
@@ -1077,12 +1077,14 @@ input{
 }
 #check-1 {
   position: relative;
+  top: 2%;
 
   grid-row: 11/12;
   grid-column: 1/2;
 }
 #check-2 {
   position: relative;
+  top: 2%;
 
   grid-row: 11/12;
   grid-column: 3/4;
