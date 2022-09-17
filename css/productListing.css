@@ -265,6 +265,7 @@ input{
   height: 80%;
   width: 100%;
   position: relative;
+  bottom: 15%;
 
  
 }
@@ -282,6 +283,8 @@ input{
   outline: none;
   transition: 0.5s;
   z-index: 99;
+  position: relative;
+  
 }
 .input:focus {
   font-size: 16px;
