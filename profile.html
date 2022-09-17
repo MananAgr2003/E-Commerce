@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <section class="nav">
+        <div id="logo"><img src="img/logo.png" alt=""></div>
+        <div class="nav-item" id="home"><a href="/">Home</a> </div>
+        <div class="nav-item"><a href="/">Brands</a> </div>
+        <div class="nav-item"><a href="/">Categories</a> </div>
+        <div class="nav-item"><a href="/">Products</a> </div>
+        <div class="nav-item"><a href="/">Enquiries</a> </div>
+        <div class="nav-item"> <a href="/">About Us</a> </div>
+        <div class="nav-item"><a href="/">Contact Us</a> </div>
+        <div id="search">
+            <a href=""><span class="material-symbols-outlined">
+                    search
+                </span>
+            </a>
+        </div>
+        <div id="log"><a href="/">Login</a></div>
+        <div id="sign"><button onclick="location.href='/'" type="button" id="but">Sign Up</button></div>
+        <div id="cart"><a href=""><span class="material-symbols-outlined">
+                    shopping_cart
+                </span></a></div>
+        <div id="bag"><a href=""><span class="material-symbols-outlined">
+                    shopping_bag
+                </span>
+            </a>
+        </div>
+    </section>
+    <div class="fullpage">
+        <div class="left" id="links">
+            <div class="list-item"><a href="profile.html">
+                    <h1>Account</h1>
+                </a></div>
+            <div class="list-item" id=""><a href="/E-Commerce/AccountPages/ac-order.html">
+                    <h3 id="l1">My order</h3>
+                </a> </div>
+            <div class="list-item"><a href="/E-Commerce/AccountPages/ac-wish.html">
+                    <h3 id="l2">My wishlist</h3>
+                </a> </div>
+            <div class="list-item"><a href="/E-Commerce/AccountPages/ac-review.html">
+                    <h3 id="l3">My reviews</h3>
+                </a> </div>
+            <div class="list-item"><a href="/E-Commerce/AccountPages/ac-enquiries.html">
+                    <h3 id="l4">My enquiries</h3>
+                </a> </div>
+            <div class="list-item"><a href="/E-Commerce/AccountPages/ac-enquiries.html">
+                    <h3 id="l5">Enquiries</h3>
+                </a> </div>
+            <div class="list-item"> <a href="/">
+                    <h3 id="l5">log out</h3>
+                </a> </div>
+        </div>
+        <form class="signup-form" action="/register" method="post">
+            <!-- form header -->
+            <a href="" id="fp1">Forgot Password</a>
+            <div class="form-header">
+                <h1>Profile</h1>
+            </div>
+            <!-- form body -->
+            <!-- form body -->
+            <div class="form-body">
+                <!-- Firstname and phone no -->
+                <div class="horizontal-group">
+                    <div class="form-group left">
+                        <label for="firstname" class="label-title">First name </label>
+                        <input type="text" id="firstname" class="form-input" placeholder="Suraj Seervi"
+                            required="required" />
+                    </div>
+                    <div class="form-group right">
+                        <label for="phone no" class="label-title">Phone Number</label>
+                        <input type="text" id="phone no" class="form-input" placeholder="+1 323 343 4545" />
+                    </div>
+                </div>
+                <!-- <a id="fp-2" href="">Forgot Password</a> -->
+
+
+                <!-- Passwrod and Email-->
+                <div class="horizontal-group">
+                    <div class="form-group left">
+                        <label for="email" class="label-title">Email</label>
+                        <input type="email" id="email" class="form-input" placeholder="Surajseervi@icloud.com"
+                            required="required" />
+                    </div>
+                    <div class="form-group right">
+                        <label for="confirm-password" class="label-title">Password</label>
+                        <input type="password" class="form-input" id="confirm-password" placeholder="**********"
+                            required="required" />
+                    </div>
+                </div>
+                <!---shipping address-->
+                <div class="shippingaddress">
+                    <label for="email" class="label-title">Shipping Address</label>
+                    <input type="email" id="email" class="form-input" placeholder="No 123 Street name,city"
+                        required="required" />
+                </div>
+                <!-- state  and country -->
+                <div class="horizontal-group">
+                    <div class="form-group left">
+                        <label for="state" class="label-title">State</label>
+                        <input type="text" id="state" class="form-input" placeholder="Tamil nadu" required="required" />
+                    </div>
+                    <div class="form-group right">
+                        <label for="Country" class="label-title">Country</label>
+                        <input type="country" class="form-input" id="country" placeholder="India" required="required" />
+                    </div>
+
+                </div>
+                <br><br><br> <br><br><br> <br><br>
+         
+                <a href="">Edit Profile</a>
+                    <div class="pay-title">
+                        <h1> Payment</h1>
+                    </div>
+                    <div class="horizontal-group">
+                        <div class="form-group left">
+                            <label for="card holder" class="label-title">Card Holder</label>
+                            <input type="text" id="card holder" class="form-input" placeholder="Suraj Seervi"
+                                required="required" />
+                        </div>
+                        <div class="form-group right">
+                            <label for="card number" class="label-title">Card Number</label>
+                            <input type="text" class="form-input" id="card number" placeholder="xxxx xxxx 4535"
+                                required="required" />
+                        </div>
+                    </div>
+                    <div class="horizontal-group">
+                        <div class="form-group left">
+                            <label for="card holder" class="label-title">Card Holder</label>
+                            <input type="text" id="card holder" class="form-input" placeholder="Suraj Seervi"
+                                required="required" />
+                        </div>
+                        <div class="form-group right">
+                            <label for="card number" class="label-title">Card Number</label>
+                            <input type="text" class="form-input" id="card number" placeholder="xxxx xxxx 4535"
+                                required="required" />
+                        </div>
+                    </div>
+
+          
+                <div class="form-footer">
+
+                    <button type="submit" class="btn">Save changes</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
