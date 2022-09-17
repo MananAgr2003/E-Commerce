@@ -101,7 +101,7 @@ a {
 
   grid-column: 8/10;
   position: relative;
-  left: 65%;
+  left: 15%;
   top: 0%;
 }
 #search button{
@@ -116,10 +116,11 @@ a {
   
 }
 input{
+  border-radius: 10px;
   font-family: "montserrat" , sans-serif;
   border: none;
   height: 40px;
-  width: 400px;
+  width: 180%;
   position: relative;
   bottom: 20%;
   z-index: 0;
