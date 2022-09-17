@@ -116,10 +116,11 @@ a {
   
 }
 input{
+  border-radius: 10px;
   font-family: "montserrat" , sans-serif;
   border: none;
   height: 40px;
-  width: 400px;
+  width: 350px;
   position: relative;
   bottom: 20%;
   z-index: 0;
@@ -169,31 +170,6 @@ input{
   height: 24px;
 
 }
-
-.content1 {
-  height: 90vh;
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  padding: 30px 20px 10px 0px;
-  font-family: "Montserrat", sans-serif;
-  font-size: clamp(8px, 1vw, 20px);
-}
-.content1 div {
-  display: flex;
-  flex-direction: column;
-}
-
-#banner {
-  grid-column: 1/5;
-  grid-row: 1/13;
-}
-
-#banner img {
-  height: 100%;
-  width: 100%;
-}
-
 .content1 h1 {
   text-align: center;
   font-size: clamp(25px, 4.1vw, 80px);

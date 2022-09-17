@@ -120,10 +120,11 @@ a {
   
 }
 input{
+  border-radius: 10px;
   font-family: "montserrat" , sans-serif;
   border: none;
   height: 40px;
-  width: 400px;
+  width: 350px;
   position: relative;
   bottom: 20%;
   z-index: 0;
