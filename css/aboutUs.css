@@ -61,6 +61,10 @@ a {
   position: relative;
   /* left: 95%; */
 }
+#brands{
+  position: relative;
+  right: 20%;
+}
 #sign {
   grid-column: 13/15;
   position: relative;
@@ -85,7 +89,14 @@ a {
 #products {
   position: relative;
   /* left: 85%; */
+  right: 24%;
 }
+#abt{
+  position: relative;
+  /* left: 85%; */
+  right: 18%;
+}
+
 #log {
   grid-column: 12/13;
   position: relative;
@@ -144,7 +155,7 @@ input{
   align-items: center;
   grid-column: 15/ 16;
   position: relative;
-  /* right: 30%; */
+  right: 20%;
   top: 1%;
 
 }
@@ -156,13 +167,14 @@ input{
 }
 #bag {
   grid-column: 17 / 18;
+  
   position: relative;
-  right: 55%;
+  right: 175%;
 }
 #cart {
   grid-column: 16/ 17;
   position: relative;
-  right: 30%;
+  right: 50%;
 }
 #cart a img{
 
@@ -170,7 +182,6 @@ input{
   height: 24px;
 
 }
-
 .content1 {
   height: 90vh;
   display: grid;

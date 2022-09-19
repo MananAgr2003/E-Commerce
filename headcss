@@ -54,6 +54,10 @@ a {
   position: relative;
   /* left: 95%; */
 }
+#brands{
+  position: relative;
+  right: 20%;
+}
 #sign {
   grid-column: 13/15;
   position: relative;
@@ -78,7 +82,14 @@ a {
 #products {
   position: relative;
   /* left: 85%; */
+  right: 24%;
 }
+#abt{
+  position: relative;
+  /* left: 85%; */
+  right: 18%;
+}
+
 #log {
   grid-column: 12/13;
   position: relative;
@@ -94,7 +105,7 @@ a {
 
   grid-column: 8/10;
   position: relative;
-  left: 65%;
+  left: 15%;
   top: 0%;
 }
 #search button{
@@ -113,7 +124,7 @@ input{
   font-family: "montserrat" , sans-serif;
   border: none;
   height: 40px;
-  width: 350px;
+  width: 180%;
   position: relative;
   bottom: 20%;
   z-index: 0;
@@ -137,7 +148,7 @@ input{
   align-items: center;
   grid-column: 15/ 16;
   position: relative;
-  /* right: 30%; */
+  right: 20%;
   top: 1%;
 
 }
@@ -149,13 +160,14 @@ input{
 }
 #bag {
   grid-column: 17 / 18;
+  
   position: relative;
-  right: 55%;
+  right: 175%;
 }
 #cart {
   grid-column: 16/ 17;
   position: relative;
-  right: 30%;
+  right: 50%;
 }
 #cart a img{
 
