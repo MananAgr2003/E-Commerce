@@ -7,9 +7,10 @@
     cursor: grab;
   }
   .nav {
+    background-color: #f4f4f4;
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    height: 102px;
+    height: 92px;
     border-bottom: 3.5px solid black;
     font-family: "Montserrat", sans-serif;
     font-size: clamp(8px, 1vw, 20px);
@@ -25,6 +26,11 @@
   a {
     text-decoration: none;
     color: black;
+  }
+  
+  .nav-item {
+    position: relative;
+    /* left: 80%; */
   }
   
   .nav-item::after {
@@ -47,24 +53,29 @@
   }
   
   #logo {
-    grid-column: 1 /4;
+    grid-column: 1 /3;
   }
   #logo img {
-    height: 102px;
+    height: 92px;
   }
   #home {
     position: relative;
-    left: 15%;
+    /* left: 95%; */
+  }
+  #brands{
+    position: relative;
+    right: 20%;
   }
   #sign {
     grid-column: 13/15;
     position: relative;
+    left: 25%;
   
     width: 60%;
   }
   #sign button {
     font-family: "Montserrat", sans-serif;
-    
+  
     font-weight: 700;
   
     color: white;
@@ -74,15 +85,58 @@
     height: 40px;
     border: 0px;
     border-radius: 5px;
-    font-size: clamp(12px, 1vw, 14px);
-  
+    font-size: clamp(12px, 1vw, 14x);
   }
-  #log {
+  #products {
     position: relative;
-    right: 15%;
+    /* left: 85%; */
+    right: 24%;
+  }
+  #abt{
+    position: relative;
+    /* left: 85%; */
+    right: 18%;
+  }
+  
+  #log {
+    grid-column: 12/13;
+    position: relative;
+    left: 35%;
   }
   #log a {
     color: #3444c5;
+  }
+  #menu {
+    display: none;
+  }
+  #search {
+  
+    grid-column: 8/10;
+    position: relative;
+    left: 15%;
+    top: 0%;
+  }
+  #search button{
+    background-color: transparent;
+    border: none;
+  }
+  #simg{
+    z-index: 99;
+    position: relative;
+    top: 23px;
+    left: 18px;
+    
+  }
+  input{
+    border-radius: 10px;
+    font-family: "montserrat" , sans-serif;
+    border: none;
+    height: 40px;
+    width: 180%;
+    position: relative;
+    bottom: 20%;
+    z-index: 0;
+    padding-left: 50px;
   }
   
   .material-symbols-outlined {
@@ -92,20 +146,43 @@
   .material-symbols-outlined {
     font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
   }
-  #bag {
-    grid-column: 16 / 17;
-    position: relative;
-    right: 75%;
+  
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
   }
-  #cart {
+  #profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-column: 15/ 16;
     position: relative;
-    right: 60%;
+    right: 20%;
+    top: 1%;
+  
   }
+  #profile a img{
   
+    width: 24px;
+    height: 24px;
   
-
-
+  }
+  #bag {
+    grid-column: 17 / 18;
+    
+    position: relative;
+    right: 175%;
+  }
+  #cart {
+    grid-column: 16/ 17;
+    position: relative;
+    right: 50%;
+  }
+  #cart a img{
+  
+    width: 24px;
+    height: 24px;
+  
+  }
 
   
 
