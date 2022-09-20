@@ -17,7 +17,7 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Document</title>
 </head>
 
@@ -26,7 +26,7 @@
         <div id="logo"><img src="img/logo.png" alt=""></div>
         <div class="nav-item" id="home"><a href="/E-Commerce">Home</a> </div>
         <div class="nav-item" id="brands"><a href="#content-2">Brands</a> </div>
-     
+
         <div class="nav-item" id="products"><a href="/E-Commerce/productListing.html">Products</a> </div>
         <div class="nav-item" id="abt"> <a href="/E-Commerce/aboutUs.html">About Us</a> </div>
         <div class="nav-item"><a href="/E-Commerce/contactUs.html">Contact Us</a> </div>
@@ -35,10 +35,11 @@
                 <button href=""><img id="simg" src="img/search-sm.png" alt="">
                 </button>
                 <input type="text" name="" id="" placeholder="Search For Items">
-        </form>
+            </form>
         </div>
         <div id="log"><a href="/E-Commerce/login.html">Login</a></div>
-        <div id="sign"><button onclick="location.href='/E-Commerce/signUp.html'" type="button" id="but">Sign Up</button></div>
+        <div id="sign"><button onclick="location.href='/E-Commerce/signUp.html'" type="button" id="but">Sign Up</button>
+        </div>
         <div id="profile"><a href="/E-Commerce/profile.html"><img src="img/Profile.png" alt=""></a></div>
         <div id="cart"><a href="/E-Commerce/cartPage.html"><img src="img/Buy.png" alt=""></a></div>
         <div id="bag"><a href="/E-Commerce/enquiry.html"><img src="img/Message.png" alt="">
@@ -47,7 +48,7 @@
         <div id="menu"><span class="material-symbols-outlined">
                 menu
             </span></div>
-    
+
     </section>
     <section class="content1">
         <div id="banner"><img src="img/list-banner.png" alt="">
@@ -73,6 +74,10 @@
                     placeholder="             Search">
             </form>
             <!-- <div id="filter"><img src="img/filter.png" alt=""></div> -->
+            <!-- <div class="hotp">
+            <input type="checkbox" name="" id="hp">
+            <p id="hp1">Hot Products</p>
+            </div> -->
         </div>
         <div id="filter-bar">
             <h1>Filter By</h1>
@@ -80,10 +85,28 @@
             <p id="p-1">Brand</p>
             <img src="img/list-filter.png" alt="">
             <p id="p-2">Panel Size</p>
-            <button class="b-1" id="content4-btn">Select Size
-                &nbsp; &nbsp;  &#709;</button>
+            <!-- <button class="b-1" id="content4-btn1">Select Size
+                &nbsp; &nbsp; &#709;</button> -->
+            <div class="dropdown" id="b-1">
+                <button class="dropbtn">Select Size
+                    &nbsp; &nbsp; &#709;</button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
             <p id="p-3">Cell Size</p>
-            <button class="b-2" id="content4-btn">Select Size &nbsp;&nbsp;  &#709;</button>
+            <!-- <button class="b-2" id="content4-btn1">Select Size &nbsp;&nbsp; &#709;</button> -->
+            <div class="dropdown" id="b-2">
+                <button class="dropbtn">Select Size
+                    &nbsp; &nbsp; &#709;</button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
             <p id="p-4">Color</p>
             <input id="check-1" class="check" type="checkbox">
             <p id="p-5">Black</p>
@@ -189,11 +212,14 @@
         <div id="r9" class="rm"> <a href="/">Read More</a></div>
 
         <div id="scroll-btn">
-            <button id="btn-1"><</button>
-            <button id="btn-2">1</button>
-            <button id="btn-3">2</button>
-            <button id="btn-4">3</button>
-            <button id="btn-5">></button>
+            <button id="btn-1">
+                << /button>
+
+
+                    <button id="btn-2">1</button>
+                    <button id="btn-3">2</button>
+                    <button id="btn-4">3</button>
+                    <button id="btn-5">></button>
         </div>
 
 
