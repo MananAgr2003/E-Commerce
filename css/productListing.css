@@ -193,11 +193,11 @@ input{
 #banner {
   grid-column: 1/9;
   grid-row: 1/9;
-  padding: 40px 50px 20px 50px;
+  padding: 50px 50px 20px 50px;
   z-index: -1;
 }
 #banner img {
-  height: 105%;
+  height: 115%;
   width: 100%;
 }
 
@@ -599,7 +599,7 @@ grid-row: 2/3;
   position: relative;
   top: 60%;
   left:45%;
-  z-index:20;
+  z-inde3:20;
 }
 
 #p2 {
@@ -649,7 +649,7 @@ grid-row: 2/3;
   position: relative;
   bottom: 40%;
   left: 45%;
-  z-index:20;
+  z-inde3:20;
 }
 
 #p3 {
@@ -698,7 +698,7 @@ grid-row: 2/3;
   position: relative;
   top: 60%;
   left: 45%;
-  z-index:20;
+  z-inde3:20;
 }
 
 #p4 {
@@ -747,7 +747,7 @@ grid-row: 2/3;
   position: relative;
   top: 60%;
   left: 45%;
-  z-index:20;
+  z-inde3:20;
 }
 
 #p5 {
@@ -796,7 +796,7 @@ grid-row: 2/3;
   position: relative;
   top: 60%;
   left:45%;
-  z-index:20;
+  z-inde3:20;
 }
 
 #p6 {
@@ -845,7 +845,7 @@ grid-row: 2/3;
   position: relative;
   top: 60%;
   left: 45%;
-  z-index:20;
+  z-inde3:20;
 }
 
 #p7 {
@@ -894,7 +894,7 @@ grid-row: 2/3;
   position: relative;
   top: 60%;
   left: 45%;
-  z-index:20;
+  z-inde3:20;
 }
 
 #p8 {
@@ -943,7 +943,7 @@ grid-row: 2/3;
   position: relative;
   top: 60%;
   left: 45%;
-  z-index:20;
+  z-inde3:20;
 }
 
 #p9 {
@@ -992,7 +992,7 @@ grid-row: 2/3;
   grid-row: 25/26;
   position: relative;
   top: 60%;
-  left: 45%;
+  left: 35%;
   z-index:20;
 }
 
@@ -1135,6 +1135,7 @@ grid-row: 2/3;
   font-size: clamp(14px, 1vw, 16px);
   position: relative;
   top: 25px;
+  left: 50px;
 
   grid-column: 4/5;
 
@@ -1155,7 +1156,7 @@ grid-row: 2/3;
   position: relative;
   left: 15%;
   bottom: 10%;
-  height: 85%;
+  height: 95%;
   width: 115%;
   border-radius: 5px;
 }

@@ -301,20 +301,20 @@ input{
   font-size: clamp(12px , 1vw , 16px);
   position: relative;
   top: 15px;
-  left: 30px;
+  left: 35px;
 
 }
 #p7{
  
     text-align: right;
- grid-column: 14/15;
+ grid-column: 13/15;
   grid-row: 2/3;
   color: #3444c5;
   font-size: clamp(16px , 1vw , 21px);
   font-weight: 700;
   position: relative;
   top: 15px;
-  right: 32px;
+  right: 32%;
 
 
 }

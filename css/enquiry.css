@@ -310,7 +310,7 @@ input{
   font-size: clamp(12px, 1vw, 16px);
   position: relative;
   top: 15px;
-  left: 20px;
+  left: 30px;
 }
 #p7 {
   text-align: right;
@@ -332,6 +332,7 @@ input{
   background-color: #fbb831;
   position: relative;
   left: 20px;
+  bottom: 17px;
 }
 #img1 {
   grid-row: 1/5;
@@ -349,6 +350,9 @@ input{
   align-items: center;
   grid-row: 5/6;
   grid-column: 12/15;
+  position: relative;
+  left: 17px;
+  bottom: 12px;
 }
 #counter p {
   text-align: center;
