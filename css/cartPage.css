@@ -301,7 +301,7 @@ input{
   font-size: clamp(12px , 1vw , 16px);
   position: relative;
   top: 15px;
-  left: 20px;
+  left: 30px;
 
 }
 #p7{
@@ -345,6 +345,9 @@ input{
     align-items: center;
     grid-row:5/6;
     grid-column: 12/15;
+    position: relative;
+    bottom: 35%;
+    left: 8%;
 }
 #counter p{
     text-align: center;
@@ -396,59 +399,82 @@ input{
 #p-2{
     font-weight: 550;
     grid-row: 5/6;
-    grid-column: 1/6;
+    grid-column: 1/3;
     position: relative;
     left: 22px;
     font-size: 18px;
 }
-#p-2 span{
-    position: relative;
-    left: 40%;
+#p-price1{
+  font-weight: 550;
+  grid-row: 5/6;
+  grid-column: 4/6;
+  position: relative;
+  left: 22px;
+  font-size: 18px;
 }
+
+
 #p-3{
     font-weight: 550;
     grid-row: 6/7;
-    grid-column: 1/6;
+    grid-column: 1/4;
     position: relative;
     left: 22px;
     font-size: 18px;
 }
-#p-3 span{
-    position: relative;
-    left: 19%;
+#p-price2{
+  font-weight: 550;
+  grid-row: 6/7;
+  grid-column: 4/6;
+  position: relative;
+  left: 22px;
+  font-size: 18px;
 }
+
 #p-4{
     font-weight: 550;
     grid-row: 7/8;
-    grid-column: 1/6;
+    grid-column: 1/3;
     position: relative;
     left: 22px;
     font-size: 18px;
 }
-#p-4 span{
-    position: relative;
-    left: 62%;
+#p-price3{
+  font-weight: 550;
+  grid-row: 7/8;
+  grid-column: 4/6;
+  position: relative;
+  left: 22px;
+  font-size: 18px;
 }
 #p-5{
     font-weight: 550;
     grid-row: 9/10;
-    grid-column: 1/6;
+    grid-column: 1/3;
     text-align: space-between;
     font-size: 20px;
     position: relative;
-    left: 7%;
+    left: 15%;
 }
-#p-5 span{
-    position: relative;
-    left: 45%;
+#p-price4{
+  
+  font-weight: 550;
+  grid-row: 9/10;
+  grid-column: 4/6;
+  position: relative;
+  left: 22px;
+  font-size: 18px;
 }
+
 #btn{
     grid-row: 11/13;
     grid-column: 1/16;
     background-color: #1bc150;
     margin: 0px 20px 20px 20px; 
-}
-#btn button{
+  }
+  #btn button{
+  font-size: 18px;
+  
     width: 100%;
     height: 100%;
     background-color: transparent;

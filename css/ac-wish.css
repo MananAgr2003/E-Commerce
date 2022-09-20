@@ -403,8 +403,16 @@
     
     width: 100%;
     height: 100%;
+    transition: 0.5s;
   }
+#btn1 button:hover{
 
+  border: none;
+  border-radius: 5px;
+   background-color: #3444c5;
+   color: white;
+
+}
   
   @media screen and (max-width: 768px) {
     .material-symbols-outlined {
