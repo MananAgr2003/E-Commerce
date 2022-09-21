@@ -209,7 +209,7 @@ input{
   grid-template-columns: repeat(14, 1fr);
   grid-template-rows: repeat(5, 1fr);
   position: relative;
-  top: 10%;
+  top: 30%;
 }
 #pro-3 {
   grid-column: 2/10;
@@ -218,7 +218,7 @@ input{
   grid-template-columns: repeat(14, 1fr);
   grid-template-rows: repeat(5, 1fr);
   position: relative;
-  top: 20%;
+  top: 60%;
 }
 #pro-1 h1 {
   grid-column: 3/7;
@@ -298,36 +298,36 @@ input{
  grid-column: 13/15;
   grid-row: 1/2;
   color: #909090;
-  font-size: clamp(12px , 1vw , 16px);
+  font-size: clamp(14px , 1vw , 16px);
   position: relative;
-  top: 15px;
-  left: 35px;
+  top: 5px;
+  left: 48%;
 
 }
 #p7{
  
     text-align: right;
- grid-column: 13/15;
+ grid-column: 14/15;
   grid-row: 2/3;
   color: #3444c5;
   font-size: clamp(16px , 1vw , 21px);
   font-weight: 700;
   position: relative;
-  top: 15px;
+  top: 55%;
   right: 32%;
 
 
 }
 
 #p5-div{
-    grid-row: 5/6;
+    grid-row: 5/7;
     grid-column: 9/10;
     height: 15px;
     width: 15px;
     background-color: #fbb831;
     position: relative;
     left: 20px;
-    bottom: 16px;
+    bottom: 55%;
 }
 #img1 {
   grid-row: 1/5;
@@ -341,13 +341,14 @@ input{
 
 #counter{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-row:5/6;
-    grid-column: 12/15;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-row:3/7;
+    grid-column: 13/14;
     position: relative;
-    bottom: 35%;
-    left: 8%;
+    /* bottom: 35%; */
+    top: 55%;
+    left: 38%;
 }
 #counter p{
     text-align: center;
@@ -355,7 +356,7 @@ input{
     font-size: 18px;
     width: 50px;
     position: relative;
-    bottom: 15px;
+    /* bottom: 15px; */
 }
 #counter div{
     display: flex;
@@ -366,7 +367,7 @@ input{
     width: 25px;
     height: 25px;
     position: relative;
-    bottom: 15px;
+    /* bottom: 15px; */
     border-radius: 5px;
 }
 

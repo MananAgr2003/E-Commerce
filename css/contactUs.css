@@ -17,12 +17,15 @@ button:hover {
   font-family: "Montserrat", sans-serif;
   font-size: clamp(8px, 1vw, 20px);
   font-weight: 700;
+  z-index: 99;
 }
 .nav div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 99;
+
 }
 
 a {

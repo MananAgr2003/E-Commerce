@@ -210,7 +210,7 @@ input {
   font-size: clamp(40px, 1.5vw, 50px);
   position: relative;
   right: 11%;
-  top: 40%;
+  /* top: 40%; */
 }
 
 /************************************* Heart ********************************/
@@ -226,6 +226,8 @@ input {
   width: 90px;
   margin: 0 auto;
   cursor: pointer;
+  position: relative;
+  bottom:30%;
 }
 
 .animate {
@@ -246,6 +248,7 @@ input {
   grid-row: 2/5;
   position: relative;
   left: 10%;
+  bottom: 30%;
   font-size: clamp(12px, 1vw, 16px);
   font-weight: 500;
   line-height: 25px;
@@ -255,7 +258,7 @@ input {
 
 #price {
   grid-column: 8/10;
-  grid-row: 5/6;
+  grid-row: 4/5;
   font-size: clamp(20px, 1vw, 25px);
   color: #1bc150;
   font-weight: 500;
@@ -270,11 +273,14 @@ input {
 #color {
   display: flex;
   flex-direction: row;
+justify-content: flex-start;
   grid-column: 8/10;
-  grid-row: 6/7;
+  grid-row: 5/6;
   position: relative;
-  left: 22px;
-  bottom: 15%;
+  left: 25%;
+  top:40%;
+
+  /* bottom: 15%; */
 }
 
 #c1 {
@@ -1187,8 +1193,8 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin: 0px 2% 0px 2%;
 }
 #foot-icons a img {

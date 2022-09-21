@@ -368,7 +368,7 @@ grid-row: 2/3;
   position: absolute;
   left: 20px;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 180px;
   height: 170px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -381,10 +381,12 @@ grid-row: 2/3;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  position: relative;
+  right: 100px;
 }
 
 /* Change color of dropdown links on hover */
-/* .dropdown-content a:hover {background-color: #f1f1f1} */
+.dropdown-content a:hover {background-color: #f1f1f1}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -1136,7 +1138,7 @@ grid-row: 2/3;
   font-size: clamp(14px, 1vw, 16px);
   position: relative;
   top: 25px;
-  left: 50px;
+  left: 0px;
 
   grid-column: 4/5;
 
@@ -1207,8 +1209,10 @@ grid-row: 2/3;
   left: 25px;
   font-weight: 700;
   position: relative;
-  top: 70px;
-  grid-row: 1/2;
+  /* top: 70px; */
+  bottom: 30%;
+  bottom: 30%;
+  grid-row: 3/4;
   grid-column: 1/4;
 }
 #p-2 {
