@@ -311,7 +311,7 @@ input{
    font-size: clamp(14px , 1vw , 16px);
    position: relative;
    top: 5px;
-   left: 28%;
+   left: 45%;
  
  }
  #p7{
@@ -349,17 +349,18 @@ input{
   height: 100px;
 }
 
-#counter {
+#counter{
   display: flex;
- 
-  grid-row: 4/6;
-  grid-column: 13/15;
+  justify-content: flex-start;
+  align-items: flex-start;
+  grid-row:3/7;
+  grid-column: 13/14;
   position: relative;
-  /* left: 10px; */
-  top: 10px;
-  /* bottom: 12px; */
+  /* bottom: 35%; */
+  top: 30%;
+  left: 40%;
 }
-#counter p {
+#counter p{
   text-align: center;
   color: #3444c5;
   font-size: 18px;
@@ -367,7 +368,7 @@ input{
   position: relative;
   /* bottom: 15px; */
 }
-#counter div {
+#counter div{
   display: flex;
   justify-content: center;
   align-items: center;
