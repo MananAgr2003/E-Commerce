@@ -531,10 +531,14 @@ justify-content: flex-start;
 #h3-1{
     grid-row: 17/18;
     grid-column: 1/5;
+  font-size: clamp(25px, 1vw, 35px);
+
 }
 #h3-2{
     grid-row: 17/18;
     grid-column: 5/10;
+  font-size: clamp(25px, 1vw, 35px);
+
 }
 #down{
     grid-row: 17/18;
@@ -555,16 +559,19 @@ justify-content: flex-start;
 }
 
 .content2 {
-  height: 13vw;
+  height: 15vw;
   /* display: block; */
   /* display: grid; */
   grid-template-columns: repeat(10 , 1fr);
   grid-template-rows: repeat(10 ,1fr);
   padding: 0px 5% 0px 5%;
   font-family: "Montserrat", sans-serif;
+  font-size: clamp(12px, 1vw, 16px);
+
+  
 }
 .content2-null {
-  height: 10vw;
+  height: 15vw;
   /* display: block; */
   /* display: grid; */
   grid-template-columns: repeat(10 , 1fr);
@@ -572,6 +579,8 @@ justify-content: flex-start;
   padding: 0px 5% 0px 5%;
   font-family: "Montserrat", sans-serif;
   position: relative;
+  font-size: clamp(12px, 1vw, 16px);
+
   
 }
 
