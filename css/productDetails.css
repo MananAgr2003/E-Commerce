@@ -578,9 +578,13 @@ justify-content: flex-start;
 #c2-p1{
     grid-column: 1/11;
     grid-row: 1/10;
+  font-size: clamp(12px, 1vw, 16px);
+
 }
 #c2-p2{
     display: none;
+  font-size: clamp(12px, 1vw, 16px);
+
     
 }
 
