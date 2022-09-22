@@ -35,5 +35,5 @@ $(".minus3").click(function () {
 
 $("#down img").click(function () { 
 
-    $(".content2").toggleClass("invisible");
+    $(".content2-null").toggleClass("invisible");
  });
