@@ -2666,7 +2666,7 @@ input{
     grid-column: 4/9;
     display: block;
     position: relative;
-    top: 300%;
+    top: 200%;
     left: 30%;
   }
 
@@ -3503,7 +3503,7 @@ input{
     
   }
   .footer {
-    height: 110vh;
+    height: 85vh;
   }
   #line1 {
     display: none;
