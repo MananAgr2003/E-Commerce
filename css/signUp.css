@@ -308,6 +308,8 @@
   
     h2{
       font-size: clamp(28px, 1vw, 35px);
+      text-align: center;
+
     }
   
     #content{
@@ -325,6 +327,8 @@
     }
     h2{
       font-size: clamp(27px, 1vw, 35px);
+      text-align: center;
+
     }
     #content{
       font-size:  clamp(15px, 1vw, 20px);
@@ -341,7 +345,8 @@
     }
   
     h2{
-      font-size: clamp(22px, 1vw, 25px);
+      text-align: center;
+      font-size: clamp(20px, 1vw, 25px);
       margin-bottom: clamp(10px,1vw,25px);
     }
     #content{
@@ -420,7 +425,7 @@
   #simg{
     display: none;
   }
-  input{
+  #search form input{
     display: none;
 
   }
