@@ -2982,6 +2982,16 @@ input{
   .rm {
     visibility: visible;
   }
+  #c4-hr{
+    visibility: visible;
+    grid-column: 1/15;
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
+    background-color: #3444c5;
+    border: 10px solid #fbb831;
+    z-index: 9999;
+  }
   #view {
     display: none;
   }
