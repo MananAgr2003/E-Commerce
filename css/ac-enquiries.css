@@ -664,3 +664,63 @@ h3{
     font-size: clamp(13px, 1vw, 15px);
   }
 }
+@media screen and (max-width: 625px) {
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 48;
+  }
+  .nav {
+    height: 102px;
+    border: 2px solid #d0d0d0;
+    background-color: #f4f4f4;
+  }
+
+  .nav-item a {
+    display: none;
+  }
+  #search {
+    grid-column: 13/14;
+    position: relative;
+    left: 0%;
+  }
+  #simg{
+    display: none;
+  }
+  input{
+    display: none;
+
+  }
+  #logo {
+    position: relative;
+    left: 50%;
+  }
+  #menu {
+    grid-column: 16/17;
+    position: relative;
+    right: 35%;
+    top: 1%;
+    display: flex;
+  }
+  #profile{
+    grid-column: 12/ 13;
+    grid-row: 1/2;
+    top: 2%;
+    /* top: -50%; */
+
+  }
+
+  #cart {
+    grid-column: 14/ 15;
+    position: relative;
+    /* top: 2%; */
+    right: 30%;
+  }
+  #log {
+    display: none;
+  }
+  #sign {
+    display: none;
+  }
+
+  #bag {
+    display: none;
+  }}
