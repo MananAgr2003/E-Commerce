@@ -209,14 +209,15 @@ input {
   color: #fbb831;
 }
 #product-img {
-  grid-row: 3/9;
+  grid-row: 3/8;
   grid-column: 1/4;
   position: relative;
-  right: 4%;
+  /* right: 4%; */
+  top: 7%;
 }
 #product-img img {
   height: 100%;
-  width: 120%;
+  width: 100%;
 }
 #progress-img {
   grid-row: 3/4;
@@ -225,7 +226,7 @@ input {
   right: 4%;
 }
 #progress-img img {
-  height: 50%;
+  height: 58%;
   width: 100%;
 }
 #prog-lbl {
@@ -333,7 +334,7 @@ input {
 }
 #bill {
   grid-row: 5/8;
-  grid-column: 8/11;
+  grid-column: 8/12;
 
   /* border-radius: 10px; */
   position: relative;
@@ -387,8 +388,8 @@ input {
   font-size: 18px;
 }
 #bp-4 span {
-  position: relative;
-  left: 67.5%;
+  grid-row: 6/7;
+  grid-column: 8/9;
 }
 #bp-5 {
   font-weight: 550;
@@ -402,6 +403,23 @@ input {
 #bp-5 span {
   position: relative;
   left: 42.5%;
+}
+
+#bp-6{
+  grid-row: 2/3;
+  grid-column: 5/6;
+}
+#bp-7{
+  grid-row: 4/5;
+  grid-column: 5/6;
+}
+#bp-8{
+  grid-row: 6/7;
+  grid-column: 5/6;
+}
+#bp-9{
+  grid-row: 9/10;
+  grid-column: 5/6;
 }
 
 .content2 {
@@ -577,6 +595,6 @@ input {
 }
 #foot a{
   position: relative;
-  left: 1%;
+  left: 0.3%;
   color: #3444c5;
 }
