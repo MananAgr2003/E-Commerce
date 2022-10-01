@@ -61,7 +61,7 @@ a {
   position: relative;
   /* left: 95%; */
 }
-#brands{
+#brands {
   position: relative;
   right: 20%;
 }
@@ -91,7 +91,7 @@ a {
   /* left: 85%; */
   right: 24%;
 }
-#abt{
+#abt {
   position: relative;
   /* left: 85%; */
   right: 18%;
@@ -109,26 +109,24 @@ a {
   display: none;
 }
 #search {
-
   grid-column: 8/10;
   position: relative;
   left: 15%;
   top: 0%;
 }
-#search button{
+#search button {
   background-color: transparent;
   border: none;
 }
-#simg{
+#simg {
   z-index: 99;
   position: relative;
   top: 23px;
   left: 18px;
-  
 }
-input{
+input {
   border-radius: 10px;
-  font-family: "montserrat" , sans-serif;
+  font-family: "montserrat", sans-serif;
   border: none;
   height: 40px;
   width: 180%;
@@ -149,7 +147,7 @@ input{
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
-#profile{
+#profile {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,17 +155,14 @@ input{
   position: relative;
   right: 20%;
   top: 1%;
-
 }
-#profile a img{
-
+#profile a img {
   width: 24px;
   height: 24px;
-
 }
 #bag {
   grid-column: 17 / 18;
-  
+
   position: relative;
   right: 175%;
 }
@@ -176,32 +171,29 @@ input{
   position: relative;
   right: 50%;
 }
-#cart a img{
-
+#cart a img {
   width: 24px;
   height: 24px;
-
 }
 .left {
   text-align: left;
-  font-family: "Montserrat" , sans-serif;
+  font-family: "Montserrat", sans-serif;
   width: 20%;
   /* text-align: center; */
 }
-#links{
+#links {
   margin-left: 5%;
   margin-top: 17px;
   position: relative;
-  left:4%;
-  
+  left: 4%;
 }
-#links div{
+#links div {
   margin: 20px 0px 20px 0px;
 }
-h3{
+h3 {
   width: 100%;
 }
-#l2{
+#l2 {
   color: black;
 }
 .fullpage {
@@ -224,12 +216,12 @@ h3{
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(12, 1fr);
- 
 }
 .content1 h1 {
   grid-column: 2 /6;
 
   grid-row: 2 / 3;
+  visibility: hidden;
 }
 #pro-1 {
   grid-column: 2/10;
@@ -240,7 +232,7 @@ h3{
 }
 #pro-2 {
   grid-column: 2/10;
-  grid-row:5/8;
+  grid-row: 5/8;
   display: grid;
   grid-template-columns: repeat(14, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -261,7 +253,7 @@ h3{
 
   grid-row: 1/2;
   color: #3444c5;
-  font-size: clamp(16px , 1vw , 20px);
+  font-size: clamp(16px, 1vw, 20px);
   position: relative;
   left: 20px;
 }
@@ -270,7 +262,7 @@ h3{
 
   grid-row: 1/2;
   color: #3444c5;
-  font-size: clamp(16px , 1vw , 20px);
+  font-size: clamp(16px, 1vw, 20px);
   position: relative;
   left: 20px;
 }
@@ -279,7 +271,7 @@ h3{
 
   grid-row: 1/2;
   color: #3444c5;
-  font-size: clamp(16px , 1vw , 20px);
+  font-size: clamp(16px, 1vw, 20px);
   position: relative;
   left: 20px;
 }
@@ -290,7 +282,7 @@ h3{
   color: #909090;
   font-size: clamp(12px, 1vw, 16px);
   position: relative;
-  bottom:15px;
+  bottom: 15px;
   left: 20px;
 }
 #p2 {
@@ -300,7 +292,7 @@ h3{
   font-size: clamp(12px, 1vw, 16px);
   position: relative;
   left: 20px;
-  bottom:15px;
+  bottom: 15px;
 }
 #p3 {
   grid-column: 5/7;
@@ -309,7 +301,7 @@ h3{
   font-size: clamp(12px, 1vw, 16px);
   position: relative;
   left: 20px;
-  bottom:15px;
+  bottom: 15px;
 }
 #p4 {
   grid-column: 7/9;
@@ -318,7 +310,7 @@ h3{
   font-size: clamp(12px, 1vw, 16px);
   position: relative;
   left: 20px;
-  bottom:15px;
+  bottom: 15px;
 }
 #p5 {
   grid-column: 6/9;
@@ -327,53 +319,48 @@ h3{
   font-size: clamp(12px, 1vw, 16px);
   position: relative;
   left: 20px;
-  bottom:15px;
+  bottom: 15px;
 }
-#p6{
-
- grid-column: 13/15;
+#p6 {
+  grid-column: 13/15;
   grid-row: 1/2;
   color: #909090;
-  font-size: clamp(12px , 1vw , 16px);
+  font-size: clamp(12px, 1vw, 16px);
   position: relative;
   top: 15px;
   left: 20px;
-
 }
-#p7{
- 
-    text-align: right;
- grid-column: 14/15;
+#p7 {
+  text-align: right;
+  grid-column: 14/15;
   grid-row: 2/3;
   color: #3444c5;
-  font-size: clamp(21px , 1vw , 25px);
+  font-size: clamp(21px, 1vw, 25px);
   font-weight: 700;
   position: relative;
   top: 15px;
   right: 32px;
-
-
 }
-#p8{
+#p8 {
   float: left;
   grid-column: 13/15;
   grid-row: 4/5;
   position: relative;
   left: 18%;
   color: #3444c5;
-  font-size: clamp(14px , 1vw , 16px);
+  font-size: clamp(14px, 1vw, 16px);
   font-weight: 600;
 }
 
-#p5-div{
+#p5-div {
   grid-column: 7/10;
   grid-row: 4/6;
-    height: 15px;
-    width: 15px;
-    background-color: #fbb831;
-    position: relative;
-    left: 20px;
-    bottom: 13px;
+  height: 15px;
+  width: 15px;
+  background-color: #fbb831;
+  position: relative;
+  left: 20px;
+  bottom: 13px;
 }
 #img1 {
   grid-row: 1/5;
@@ -385,32 +372,35 @@ h3{
   height: 100px;
 }
 
-#counter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-row:5/6;
-    grid-column: 12/15;
+#counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 5/6;
+  grid-column: 12/15;
 }
-#counter p{
-    text-align: center;
-    color: #3444c5;
-    font-size: 18px;
-    width: 50px;
-    position: relative;
-    bottom: 15px;
+#counter p {
+  text-align: center;
+  color: #3444c5;
+  font-size: 18px;
+  width: 50px;
+  position: relative;
+  bottom: 15px;
 }
-#counter div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: #3444c5;
-    width: 25px;
-    height: 25px;
-    position: relative;
-    bottom: 15px;
-    border-radius: 5px;
+#counter div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #3444c5;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  bottom: 15px;
+  border-radius: 5px;
+}
+.content1 a {
+  display: none;
 }
 @media screen and (max-width: 768px) {
   .material-symbols-outlined {
@@ -645,12 +635,11 @@ h3{
     position: relative;
     left: 0%;
   }
-  #simg{
+  #simg {
     display: none;
   }
-  input{
+  input {
     display: none;
-
   }
   #logo {
     position: relative;
@@ -663,12 +652,11 @@ h3{
     top: 1%;
     display: flex;
   }
-  #profile{
+  #profile {
     grid-column: 12/ 13;
     grid-row: 1/2;
     top: 2%;
     /* top: -50%; */
-
   }
 
   #cart {
@@ -686,4 +674,414 @@ h3{
 
   #bag {
     display: none;
-  }}
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 48;
+  }
+  .nav {
+    height: 102px;
+    border: 2px solid #d0d0d0;
+    background-color: #f4f4f4;
+  }
+
+  .nav-item a {
+    display: none;
+  }
+  #search {
+    grid-column: 13/14;
+    position: relative;
+    left: 0%;
+  }
+  #simg {
+    display: none;
+  }
+  input {
+    display: none;
+  }
+  #logo {
+    position: relative;
+    left: 50%;
+  }
+  #menu {
+    grid-column: 16/17;
+    position: relative;
+    right: 35%;
+    top: 1%;
+    display: flex;
+  }
+  #profile {
+    grid-column: 12/ 13;
+    grid-row: 1/2;
+    top: 2%;
+    /* top: -50%; */
+  }
+
+  #cart {
+    grid-column: 14/ 15;
+    position: relative;
+    /* top: 2%; */
+    right: 30%;
+  }
+  #log {
+    display: none;
+  }
+  #sign {
+    display: none;
+  }
+
+  #bag {
+    display: none;
+  }
+
+  .content1 {
+    font-family: "Montserrat", sans-serif;
+    width: 100vw;
+    height: 180vh;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+  }
+  .content1 h1 {
+    grid-column: 2 /9;
+
+    grid-row: 1/ 2;
+    position: relative;
+    top: 40%;
+    visibility: visible;
+  }
+
+  .content1 h1 span {
+    color: #fbb831;
+  }
+  #pro-1 {
+    grid-column: 1/16;
+    grid-row: 2/6;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    position: relative;
+    top: 15%;
+    border-bottom: 3px solid #909090;
+  }
+  #pro-2 {
+    grid-column: 1/16;
+    grid-row: 6/10;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    position: relative;
+    top: 25%;
+    border-bottom: 3px solid #909090;
+  }
+  #pro-3 {
+    grid-column: 1/16;
+    grid-row: 10/14;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    position: relative;
+    top: 35%;
+    border-bottom: 3px solid #909090;
+  }
+  #pro-1 h1 {
+    grid-column: 8/13;
+
+    grid-row: 1/2;
+    color: #3444c5;
+    font-size: clamp(16px, 1vw, 20px);
+    position: relative;
+    left: 40px;
+    top: 0px;
+  }
+  #pro-2 h1 {
+    grid-column: 8/13;
+
+    grid-row: 1/2;
+    color: #3444c5;
+    font-size: clamp(16px, 1vw, 20px);
+    position: relative;
+    left: 40px;
+    top: 0px;
+  }
+  #pro-3 h1 {
+    grid-column: 8/13;
+
+    grid-row: 1/2;
+    color: #3444c5;
+    font-size: clamp(16px, 1vw, 20px);
+    position: relative;
+    left: 40px;
+    top: 0px;
+  }
+
+  #p1 {
+    grid-column: 2/9;
+    grid-row: 6/7;
+    color: #909090;
+    font-size: clamp(12px, 1vw, 16px);
+    position: relative;
+    bottom: -10px;
+    left: 0px;
+  }
+  #p2 {
+    grid-column: 8/13;
+    grid-row: 3/4;
+    color: black;
+    font-size: clamp(14px, 1vw, 18px);
+    position: relative;
+    left: 40px;
+    bottom: 20px;
+  }
+  #p3 {
+    grid-column: 8/13;
+    grid-row: 4/5;
+    color: black;
+    font-size: clamp(14px, 1vw, 18px);
+    position: relative;
+    left: 60px;
+    bottom: 30px;
+  }
+  #p4 {
+    grid-column: 8/13;
+    grid-row: 5/6;
+    color: black;
+    font-size: clamp(14px, 1vw, 18px);
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+  }
+  #p5 {
+    grid-column: 8/13;
+    grid-row: 5/6;
+    color: black;
+    font-size: clamp(14px, 1vw, 18px);
+    position: relative;
+    left: 40px;
+    bottom: 50px;
+    width: 110px;
+
+    /* display: none; */
+  }
+  #p6 {
+    grid-column: 13/15;
+    grid-row: 1/2;
+    color: #909090;
+    font-size: clamp(14px, 1vw, 16px);
+    position: relative;
+    top: 5px;
+    left: 48.5%;
+    display: none;
+  }
+  #p7 {
+    text-align: right;
+    grid-column: 10/11;
+    grid-row: 2/3;
+    color: #3444c5;
+    font-size: clamp(18px, 1vw, 24px);
+    font-weight: 700;
+    position: relative;
+    top: -40%;
+    right: 17px;
+    width: 110%;
+  }
+  #p8 {
+    grid-column: 8/13;
+    grid-row: 10/11;
+    color: #3444c5;
+    font-size: clamp(18px, 1vw, 22px);
+    position: relative;
+    left: 85px;
+    bottom: 10px;
+    width: 110px;
+  }
+
+  #p5-div {
+    grid-row: 5/7;
+    grid-column: 11/12;
+    height: 15px;
+    width: 15px;
+    background-color: #fbb831;
+    position: relative;
+    left: 0px;
+    bottom: 60%;
+    /* display: none; */
+  }
+  #img1 {
+    grid-row: 1/6;
+
+    grid-column: 2/9;
+  }
+  #img1 img {
+    width: 100%;
+    height: 85%;
+  }
+
+  #counter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-row: 6/7;
+    grid-column: 13/14;
+    position: relative;
+    /* bottom: 35%; */
+    top: 30%;
+    left: 10%;
+  }
+  #counter p {
+    text-align: center;
+    color: #3444c5;
+    font-size: 18px;
+    width: 50px;
+    position: relative;
+    /* bottom: 15px; */
+  }
+  #counter div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #3444c5;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    /* bottom: 15px; */
+    border-radius: 5px;
+  }
+
+  #bill {
+    grid-row: 15/20;
+    grid-column: 1/16;
+    box-shadow: none;
+    border-radius: 10px;
+    position: relative;
+    left: 0%;
+    top: 10%;
+    border-top: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    flex-direction: column;
+    color: #3444c5;
+    font-family: "Montserrat", sans-serif;
+    min-width: 100%;
+    max-width: 100%;
+    height: 110%;
+    /* display: none; */
+  }
+  #p-1 {
+    font-weight: 650;
+    grid-row: 2/3;
+    grid-column: 1/5;
+    text-align: left;
+    font-size: 25px;
+    position: relative;
+    left: 20px;
+  }
+  #p-2 {
+    font-weight: 550;
+    grid-row: 5/6;
+    grid-column: 1/3;
+    position: relative;
+    left: 22px;
+    font-size: 18px;
+  }
+  #p-price1 {
+    font-weight: 500;
+    grid-row: 5/6;
+    grid-column: 4/6;
+    position: relative;
+    left: 52px;
+    font-size: 18px;
+    width: 50px;
+  }
+
+  #p-3 {
+    font-weight: 550;
+    grid-row: 6/7;
+    grid-column: 1/4;
+    position: relative;
+    left: 22px;
+    font-size: 18px;
+  }
+  #p-price2 {
+    font-weight: 500;
+    grid-row: 6/7;
+    grid-column: 4/6;
+    position: relative;
+    left: 52px;
+    font-size: 18px;
+    width: 50px;
+  }
+
+  #p-4 {
+    font-weight: 550;
+    grid-row: 7/8;
+    grid-column: 1/3;
+    position: relative;
+    left: 22px;
+    font-size: 18px;
+  }
+  #p-price3 {
+    font-weight: 500;
+    grid-row: 7/8;
+    grid-column: 4/6;
+    position: relative;
+    left: 52px;
+    font-size: 18px;
+    width: 50px;
+  }
+  #p-5 {
+    font-weight: 550;
+    grid-row: 9/10;
+    grid-column: 1/3;
+    text-align: space-between;
+    font-size: 20px;
+    position: relative;
+    left: 14%;
+  }
+  #p-price4 {
+    font-weight: 550;
+    grid-row: 9/10;
+    grid-column: 4/6;
+    position: relative;
+    left: 52px;
+    font-size: 18px;
+    width: 50px;
+  }
+
+  #btn {
+    grid-row: 11/14;
+    grid-column: 1/16;
+    background-color: #1bc150;
+    margin: 0px 0px 0px 0px;
+    height: 80%;
+    position: relative;
+    top: 400%;
+  }
+  #btn button {
+    font-size: 18px;
+
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+    border: none;
+  }
+
+  .left {
+    display: none;
+  }
+  .footer {
+    height: 0vh;
+  }
+  .content1 a {
+    display: block;
+    grid-row: 20/21;
+    grid-column: 1/16;
+    margin: auto;
+    font-weight: 600;
+  }
+}
