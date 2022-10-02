@@ -1264,3 +1264,74 @@ label {
   display: block;
 }
 }
+@media screen and (max-width: 725px) {
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 48;
+  }
+  .nav {
+    height: 102px;
+    border: 2px solid #d0d0d0;
+    background-color: #f4f4f4;
+  }
+
+  .nav-item a {
+    display: none;
+  }
+  #search {
+    grid-column: 14/15;
+    position: relative;
+    left: 0%;
+  }
+  #simg{
+    /* display: none; */
+    position: relative;
+    top: 80%;
+    }
+  input{
+    display: none;
+
+  }
+  #logo {
+    grid-column: 4/7;
+    position: relative;
+    left: 0%;
+   
+  }
+  #logo img{
+    width: 150%;
+    height: 55%;
+  }
+  #menu {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    position: relative;
+    right: -15%;
+    top: 40%;
+    display: none;
+  }
+  #profile{
+    grid-column: 12/ 13;
+    grid-row: 1/2;
+    top: 2%;
+    /* top: -50%; */
+    display: none;
+
+  }
+
+  #cart {
+    grid-column: 14/ 15;
+    position: relative;
+    /* top: 2%; */
+    right: 30%;
+    display: none;
+  }
+  #log {
+    display: none;
+  }
+  #sign {
+    display: none;
+  }
+
+  #bag {
+    display: none;
+  }}
