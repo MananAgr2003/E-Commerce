@@ -27,14 +27,14 @@
         <div id="logo"><img src="img/logo.png" alt=""></div>
         <div class="nav-item" id="home"><a href="/E-Commerce">Home</a> </div>
         <div class="nav-item" id="brands"><a href="#content-2">Brands</a> </div>
-
+    
         <div class="nav-item" id="products"><a href="/E-Commerce/productListing.html">Products</a> </div>
         <div class="nav-item" id="abt"> <a href="/E-Commerce/aboutUs.html">About Us</a> </div>
         <div class="nav-item"><a href="/E-Commerce/contactUs.html">Contact Us</a> </div>
         <div id="search">
             <form action="">
                 <button href=""><img id="simg" src="img/search-sm.png" alt="">
-                </button>
+                </button> 
                 <input type="text" name="" id="" placeholder="Search For Items">
             </form>
         </div>
@@ -49,8 +49,48 @@
         <div id="menu"><span class="material-symbols-outlined">
                 menu
             </span></div>
-
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+               
+            
+                <ul class="menu__box">
+                  <li><a class="menu__item" id="logo-hm" href="#"> <img src="img/logo.png" alt=""></a></li>   
+                  <li><a class="menu__item" id="logo-c-name"  href="#">Asia Pasific Group</a></li>
+                  <li><a class="menu__item" id="logo-c-name1"   href="#">Add Any Tag Line Here</a></li?
+                  <li><a class="menu__item" href="/E-Commerce"> <img src="img/hm-1.png" alt=""><span>Home</span></a></li>
+                  <li><a class="menu__item" href="/E-Commerce"> <img src="img/hm-2.png" alt=""><span>Brands</span></a></li>
+                  <li><a class="menu__item" href="/E-Commerce/productListing.html"> <img src="img/hm-3.png" alt=""><span>Products</span></a></li>
+                  <li id="hm-drop-main" onclick="displayhm()"><a class="menu__item" href="#"> <img src="img/hm-5.png" alt=""><span>My Profile</span></a></li>
+                  <li class="drop-list" id="hm-drop"><a class="menu__item"  href="/E-Commerce/profile.html"><span>Account Details</span></a></li>
+                  <li class="drop-list" id="hm-drop1"><a class="menu__item"  href="/E-Commerce/AccountPages/ac-order.html"><span>My Order</span></a></li>
+                  <li class="drop-list" id="hm-drop2"><a class="menu__item"  href="/E-Commerce/AccountPages/ac-wish.html"><span>My Wishlist</span></a></li>
+                  <li class="drop-list" id="hm-drop3"><a class="menu__item"  href="/E-Commerce/AccountPages/ac-review.html"><span>My Reviews</span></a></li>
+                  <li class="drop-list" id="hm-drop4"><a class="menu__item"  href="/E-Commerce/AccountPages/ac-enquiries.html"><span>My Enquiries</span></a></li>
+                  <li><a class="menu__item" href="/E-Commerce/cartPage.html"> <img src="img/hm-51.png" alt=""><span>Cart</span></a></li>
+                  <li><a class="menu__item" href="/E-Commerce/enquiry.html"> <img src="img/hm-6.png" alt=""><span>Enquiries</span></a></li>
+                  <li><a class="menu__item" href="/E-Commerce/contactUs.html"> <img src="img/hm-7.png" alt=""><span>Contact Us</span></a></li>
+                  <li><a class="menu__item" href="/E-Commerce/aboutUs.html"> <img src="img/hm-8.png" alt=""><span>About Us</span></a></li>
+                 
+                  
+                </ul>
+              </div>
     </section>
+    
+    <script>
+    
+        function displayhm() { 
+            // $("#hm-drop").css("display"  , "block");
+            // $("#hm-drop1").css("display"  , "block");
+            // $("#hm-drop2").css("display"  , "block");
+            // $("#hm-drop3").css("display"  , "block");
+            // $("#hm-drop4").css("display"  , "block");
+            $(".drop-list").toggleClass("invisible")
+            
+         }
+    </script>
 
     <section class="content1">
         <h1>My Cart</h1>

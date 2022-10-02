@@ -3765,6 +3765,7 @@ input{
     display: block;
     position: fixed;
     overflow-x: hidden;
+    overflow-y: scroll;
     
     top: -50px;
     left: -100%;
@@ -3819,5 +3820,19 @@ input{
   }
   .menu__item:hover {
     background-color: #CFD8DC;
+  }
+  .drop-list{
+    display: none;
+    background-color: #e5e5e5;
+    transition: 1s;
+    height: 45px;
+  }
+  .drop-list a span{
+
+    left:5px;
+    bottom: 0px;
+  }
+  .invisible{
+    display: block;
   }
 }
