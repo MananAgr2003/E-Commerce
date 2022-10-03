@@ -61,7 +61,7 @@
                   <li><a class="menu__item" href="/E-Commerce"> <img src="img/hm-1.png" alt=""><span>Home</span></a></li>
                   <li><a class="menu__item" href="/E-Commerce"> <img src="img/hm-2.png" alt=""><span>Brands</span></a></li>
                   <li><a class="menu__item" href="/E-Commerce/productListing.html"> <img src="img/hm-3.png" alt=""><span>Products</span></a></li>
-                  <li id="hm-drop-main" onclick="displayhm()"><a class="menu__item" href="#"> <img src="img/hm-5.png" alt=""><span>My Profile</span></a></li>
+                  <li id="hm-drop-main" onclick="displayhm()"><a  onclick="displayhm()" class="menu__item" href="#"> <img src="img/hm-5.png" alt=""><span>My Profile</span></a></li>
                   <li class="drop-list" id="hm-drop"><a class="menu__item"  href="/E-Commerce/profile.html"><span>Account Details</span></a></li>
                   <li class="drop-list" id="hm-drop1"><a class="menu__item"  href="/E-Commerce/AccountPages/ac-order.html"><span>My Order</span></a></li>
                   <li class="drop-list" id="hm-drop2"><a class="menu__item"  href="/E-Commerce/AccountPages/ac-wish.html"><span>My Wishlist</span></a></li>
@@ -77,18 +77,7 @@
               </div>
     </section>
     
-    <script>
-    
-        function displayhm() { 
-            // $("#hm-drop").css("display"  , "block");
-            // $("#hm-drop1").css("display"  , "block");
-            // $("#hm-drop2").css("display"  , "block");
-            // $("#hm-drop3").css("display"  , "block");
-            // $("#hm-drop4").css("display"  , "block");
-            $(".drop-list").toggleClass("invisible")
-            
-         }
-    </script>
+   
 
     <section class="content1">
         <div id="banner"><img src="img/abt-banner.png" alt=""></div>
@@ -267,6 +256,19 @@
 
 
     <script src="js/two.js"></script>
+
+    <script>
+    
+        function displayhm() { 
+            // $("#hm-drop").css("display"  , "block");
+            // $("#hm-drop1").css("display"  , "block");
+            // $("#hm-drop2").css("display"  , "block");
+            // $("#hm-drop3").css("display"  , "block");
+            // $("#hm-drop4").css("display"  , "block");
+            $(".drop-list").toggleClass("invisible")
+            
+         }
+    </script>
 
 </body>
 

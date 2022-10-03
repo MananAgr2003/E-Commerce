@@ -618,9 +618,7 @@ input {
     position: relative;
     left: 0%;
   }
-  #simg{
-    /* display: none; */
-  }
+ 
   input{
     display: none;
 

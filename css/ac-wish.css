@@ -420,6 +420,13 @@
    color: white;
 
 }
+.content1 h1{
+  display: none;
+}
+#afoot{
+  display: none;
+
+}
   
   @media screen and (max-width: 768px) {
     .material-symbols-outlined {
@@ -654,9 +661,7 @@
       position: relative;
       left: 0%;
     }
-    #simg{
-      /* display: none; */
-    }
+   
     input{
       display: none;
   
@@ -715,9 +720,7 @@
         position: relative;
         left: 0%;
       }
-      #simg {
-        /* display: none; */
-      }
+     
       input {
         display: none;
       }
@@ -766,7 +769,7 @@
       }
       .content1 h1 {
         grid-column: 2 /9;
-    
+        display: block;
         grid-row: 1/ 2;
         position: relative;
         top: 40%;

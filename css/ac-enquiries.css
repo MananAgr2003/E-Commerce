@@ -682,9 +682,7 @@ h3{
     position: relative;
     left: 0%;
   }
-  #simg{
-    /* display: none; */
-  }
+
   input{
     display: none;
 
@@ -744,9 +742,7 @@ h3{
       position: relative;
       left: 0%;
     }
-    #simg {
-      /* display: none; */
-    }
+   
     input {
       display: none;
     }

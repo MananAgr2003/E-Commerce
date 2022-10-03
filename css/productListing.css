@@ -1727,9 +1727,7 @@ grid-row: 2/3;
     position: relative;
     left: 0%;
   }
-  #simg{
-    /* display: none; */
-  }
+ 
   #head-inp{
     display: none;
   }
