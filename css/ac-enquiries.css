@@ -784,7 +784,7 @@ h3{
     .content1 {
       font-family: "Montserrat", sans-serif;
       width: 100vw;
-      height: 120vh;
+      height: 105vh;
       display: grid;
       grid-template-columns: repeat(15, 1fr);
       grid-template-rows: repeat(20, 1fr);
