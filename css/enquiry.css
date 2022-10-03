@@ -707,7 +707,7 @@ label {
     left: 0%;
   }
   #simg{
-    display: none;
+    /* display: none; */
   }
   #head-sbar{
     display: none;

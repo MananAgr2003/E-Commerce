@@ -401,7 +401,7 @@
     left: 0%;
   }
   #simg{
-    display: none;
+    /* display: none; */
   }
   #search form input{
     display: none;

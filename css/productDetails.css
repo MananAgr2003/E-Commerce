@@ -1561,7 +1561,7 @@ visibility: hidden;
     left: 0%;
   }
   #simg{
-    display: none;
+    /* display: none; */
   }
   input{
     display: none;

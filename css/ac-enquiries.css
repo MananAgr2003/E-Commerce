@@ -683,7 +683,7 @@ h3{
     left: 0%;
   }
   #simg{
-    display: none;
+    /* display: none; */
   }
   input{
     display: none;
@@ -745,7 +745,7 @@ h3{
       left: 0%;
     }
     #simg {
-      display: none;
+      /* display: none; */
     }
     input {
       display: none;

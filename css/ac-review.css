@@ -659,7 +659,7 @@
       left: 0%;
     }
     #simg{
-      display: none;
+      /* display: none; */
     }
     input{
       display: none;
@@ -721,7 +721,7 @@
         left: 0%;
       }
       #simg {
-        display: none;
+        /* display: none; */
       }
       input {
         display: none;
