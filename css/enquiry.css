@@ -1285,10 +1285,12 @@ label {
     position: relative;
     top: 80%;
     }
-  input{
-    display: none;
 
+  .nav form input{
+
+    display: none;
   }
+  
   #logo {
     grid-column: 4/7;
     position: relative;
