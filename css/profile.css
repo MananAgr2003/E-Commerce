@@ -949,20 +949,32 @@ input[type="file"] {
     .horizontal-group .left {
       text-align: left;
       float: left;
-      width: 49%;
-      margin-top: 25px;
+      width: 100%;
+      margin-top: 10px;
+      position: relative;
+      top: 100%;
+      margin-bottom: 10px;
     }
     .horizontal-group .right {
-      margin-top: 25px;
-      float: right;
-      width: 49%;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      float: left;
+      width: 100%;
       position: relative;
-      left: 6%;
+      left: 0%;
+      top: 5px;
+    }
+    .shippingaddress label{
+      display: none;
+    }
+    #shippingaddress{
+      display: none;
     }
     .pay-title h1 {
-      font-size: 25px;
+      font-size: 20px;
       font-weight: 700;
       color: #424242;
+      margin-top:300px;
     }
     #payment {
       position: relative;
@@ -974,6 +986,7 @@ input[type="file"] {
       cursor: pointer;
       font-size: 17px;
     }
+    
     
     #range-label {
       width: 15%;
@@ -987,9 +1000,12 @@ input[type="file"] {
       color: #3444c5;
     }
     .signup-form .form-footer {
-      margin-top: 20%;
-      padding: 10px;
+      margin-top: 0%;
+      padding: 20px;
       text-align: right;
+        position: relative;
+    /* top: 200px; */
+    
     }
     
     .btn {
@@ -1005,6 +1021,7 @@ input[type="file"] {
       cursor: pointer;
       position: relative;
       right: 10px;
+      top: 20px;
     }
 
 
