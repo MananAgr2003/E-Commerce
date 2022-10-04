@@ -410,6 +410,7 @@ input{
 
 .content2 {
   height: 80vh;
+  
 
   display: grid;
   grid-template-rows: repeat(4, 1fr);
@@ -2776,7 +2777,9 @@ input{
   .content2 {
     grid-template-rows: repeat(5, 1fr);
     height: 45vh;
+    width: 100vw;
     padding: 0px 3% 0px 3%;
+    overflow-x: hidden;
   }
   .content2 div {
     justify-content: flex-start;
@@ -2848,8 +2851,8 @@ input{
   }
   .content3 {
     display: grid;
-    height: 75vh;
-    padding: 20px 2% 20px 2%;
+    height: 85vh;
+    padding: 20px 2% 0px 2%;
     grid-template-rows: repeat(9, 1fr);
     grid-template-columns: repeat(21, 1fr);
   }
@@ -2986,31 +2989,31 @@ input{
     grid-row: 9/10;
     grid-column: 7/16;
     position: relative;
-    top: 25%;
+    top: 8%;
   }
   #content3-c1 {
     border-radius: 50%;
-    width: 5%;
-    height: 13%;
+    width: 8%;
+    height: 20%;
     position: relative;
-    margin: 0px 3px 0px 3px;
+    margin: 0px 8px 0px 8px;
     border: 0px solid #f4f4f4;
   }
   #content3-c2 {
     border-radius: 50%;
-    width: 5%;
-    height: 13%;
+    width: 8%;
+    height: 20%;
     position: relative;
-    margin: 0px 3px 0px 3px;
+    margin: 0px 8px 0px 8px;
     border: 0px solid #f4f4f4;
   }
 
   #content3-c3 {
     border-radius: 50%;
-    width: 5%;
-    height: 13%;
+    width: 8%;
+    height: 20%;
     position: relative;
-    margin: 0px 3px 0px 3px;
+    margin: 0px 8px 0px 8px;
     border: 0px solid #f4f4f4;
   }
 
@@ -3888,13 +3891,14 @@ input{
   position: relative;
   display: none;
   max-height: 200px;
+  max-width: 300px;
  right: 5px;
  bottom: 30px;
  
 }
 .mySlides img{
   max-height: 250px;
-  min-width: 365px;
+  min-width: 315px;
 
 }
 
@@ -3917,13 +3921,14 @@ input{
 
 /* Position the "next button" to the right */
 .next {
-  right: -25px;
+  right: -40px;
+top: 95px;
   border-radius: 3px 0 0 3px;
 }
 .prev{
   position: relative;
   right: 25px;
-  bottom: 85px;
+  bottom: 125px;
 }
 /* On hover, add a black background color with a little bit see-through */
 
