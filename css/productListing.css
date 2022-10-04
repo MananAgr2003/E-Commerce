@@ -1269,7 +1269,7 @@ grid-row: 2/3;
   position: relative;
   bottom: 25%;
   z-index: 999;
-  left: -95%;
+  /* left: -95%; */
 }
 
 #scroll-btn button {
@@ -2594,6 +2594,7 @@ display:none;
     font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 48;
   }
   .nav {
+
     height: 102px;
     border: 2px solid #d0d0d0;
     background-color: #f4f4f4;

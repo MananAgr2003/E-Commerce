@@ -1547,7 +1547,7 @@ input{
 #menu__toggle{
   display: none;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 925px) {
   .material-symbols-outlined {
     font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 48;
   }
@@ -2780,6 +2780,7 @@ input{
     width: 100vw;
     padding: 0px 3% 0px 3%;
     overflow-x: hidden;
+    overflow-y: hidden;
   }
   .content2 div {
     justify-content: flex-start;
@@ -3801,7 +3802,7 @@ input{
   }
   .menu__item {
     display: block;
-    padding: 5px 24px;
+    padding: 10px 24px;
     color: black;
     font-family: 'montserrat', sans-serif;
     font-size: 16px;
@@ -3847,6 +3848,7 @@ input{
     background-color: #e5e5e5;
     transition: 1s;
     height: 45px;
+    padding-top: 8px;
   }
   .drop-list a span{
 
@@ -3891,14 +3893,14 @@ input{
   position: relative;
   display: none;
   max-height: 200px;
-  max-width: 300px;
+  max-width: 350px;
  right: 5px;
  bottom: 30px;
  
 }
 .mySlides img{
-  max-height: 250px;
-  min-width: 315px;
+  min-height: 250px;
+  min-width: 350px;
 
 }
 
@@ -3921,14 +3923,14 @@ input{
 
 /* Position the "next button" to the right */
 .next {
-  right: -40px;
-top: 95px;
+  right: -25px;
+top: 135.5px;
   border-radius: 3px 0 0 3px;
 }
 .prev{
   position: relative;
   right: 25px;
-  bottom: 125px;
+  bottom: 85px;
 }
 /* On hover, add a black background color with a little bit see-through */
 
