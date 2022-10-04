@@ -127,7 +127,7 @@ a {
   
 }
 input{
-  border-radius: 10px;
+  border-radius: 5px;
   font-family: "montserrat" , sans-serif;
   border: none;
   height: 40px;
@@ -213,6 +213,7 @@ input{
   display: grid;
   grid-template-columns: repeat(14, 1fr);
   grid-template-rows: repeat(5, 1fr);
+  height: 90%;
 }
 #pro-2 {
   grid-column: 2/10;
@@ -222,6 +223,7 @@ input{
   grid-template-rows: repeat(5, 1fr);
   position: relative;
   top: 30%;
+  height: 90%;
 }
 #pro-3 {
   grid-column: 2/10;
@@ -231,6 +233,7 @@ input{
   grid-template-rows: repeat(5, 1fr);
   position: relative;
   top: 60%;
+  height: 90%;
 }
 #pro-1 h1 {
   grid-column: 3/7;

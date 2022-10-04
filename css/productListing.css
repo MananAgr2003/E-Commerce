@@ -2124,7 +2124,7 @@ grid-row: 2/3;
     left: 38%;
   }
   #b4 {
-    grid-column: 6/11;
+    grid-column: 7/11;
     grid-row: 7/8;
 
     position: relative;
@@ -2659,4 +2659,9 @@ display:none;
 
   #bag {
     display: none;
+  }
+
+  #scroll-btn button{
+
+    height: 40px;
   }}

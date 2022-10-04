@@ -644,7 +644,7 @@ input{
 
   .content1 {
     font-family: "Montserrat", sans-serif;
-    height: 160vh;
+    height: 140vh;
     display: grid;
     grid-template-columns: repeat(15, 1fr);
     grid-template-rows: repeat(20, 1fr);

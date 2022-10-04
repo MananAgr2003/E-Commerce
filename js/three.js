@@ -12,3 +12,4 @@ $("#check-2").change(function() {
         $("#p-5").css("color" , "black");
     
 }});
+
