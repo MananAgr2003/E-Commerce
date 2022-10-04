@@ -230,7 +230,7 @@ function changeImage3() {
       document.getElementById("cat1img").src = "img/cat7.png";
       document.getElementById("cat2img").src = "img/cat5.png";
       document.getElementById("cat3img").src = "img/cat2.png";
-      document.getElementById("cat4img").src = "img/cat4.png";
+      document.getElementById("cat4img").src = "img/cat3.png";
   
   
 }
