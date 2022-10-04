@@ -1542,7 +1542,7 @@ visibility: hidden;
     font-size: clamp(13px, 1vw, 15px);
   }
 }
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 925px) {
   .material-symbols-outlined {
     font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 48;
   }
@@ -2685,7 +2685,7 @@ visibility: hidden;
   #menu__toggle{
     display: none;
   }
-  @media screen and (max-width: 725px) {
+  @media screen and (max-width: 925px) {
   .hamburger-menu{
   
 
@@ -2815,7 +2815,7 @@ visibility: hidden;
     display: block;
   }
 }
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 925px) {
   .material-symbols-outlined {
     font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 48;
   }
@@ -2886,7 +2886,7 @@ visibility: hidden;
   #bag {
     display: none;
   }}
-  @media screen and (max-width: 725px) {
+  @media screen and (max-width: 925px) {
     .material-symbols-outlined {
       font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 48;
     }

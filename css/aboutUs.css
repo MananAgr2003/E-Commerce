@@ -887,7 +887,7 @@ hr {
   }
 }
 
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 925px) {
   .material-symbols-outlined {
     font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 48;
   }
@@ -955,7 +955,7 @@ hr {
   #menu__toggle{
     display: none;
   }
-  @media screen and (max-width: 725px) {
+  @media screen and (max-width: 925px) {
   .hamburger-menu{
   
 
@@ -1085,7 +1085,7 @@ hr {
     display: block;
   }
 }
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 925px) {
   .material-symbols-outlined {
     font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 48;
   }
@@ -1157,7 +1157,7 @@ hr {
     display: none;
   }}
 
-  @media screen and (max-width: 725px) {
+  @media screen and (max-width: 925px) {
 
     .content1 {
       height: 100vh;
