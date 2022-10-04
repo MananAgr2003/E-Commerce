@@ -30,7 +30,7 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-  
+        
     <title>Document</title>
 </head>
 
@@ -151,12 +151,44 @@
             <h1> <b>Featured</b> Brands</h1>
         </div>
         <div id="content2-img"><img src="img/brands.png" alt=""></div>
-        <div id="content2-img1"><img src="img/brands-mobile.png" alt=""></div>
-        <div id="circle2">
+        <!-- <div id="content2-img1"><img src="img/brands-mobile.png" alt=""></div> -->
+     <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+       <img src="img/brands-mobile.png" style="width:100%">
+    
+    </div>
+  
+    <div class="mySlides fade">
+
+      <img src="img/p1.png" style="width:100%">
+
+    </div>
+  
+    <div class="mySlides fade">
+       <img src="img/p2.png" style="width:100%">
+      
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <!-- <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div> -->
+        <!-- <div id="circle2">
             <button onclick="location.href='/'" type="button" id="content2-c1"></button>
             <button onclick="location.href='/'" type="button" id="content2-c2"></button>
             <button onclick="location.href='/'" type="button" id="content2-c3"></button>
-        </div>
+        </div> -->
     </section>
     <section class="content3" id="content-3">
         <div id="head3">
@@ -167,16 +199,16 @@
                 dolores! Lorem ipsum dolor sit amet.</p>
         </div>
 
-        <div class="c3-categories" id="c3-categories-img1"><a href="/"><img src="img/cat1.png" alt="">
+        <div class="c3-categories" id="c3-categories-img1"><a href="/"><img src="img/cat1.png" id="cat1img"alt="">
                 <div class="cate" id="cat-1-div1"></div>
             </a></div>
-        <div class="c3-categories" id="c3-categories-img2"><a href="/"> <img src="img/cat2.png" alt="">
+        <div class="c3-categories" id="c3-categories-img2"><a href="/"> <img src="img/cat2.png" id="cat2img"alt="">
                 <div class="cate" id="cat-1-div2"></div>
             </a></div>
-        <div class="c3-categories" id="c3-categories-img3"><a href="/"> <img src="img/cat3.png" alt="">
+        <div class="c3-categories" id="c3-categories-img3"><a href="/"> <img src="img/cat3.png" id="cat3img" alt="">
                 <div class="cate" id="cat-1-div3"></div>
             </a></div>
-        <div class="c3-categories" id="c3-categories-img4"><a href="/"> <img src="img/cat4.png" alt="">
+        <div class="c3-categories" id="c3-categories-img4"><a href="/"> <img src="img/cat4.png"id="cat4img" alt="">
                 <div class="cate" id="cat-1-div4"></div>
             </a></div>
         <div class="c3-categories" id="c3-categories-img5"><a href="/"> <img src="img/cat5.png" alt="">
@@ -190,9 +222,9 @@
             </a></div>
 
         <div id="circle3">
-            <button onclick="location.href='/'" type="button" id="content3-c1"></button>
-            <button onclick="location.href='/'" type="button" id="content3-c2"></button>
-            <button onclick="location.href='/'" type="button" id="content3-c3"></button>
+            <button  type="button" onclick="changeImage1()" id="content3-c1"></button>
+            <button  type="button" onclick="changeImage2()" id="content3-c2"></button>
+            <button  type="button" onclick="changeImage3()" id="content3-c3"></button>
 
         </div>
     </section>
@@ -463,6 +495,8 @@
     </section>
 
     <script src="js/main.js"></script>
+   
+
 
     
 
