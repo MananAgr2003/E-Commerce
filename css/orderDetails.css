@@ -1486,7 +1486,7 @@ input {
   }
 
   .content3 {
-    height: 60vh;
+    height: 80vh;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(13, 1fr);
