@@ -127,6 +127,8 @@ a {
   position: relative;
   top: 23px;
   left: 18px;
+  height: 20px;
+  width: 20px;
 }
 input {
   border-radius: 10px;
@@ -1035,7 +1037,7 @@ input {
     width: 26px;
     height: 26px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 99;
   }
   .menu__btn > span,
   .menu__btn > span::before,
@@ -1243,7 +1245,7 @@ input {
     bottom: 12%;
   }
   #progress-img img {
-    height: 35%;
+    height: 45%;
     width: 95%;
   }
   #prog-lbl {
@@ -1254,8 +1256,8 @@ input {
     grid-column: 1/11;
     width: 135%;
     position: relative;
-    right: 17%;
-    bottom: -25%;
+    right: 20%;
+    bottom: -35%;
   }
   #head2 {
     grid-row: 2/3;

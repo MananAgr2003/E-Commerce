@@ -124,6 +124,8 @@ a {
   position: relative;
   top: 23px;
   left: 18px;
+  height: 20px;
+  width: 20px;
   
 }
 input{
@@ -1267,7 +1269,7 @@ grid-row: 2/3;
   grid-column: 7/14;
   grid-row: 27/28;
   position: relative;
-  bottom: 25%;
+  bottom: 15%;
   z-index: 999;
   /* left: -95%; */
 }
@@ -1412,8 +1414,8 @@ grid-row: 2/3;
   margin: 0px 2% 0px 2%;
 }
 #foot-icons a img {
-  width: 100%;
-  height: 100%;
+  width: 40px;
+  height: 40px;
 }
 #foot-links-1 {
   position: relative;
@@ -1595,7 +1597,7 @@ grid-row: 2/3;
   #foot-txt {
     position: relative;
     font-weight: 500;
-    bottom: 25%;
+    bottom: 15%;
     left: 5%;
 
     grid-column: 1/7;
@@ -1624,8 +1626,8 @@ grid-row: 2/3;
     margin: 0px 2% 0px 2%;
   }
   #foot-icons a img {
-    width: 100%;
-    height: 80%;
+    width: 40px;
+    height:40px;
   }
   #foot-links-1 {
     position: relative;
@@ -1855,7 +1857,7 @@ grid-row: 2/3;
 
 
   .content2 {
-    height: 180vh;
+    height: 150vh;
     background-color: white;
     font-family: "Montserrat", sans-serif;
   
@@ -1938,7 +1940,7 @@ grid-row: 2/3;
     position: relative;
 
     align-items: flex-start;
-    bottom: 25%;
+    bottom: 15%;
     grid-column: 1/7;
     grid-row: 4/5;
     font-size: 13px;
@@ -1992,7 +1994,7 @@ grid-row: 2/3;
     position: relative;
 
     align-items: flex-start;
-    bottom: 25%;
+    bottom: 15%;
     grid-column: 7/13;
     grid-row: 4/5;
     font-size: 13px;
@@ -2045,7 +2047,7 @@ grid-row: 2/3;
     position: relative;
 
     align-items: flex-start;
-    bottom: 25%;
+    bottom: 15%;
     grid-column: 1/7;
     grid-row: 8/9;
     font-size: 13px;
@@ -2098,7 +2100,7 @@ grid-row: 2/3;
     position: relative;
 
     align-items: flex-start;
-    bottom: 25%;
+    bottom: 15%;
     grid-column: 7/13;
     grid-row: 8/9;
     font-size: 13px;
@@ -2151,7 +2153,7 @@ grid-row: 2/3;
     position: relative;
 
     align-items: flex-start;
-    bottom: 25%;
+    bottom: 15%;
     grid-column: 1/7;
     grid-row: 12/13;
     font-size: 13px;
@@ -2204,7 +2206,7 @@ grid-row: 2/3;
     position: relative;
 
     align-items: flex-start;
-    bottom: 25%;
+    bottom: 15%;
     grid-column: 7/13;
     grid-row: 12/13;
     font-size: 13px;
@@ -2257,7 +2259,7 @@ grid-row: 2/3;
     position: relative;
 
     align-items: flex-start;
-    bottom: 25%;
+    bottom: 15%;
     grid-column: 1/7;
     grid-row: 16/17;
     font-size: 13px;
@@ -2310,7 +2312,7 @@ grid-row: 2/3;
     position: relative;
 
     align-items: flex-start;
-    bottom: 25%;
+    bottom: 15%;
     grid-column: 7/13;
     grid-row: 16/17;
     font-size: 13px;
@@ -2370,7 +2372,7 @@ display:none;
     position: relative;
 
     align-items: flex-start;
-    bottom: 25%;
+    bottom: 15%;
     grid-column: 1/7;
     grid-row: 4/5;
     font-size: 13px;
@@ -2492,7 +2494,7 @@ display:none;
   width: 26px;
   height: 26px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 99;
   
 
 }

@@ -113,6 +113,8 @@
     position: relative;
     top: 23px;
     left: 18px;
+    height: 20px;
+    width: 20px;
     
   }
   input{
@@ -446,7 +448,7 @@
   width: 26px;
   height: 26px;
   cursor: pointer;
-  z-index: 1;
+  z-index:99;
   
 
 }
