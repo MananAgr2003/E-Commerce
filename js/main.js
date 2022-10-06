@@ -203,34 +203,31 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-}
+  console.log(i);
+  console.log(n);
+  if(n == 4){
 
 
-
-function changeImage1() {
-
-      document.getElementById("cat1img").src = "img/cat1.png";
+    document.getElementById("cat1img").src = "img/cat1.png";
       document.getElementById("cat2img").src = "img/cat2.png";
       document.getElementById("cat3img").src = "img/cat3.png";
       document.getElementById("cat4img").src = "img/cat4.png";
-  
-  
-}
-function changeImage2() {
+  }
+  if(n == 2){
 
-      document.getElementById("cat1img").src = "img/cat5.png";
-      document.getElementById("cat2img").src = "img/cat6.png";
-      document.getElementById("cat3img").src = "img/cat7.png";
-      document.getElementById("cat4img").src = "img/cat2.png";
-  
-  
-}
-function changeImage3() {
+    
+    document.getElementById("cat1img").src = "img/cat5.png";
+    document.getElementById("cat2img").src = "img/cat6.png";
+    document.getElementById("cat3img").src = "img/cat7.png";
+    document.getElementById("cat4img").src = "img/cat2.png";
 
-      document.getElementById("cat1img").src = "img/cat7.png";
-      document.getElementById("cat2img").src = "img/cat5.png";
-      document.getElementById("cat3img").src = "img/cat2.png";
-      document.getElementById("cat4img").src = "img/cat3.png";
-  
-  
+  }
+
+  if(n == 3){
+    document.getElementById("cat1img").src = "img/cat4.png";
+    document.getElementById("cat2img").src = "img/cat5.png";
+    document.getElementById("cat3img").src = "img/cat7.png";
+    document.getElementById("cat4img").src = "img/cat1.png";
+  }
 }
+

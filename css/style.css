@@ -2694,7 +2694,7 @@ input{
     display: none;
   }
   .content1 {
-    padding: 15px 5% 30px 5%;
+    padding: 15px 5% 0px 5%;
     background-color: white;
     height: 75vh;
   }
@@ -3793,7 +3793,7 @@ input{
     top: -50px;
     left: -100%;
     width: 300px;
-    height: 100vh;
+    height: 150vh;
     margin: 0;
     padding: 80px 0;
     
@@ -3986,6 +3986,36 @@ top: 135.5px;
 }
 #abt{
   display: none;
+}
+
+#c3-circle{
+  grid-row: 9/10;
+  grid-column: 10/13;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.prev1{
+  grid-row: 6/7;
+  cursor: pointer;
+  color:black;
+  font-size: 25px;
+  position: relative;
+  bottom: 2px;
+}
+.next1{
+
+  grid-row: 6/7;
+  grid-column: 21/23;
+  position: relative;
+  left: 5px;
+  bottom: 4px;
+  cursor: pointer;
+  color:black;
+  font-size: 25px;
+
+
 }
   
 }
