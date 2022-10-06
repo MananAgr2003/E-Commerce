@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,33 +9,116 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Document</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <section class="nav">
-      
-      <div id="search">
-          <form action="">
-              <button href=""><img id="simg" src="img/search-sm.png" alt="">
-              </button> 
-              <input type="text" name="" id="" placeholder="Search For Items">
-          </form>
-      </div>
-      </section>
-  </body>
+        <div id="logo"><img src="img/logo.png" alt=""></div>
+        <div class="nav-item" id="home"><a href="/E-Commerce">Home</a> </div>
+        <div class="nav-item" id="brands"><a href="/E-Commerce/Nw/index.html">Brands</a> </div>
+    
+        <div class="nav-item" id="products"><a href="/E-Commerce/productListing.html">Products</a> </div>
+        <div class="nav-item" id="abt"> <a href="/E-Commerce/aboutUs.html">About Us</a> </div>
+        <div class="nav-item"><a href="/E-Commerce/contactUs.html">Contact Us</a> </div>
+        <div id="search">
+            <form action="">
+                <button href=""><img id="simg" src="img/search-sm.png" alt="">
+                </button> 
+                <input type="text" name="" id="" placeholder="Search For Items">
+            </form>
+        </div>
+        <div id="log"><a href="/E-Commerce/login.html">Login</a></div>
+        <div id="sign"><button onclick="location.href='/E-Commerce/signUp.html'" type="button" id="but">Sign Up</button>
+        </div>
+        <div id="profile"><a href="/E-Commerce/profile.html"><img src="img/Profile.png" alt=""></a></div>
+        <div id="cart"><a href="/E-Commerce/cartPage.html"><img src="img/Buy.png" alt=""></a></div>
+        <div id="bag"><a href="/E-Commerce/enquiry.html"><img src="img/Message.png" alt="">
+            </a>
+        </div>
+        <div id="menu"><span class="material-symbols-outlined">
+                menu
+            </span></div>
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+               
+            
+                <ul class="menu__box">
+                  <li><a class="menu__item" id="logo-hm" href="#"> <img src="img/logo.png" alt=""></a></li>   
+                  <li><a class="menu__item" id="logo-c-name"  href="#">Asia Pasific Group</a></li>
+                  <li><a class="menu__item" id="logo-c-name1"   href="#">Add Any Tag Line Here</a></li?
+                  <li><a class="menu__item" href="/E-Commerce"> <img src="img/hm-1.png" alt=""><span>Home</span></a></li>
+                  <li><a class="menu__item" href="/E-Commerce/Nw/index.html"> <img src="img/hm-2.png" alt=""><span>Brands</span></a></li>
+                  <li><a class="menu__item" href="/E-Commerce/productListing.html"> <img src="img/hm-3.png" alt=""><span>Products</span></a></li>
+                  <li id="hm-drop-main" onclick="displayhm()"><a class="menu__item" href="#"> <img src="img/hm-5.png" alt=""><span>My Profile</span></a></li>
+                  <li class="drop-list" id="hm-drop"><a class="menu__item"  href="/E-Commerce/profile.html"><span>Account Details</span></a></li>
+                  <li class="drop-list" id="hm-drop1"><a class="menu__item"  href="/E-Commerce/AccountPages/ac-order.html"><span>My Order</span></a></li>
+                  <li class="drop-list" id="hm-drop2"><a class="menu__item"  href="/E-Commerce/AccountPages/ac-wish.html"><span>My Wishlist</span></a></li>
+                  <li class="drop-list" id="hm-drop3"><a class="menu__item"  href="/E-Commerce/AccountPages/ac-review.html"><span>My Reviews</span></a></li>
+                  <li class="drop-list" id="hm-drop4"><a class="menu__item"  href="/E-Commerce/AccountPages/ac-enquiries.html"><span>My Enquiries</span></a></li>
+                  <li><a class="menu__item" href="/E-Commerce/cartPage.html"> <img src="img/hm-51.png" alt=""><span>Cart</span></a></li>
+                  <li><a class="menu__item" href="/E-Commerce/enquiry.html"> <img src="img/hm-6.png" alt=""><span>Enquiries</span></a></li>
+                  <li><a class="menu__item" href="/E-Commerce/contactUs.html"> <img src="img/hm-7.png" alt=""><span>Contact Us</span></a></li>
+                  <li><a class="menu__item" href="/E-Commerce/aboutUs.html"> <img src="img/hm-8.png" alt=""><span>About Us</span></a></li>
+                 
+                  
+                </ul>
+              </div>
+    </section>
+    
+    <script>
+    
+        function displayhm() { 
+            // $("#hm-drop").css("display"  , "block");
+            // $("#hm-drop1").css("display"  , "block");
+            // $("#hm-drop2").css("display"  , "block");
+            // $("#hm-drop3").css("display"  , "block");
+            // $("#hm-drop4").css("display"  , "block");
+            $(".drop-list").toggleClass("invisible")
+            
+         }
+    </script>
+
+
+    <section class="content2">
+
+        <div class="box">
+            <div id="search1">
+                <a href=""><img src="img/search-sm.png" alt="">
+                </a>
+            </div>
+            <form name="search-list">
+                <input type="text" class="input" name="txt" onmouseout="this.value = ''; this.blur();"
+                    placeholder="             Search">
+            </form>
+            <!-- <div id="filter"><img src="img/filter.png" alt=""></div> -->
+            <!-- <div class="hotp">
+            <input type="checkbox" name="" id="hp">
+            <p id="hp1">Hot Products</p>
+            </div> -->
+     </div>
+    </section>
+            
+     
+
+
+
+    <script src="js/three.js"></script>
+
+
+
+</body>
+
 </html>
