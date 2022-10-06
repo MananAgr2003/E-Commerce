@@ -205,7 +205,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   console.log(i);
   console.log(n);
-  if(n == 4){
+  if(n == 4 || n == 0){
 
 
     document.getElementById("cat1img").src = "img/cat1.png";
@@ -223,7 +223,7 @@ function showSlides(n) {
 
   }
 
-  if(n == 3){
+  if(n == 3 || n==1){
     document.getElementById("cat1img").src = "img/cat4.png";
     document.getElementById("cat2img").src = "img/cat5.png";
     document.getElementById("cat3img").src = "img/cat7.png";

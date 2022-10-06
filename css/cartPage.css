@@ -741,7 +741,7 @@ input{
     color: #909090;
     font-size: clamp(12px, 1vw, 16px);
     position: relative;
-    bottom:-20px;
+    bottom:-10px;
     left: -12px;
   }
   #p2 {
@@ -803,7 +803,7 @@ input{
     font-weight: 700;
     position: relative;
     top: -35%;
-    right: 20%;
+    right: 10%;
   width: 110%;
   
   }
