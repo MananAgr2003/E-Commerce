@@ -651,4 +651,16 @@
 
   #bag {
     display: none;
+  }
+  #home{
+    display: none;
+  }
+  #brands{
+    display: none;
+  }
+  #products{
+    display: none;
+  }
+  #abt{
+    display: none;
   }}

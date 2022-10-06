@@ -354,7 +354,7 @@ h3{
 }
 #p7{
  
-    text-align: right;
+    text-align: left;
  grid-column: 14/15;
   grid-row: 2/3;
   color: #3444c5;
@@ -927,7 +927,7 @@ h3{
       display: none;
     }
     #p7 {
-      text-align: right;
+      text-align: left;
       grid-column: 10/12;
       margin-top: 10px;
       margin-bottom: 10px;
@@ -1441,5 +1441,17 @@ h3{
   }
 
   #bag {
+    display: none;
+  }
+  #home{
+    display: none;
+  }
+  #brands{
+    display: none;
+  }
+  #products{
+    display: none;
+  }
+  #abt{
     display: none;
   }}

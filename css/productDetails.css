@@ -301,6 +301,22 @@ justify-content: flex-start;
   background-color: yellowgreen;
 }
 
+.slideshow-container{
+  display: none;
+}
+.mySlides{
+  display: none;
+}
+.mySlides img{
+  display: none;
+}
+.next{
+  display: none;
+}
+.prev{
+  display: none;
+}
+
 .dropbtn {
   background-color: #3444c5;
   color: white;
@@ -1637,6 +1653,8 @@ visibility: hidden;
     width: 100%;
     height: 100%;
   }
+
+  
   #head1 {
     grid-column: 1/15;
     grid-row: 6/7;
@@ -1644,6 +1662,10 @@ visibility: hidden;
     position: relative;
     right: 0%;
     top: 10%;
+  }
+
+  #banner-img{
+    display: none;
   }
   
   /************************************* Heart ********************************/
@@ -2958,4 +2980,133 @@ visibility: hidden;
   
     #bag {
       display: none;
-    }}
+    }
+    .slideshow-container{
+      display: block;
+    }
+    .mySlides{
+      display: block;
+    }
+    .mySlides img{
+      display: block;
+    }
+    .next{
+      display: block;
+    }
+    .prev{
+      display: block;
+    }
+    * {box-sizing:border-box}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    grid-column: 1/15;
+    grid-row: 1/7;
+    width: 350px;
+    height: 200px;
+    position: relative;
+    right: 10px;
+    margin: auto;
+    z-index: -11;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    position: relative;
+    
+    max-height: 550px;
+    max-width: 550px;
+   right: 5px;
+   bottom: 100px;
+   
+  }
+  .mySlides img{
+    max-height: 325px;
+    width: 380px;
+  
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+  
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    padding-right:0px ;
+    right: -40px;
+  top: 55.5px;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev{
+  
+    position: relative;
+    right: 35px;
+    top: -265px;
+  
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  
+
+  
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#home{
+  display: none;
+}
+#brands{
+  display: none;
+}
+#products{
+  display: none;
+}
+#abt{
+  display: none;
+}
+  }

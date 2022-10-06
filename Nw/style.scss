@@ -1,0 +1,125 @@
+body{
+    font-family: sans-serif;
+}
+main{
+    padding: 1rem;
+    h3{
+        font-size: 45px;
+        font-weight: 600;
+        display: flex;
+        gap: .5rem;
+        .FBB831{
+            color: #FBB831;
+        }
+    }
+    .content{
+        .container{
+            h4{
+                font-size: 30px;
+                font-weight: 600;
+            }
+            .flex{
+                display: grid;
+                .box{
+                    border: 1px solid #E9E9E9;
+                    padding: .5rem 1rem;
+                    margin: .5rem;
+                    overflow: hidden;
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        margin: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (max-width:1100px) {
+    .flex{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+}
+@media  screen and (max-width:1000px) {
+    .flex{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}
+@media  screen and (max-width:900px) {
+    .flex{
+        display: grid;
+        grid-template-columns: auto auto auto; 
+    }
+}
+@media  screen and (max-width:800px) {
+    .flex{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+@media  screen and (min-width:1100px) {
+    .flex{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+}
+@media  screen and (min-width:1300px) {
+    .flex{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+}
+@media  screen and (min-width:1400px) {
+    .flex{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    }
+}
+@media  screen and (max-width:600px) {
+    main{
+        padding: .2rem;
+        h3{
+            font-size: 20px;
+            font-weight: 600;
+            display: flex;
+            gap: .5rem;
+            .FBB831{
+                color: #FBB831;
+            }
+        }
+        .content{
+            .container{
+                h4{
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+                .flex{
+                    display: grid;
+                    .box{
+                        border: 1px solid #E9E9E9;
+                        padding: .5rem 1rem;
+                        margin: .2rem;
+                        overflow: hidden;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            margin: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .flex{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+@media  screen and (max-width:400px) {
+    .flex{
+        display: grid;
+        grid-template-columns: auto auto; 
+    }
+}

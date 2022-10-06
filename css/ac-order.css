@@ -820,7 +820,7 @@ h3 {
 
   #p1 {
     grid-column: 2/9;
-    grid-row: 6/7;
+    grid-row: 5/6;
     color: #909090;
     font-size: clamp(12px, 1vw, 16px);
     position: relative;
@@ -856,12 +856,12 @@ h3 {
   }
   #p5 {
     grid-column: 8/13;
-    grid-row: 5/6;
+    grid-row: 4/5;
     color: black;
     font-size: clamp(14px, 1vw, 18px);
     position: relative;
     left: -20px;
-    bottom: 50px;
+    bottom: 30px;
     width: 110px;
 
     /* display: none; */
@@ -877,7 +877,7 @@ h3 {
     display: none;
   }
   #p7 {
-    text-align: right;
+    text-align: left;
     grid-column: 10/12;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -887,17 +887,17 @@ h3 {
     font-weight: 700;
     position: relative;
     top: -40%;
-    right: 83px;
+    right: 78px;
     width: 110%;
   }
   #p8 {
     grid-column: 8/13;
-    grid-row: 10/11;
+    grid-row: 5/6;
     color: #3444c5;
     font-size: clamp(18px, 1vw, 22px);
     position: relative;
     left: 85px;
-    bottom: 10px;
+    bottom: -10px;
     width: 110px;
   }
 
@@ -1297,5 +1297,17 @@ h3 {
   }
 
   #bag {
+    display: none;
+  }
+  #home{
+    display: none;
+  }
+  #brands{
+    display: none;
+  }
+  #products{
+    display: none;
+  }
+  #abt{
     display: none;
   }}

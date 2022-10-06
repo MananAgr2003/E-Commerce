@@ -1025,6 +1025,17 @@ input[type="file"] {
       right: 10px;
       top: 20px;
     }
-
+    #home{
+      display: none;
+    }
+    #brands{
+      display: none;
+    }
+    #products{
+      display: none;
+    }
+    #abt{
+      display: none;
+    }
 
   }

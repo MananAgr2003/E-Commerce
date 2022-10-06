@@ -3974,5 +3974,18 @@ top: 135.5px;
   from {opacity: .4}
   to {opacity: 1}
 }
+
+#home{
+  display: none;
+}
+#brands{
+  display: none;
+}
+#products{
+  display: none;
+}
+#abt{
+  display: none;
+}
   
 }

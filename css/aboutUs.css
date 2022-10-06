@@ -1473,7 +1473,18 @@ hr {
       height: 100%;
       margin-left: 0px;
     }
-    
+    #home{
+      display: none;
+    }
+    #brands{
+      display: none;
+    }
+    #products{
+      display: none;
+    }
+    #abt{
+      display: none;
+    }
 
   }
 

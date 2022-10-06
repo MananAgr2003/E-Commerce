@@ -844,8 +844,8 @@ input[type="file"] {
     height: 80%;
   }
   #footLogo img {
-    width: 80%;
-    height: 90%;
+    width: 100px;
+    height: 190px;
   }
 
   #foot-txt {
@@ -1558,5 +1558,17 @@ input[type="file"] {
   }
 
   #bag {
+    display: none;
+  }
+  #home{
+    display: none;
+  }
+  #brands{
+    display: none;
+  }
+  #products{
+    display: none;
+  }
+  #abt{
     display: none;
   }}

@@ -1231,7 +1231,7 @@ input {
     grid-column: 1/6;
     position: relative;
     /* right: 4%; */
-    top: 7%;
+    top: 13%;
   }
   #product-img img {
     height: 100%;
@@ -1258,13 +1258,14 @@ input {
     position: relative;
     right: 20%;
     bottom: -35%;
+    
   }
   #head2 {
     grid-row: 2/3;
     grid-column: 6/12;
     position: relative;
     right: -5%;
-    top: 10%;
+    top: 30%;
     display: block;
     font-size: 18px;
   }
@@ -1295,7 +1296,7 @@ input {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
     position: relative;
-    top: -30px;
+    top: -10px;
     border-bottom: none;
   }
 
@@ -1307,6 +1308,7 @@ input {
     font-size: clamp(16px, 1vw, 20px);
     position: relative;
     left: 20px;
+
   }
 
   #p2 {
@@ -1560,5 +1562,17 @@ input {
     grid-column: 1/6;
     grid-row: 10/11;
 
+  }
+  #home{
+    display: none;
+  }
+  #brands{
+    display: none;
+  }
+  #products{
+    display: none;
+  }
+  #abt{
+    display: none;
   }
 }
