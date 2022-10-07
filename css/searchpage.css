@@ -2685,7 +2685,11 @@
     }
     #abt{
       display: none;
-    }}
+    }
+    #footLogo img {
+      height: 100px;
+      width: 190px;
+      }}
 
     #simg{
         display: none;

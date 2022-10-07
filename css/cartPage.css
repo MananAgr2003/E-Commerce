@@ -741,7 +741,7 @@ input{
     color: #909090;
     font-size: clamp(12px, 1vw, 16px);
     position: relative;
-    bottom:-10px;
+    bottom:-18px;
     left: -12px;
   }
   #p2 {
@@ -803,7 +803,7 @@ input{
     font-weight: 700;
     position: relative;
     top: -35%;
-    right: 10%;
+    right: 0%;
   width: 110%;
   
   }
@@ -1216,4 +1216,8 @@ input{
   }
   #abt{
     display: none;
-  }}
+  }
+  #footLogo img {
+    height: 100px;
+    width: 190px;
+    }}

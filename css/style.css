@@ -3963,6 +3963,22 @@ top: 135.5px;
 .active, .dot:hover {
   background-color: #717171;
 }
+.dot1 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot1:hover {
+  background-color: #717171;
+}
+
+
 
 /* Fading animation */
 .fade {
