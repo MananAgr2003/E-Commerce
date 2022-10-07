@@ -190,6 +190,9 @@ input{
   height: 24px;
 
 }
+#search-mobile{
+  display: none;
+}
 .content1 {
   display: none;
   height: 100vh;
@@ -4033,5 +4036,34 @@ top: 135.5px;
 
 
 }
+#simg
+{
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+  z-index: 1;
+}
+.hamburger-menu{
+  z-index: 9999999;
+}
+#search{
+  z-index: 9999;
+}
+ #search form button{
+  /* display: none; */
+  z-index: 1;
+ }
+ #search-mobile{
+  display: block;
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  
+  
+  z-index: 9999999999;
+  position: relative;
+  top: 15px;
+  
+ } 
   
 }

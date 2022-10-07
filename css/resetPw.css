@@ -211,6 +211,10 @@
     margin-bottom: clamp(5px,1vw,10px);
     line-height: clamp(25px,1vw,35px);
   }
+
+  #search-mobile{
+    display: none;
+  }
   
   
   label{
@@ -667,4 +671,33 @@
   #footLogo img {
     height: 100px;
     width: 190px;
-    }}
+    }
+    #simg
+    {
+      position: relative;
+      left: 10px;
+      bottom: 10px;
+      z-index: 1;
+    }
+    .hamburger-menu{
+      z-index: 9999999;
+    }
+    #search{
+      z-index: 9999;
+    }
+     #search form button{
+      /* display: none; */
+      z-index: 1;
+     }
+     #search-mobile{
+      display: block;
+      height: 30px;
+      width: 30px;
+      background-color: transparent;
+      
+      
+      z-index: 9999999999;
+      position: relative;
+      top: 15px;
+      
+     } }

@@ -127,6 +127,10 @@
     height: 20px;
     width: 20px;
   }
+
+  #search-mobile{
+    display: none;
+  }
   input{
     border-radius: 10px;
     font-family: "montserrat" , sans-serif;
@@ -714,4 +718,33 @@
   #footLogo img {
     height: 100px;
     width: 190px;
-    }}
+    }
+    #simg
+    {
+      position: relative;
+      left: 10px;
+      bottom: 10px;
+      z-index: 1;
+    }
+    .hamburger-menu{
+      z-index: 9999999;
+    }
+    #search{
+      z-index: 9999;
+    }
+     #search form button{
+      /* display: none; */
+      z-index: 1;
+     }
+     #search-mobile{
+      display: block;
+      height: 30px;
+      width: 30px;
+      background-color: transparent;
+      
+      
+      z-index: 9999999999;
+      position: relative;
+      top: 15px;
+      
+     } }
