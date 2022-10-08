@@ -1463,6 +1463,9 @@ h3{
     height: 100px;
     width: 190px;
     }
+    .footer{
+      background-image: url("../img/foot1.png");
+     }
   }
   #simg
   {

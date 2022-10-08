@@ -888,6 +888,10 @@ bottom: 10px;}
     display: block;
   }
 
+  .footer{
+    background-image: url("../img/foot1.png");
+   }
+
 
 }
 

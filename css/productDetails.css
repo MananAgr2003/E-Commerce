@@ -233,6 +233,7 @@ input {
   cursor: pointer;
   position: relative;
   bottom:30%;
+  z-index: 9999;
 }
 
 .animate {
@@ -2021,7 +2022,7 @@ visibility: hidden;
       width: 80%;
       position: relative;
       bottom: 15%;
-      display: none;
+      
   }
   #down img{
       width: 100%;
@@ -2043,7 +2044,7 @@ visibility: hidden;
   }
 
   .content2 {
-    height: 130vw;
+    height: 100vw;
     /* display: block; */
     /* display: grid; */
     grid-template-columns: repeat(10 , 1fr);
@@ -2055,7 +2056,7 @@ visibility: hidden;
     
   }
   .content2-null {
-    height: 15vw;
+    height: 45vw;
     /* display: block; */
     /* display: grid; */
     grid-template-columns: repeat(10 , 1fr);
@@ -2063,6 +2064,7 @@ visibility: hidden;
     padding: 0px 5% 0px 5%;
     font-family: "Montserrat", sans-serif;
     position: relative;
+    bottom: 80px;
     font-size: clamp(12px, 1vw, 16px);
   display: none;
     
@@ -2090,6 +2092,8 @@ visibility: hidden;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(14 , 1fr);
     padding: 0px 4% 0px 4%;
+    position: relative;
+    bottom: 40px;
   }
  #c4-hr{
   z-index: 9999;
@@ -2099,7 +2103,7 @@ visibility: hidden;
   grid-column: 1/15;
   height: 8%;
   position: relative;
-  top: 50%;
+  top: 10%;
  }
   #view {
     display: none;
@@ -3010,8 +3014,9 @@ visibility: hidden;
     position: relative;
     right: 10px;
     margin: auto;
-    z-index: -11;
+    z-index: 11;
   }
+
   
   /* Hide the images by default */
   .mySlides {
@@ -3039,25 +3044,29 @@ visibility: hidden;
     margin-top: -22px;
     padding: 16px;
     color: black;
+   
+    
     font-weight: bold;
-    font-size: 25px;
+    font-size: 35px;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    border-radius: 50%;
     user-select: none;
+    z-index: 99999999999999999;
   }
   
   /* Position the "next button" to the right */
   .next {
     padding-right:0px ;
-    right: -40px;
+    right: -30px;
   top: 55.5px;
     border-radius: 3px 0 0 3px;
   }
   .prev{
   
     position: relative;
-    right: 35px;
-    top: -265px;
+    right: 25px;
+    top: -240px;
+    width: 10%;
   
   }
   /* On hover, add a black background color with a little bit see-through */
@@ -3145,6 +3154,10 @@ visibility: hidden;
     top: 15px;
     
    } 
+
+   .footer{
+    background-image: url("../img/foot1.png");
+   }
   }
 
   .lock-scroll {

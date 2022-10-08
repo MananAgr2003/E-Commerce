@@ -1955,11 +1955,11 @@
           bottom: 7px;
         }
         .form-body .form-input {
-          font-size: 10px;
+          font-size: 18px;
           font-weight: 500;
           box-sizing: border-box;
-          width: 100%;
-          height: 34px;
+          width: 110%;
+          height: 51px;
           padding-left: 30px;
         
           color: #3444c5;
@@ -2230,6 +2230,9 @@
           color: white;
           border: none;
       }
+      .footer{
+        background-image: url("../img/foot1.png");
+       }
     
       }
       .lock-scroll {

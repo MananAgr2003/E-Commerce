@@ -4074,6 +4074,10 @@ top: 135.5px;
  .next1{
   display: block;
  }
+
+ .footer{
+  background-image: url("../img/foot1.png");
+ }
   
 }
 

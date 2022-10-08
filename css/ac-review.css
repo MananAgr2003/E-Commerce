@@ -820,7 +820,7 @@
         color: #3444c5;
         font-size: clamp(16px, 1vw, 20px);
         position: relative;
-        left: -10px;
+        left: -20px;
         top: 0px;
       }
       #pro-2 h1 {
@@ -1394,7 +1394,10 @@
       position: relative;
       top: 15px;
       
-     } }
+     } 
+     .footer{
+      background-image: url("../img/foot1.png");
+     }}
 
      .lock-scroll {
       overflow: hidden;

@@ -1351,7 +1351,10 @@ h3 {
       position: relative;
       top: 15px;
       
-     } }
+     } 
+     .footer{
+      background-image: url("../img/foot1.png");
+     }}
      .lock-scroll {
       overflow: hidden;
     }
