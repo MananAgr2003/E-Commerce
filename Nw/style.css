@@ -686,7 +686,7 @@ bottom: 10px;}
     font-weight: 550;
   }
   #foot-links-1 a {
-    margin: 0% 0px 0% 0px;
+    margin: -2% 0px -3% 0px;
     font-size: clamp(14px, 1vw, 16px);
 
     color: white;
@@ -699,15 +699,15 @@ bottom: 10px;}
     width: 90%;
     position: relative;
     bottom: 64%;
-    left: 30%;
+    left: 50%;
     align-items: flex-start;
     justify-content: flex-start;
-    grid-column: 2/6;
+    grid-column: 2/5;
     grid-row: 6/11;
     font-weight: 550;
   }
   #foot-links-2 a {
-    margin: 0% 0px 0% 0px;
+    margin: -2% 0px -3% 0px;
     font-size: clamp(14px, 1vw, 16px);
     width: 100%;
 

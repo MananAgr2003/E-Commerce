@@ -297,7 +297,7 @@
     color: #909090;
     font-size: clamp(12px, 1vw, 16px);
     position: relative;
-    bottom:15px;
+    bottom:0px;
     left: 20px;
   }
   #p2 {
@@ -787,10 +787,11 @@
         grid-row: 2/7;
         display: grid;
         grid-template-columns: repeat(14, 1fr);
-        grid-template-rows: repeat(9, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         position: relative;
         top: 15%;
         border-bottom: 3px solid #909090;
+        height: 80%;
       }
       #pro-2 {
         grid-column: 1/16;
@@ -845,7 +846,8 @@
       #p-star{
         position: relative;
        left: 15px;
-      grid-row: 3/5;
+       bottom: 60px;
+      grid-row: 3/4;
       grid-column: 7/11;
      }
       #p1 {
@@ -854,7 +856,7 @@
         color: #909090;
         font-size: clamp(12px, 1vw, 16px);
         position: relative;
-        bottom: 0px;
+        bottom:25px;
         left: 17px;
       }
       #p2 {
@@ -930,17 +932,18 @@
       }
 
       #p9{
-        grid-column: 1/13;
-        grid-row: 6/19;
+        grid-column: 1/14;
+        grid-row:4/6;
         position: relative;
         left: 15px;
-        font-size: 14px;
+        font-size: 16px;
       
       }
       #p10{
         color: #1bc150;
         position: relative;
         left: 18px;
+        bottom: 80px;
        grid-row: 4/5;
        grid-column: 7/11;
       }
@@ -958,7 +961,7 @@
         /* display: none; */
       }
       #img1 {
-        grid-row: 1/6;
+        grid-row: 1/4;
     
         grid-column: 1/8;
         position: relative;

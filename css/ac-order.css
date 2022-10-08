@@ -751,6 +751,8 @@ h3 {
     grid-row: 1/ 2;
     position: relative;
     top: 40%;
+
+    right: 15px;
     visibility: visible;
   }
 
@@ -765,6 +767,7 @@ h3 {
     grid-template-rows: repeat(5, 1fr);
     position: relative;
     top: 15%;
+    right: 15px;
     border-bottom: 3px solid #909090;
     height: 90%;
   }
@@ -776,6 +779,7 @@ h3 {
     grid-template-rows: repeat(5, 1fr);
     position: relative;
     top: 15%;
+    right: 15px;
     border-bottom: 3px solid #909090;
     height: 90%;
   }
@@ -787,6 +791,7 @@ h3 {
     grid-template-rows: repeat(5, 1fr);
     position: relative;
     top: 25%;
+    right: 15px;
     border-bottom: 3px solid #909090;
     height: 90%;
   }
@@ -827,7 +832,7 @@ h3 {
     color: #909090;
     font-size: clamp(12px, 1vw, 16px);
     position: relative;
-    bottom: -10px;
+    bottom: -5px;
     left: 0px;
   }
   #p2 {
@@ -900,7 +905,7 @@ h3 {
     font-size: clamp(18px, 1vw, 22px);
     position: relative;
     left: 85px;
-    bottom: -10px;
+    bottom: -5px;
     width: 110px;
   }
 
