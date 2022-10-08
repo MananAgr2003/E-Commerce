@@ -1344,9 +1344,9 @@
 
     #bill{
       position: relative;
-     top: -60%;
-      left: 120%;
-    height: 30%;
+     top: -70%;
+      left: 130%;
+    height: 35%;
     width: 20vw;
    
      }
@@ -2211,7 +2211,7 @@
           background-color: #1bc150;
           margin: 0px 20px 20px 0px; 
           height: 60px;
-          width: 116vw;
+          width: 110vw;
           position: relative;
           top: 20px;          
         }
