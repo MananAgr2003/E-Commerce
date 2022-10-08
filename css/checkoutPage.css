@@ -363,8 +363,7 @@
   }
 
   #bill{
-    grid-row: 2/6;
-    grid-column: 11/17;
+
     box-shadow: 0px 10px 5px #00000033;
     border-radius: 10px;
     position: relative;
@@ -376,9 +375,7 @@
     flex-direction: column;
    color: #3444c5;
     font-family: "Montserrat", sans-serif;
-    min-width: 380px;
-    max-width: 500px;
-    height: 110%;
+  
     
 }
 #p-1{
@@ -902,9 +899,7 @@
     flex-direction: column;
    color: #3444c5;
     font-family: "Montserrat", sans-serif;
-    min-width: 100%;
-    max-width: 100%;
-    height: 90%;
+   
     border-top: 2px solid #737b7d;
     /* display: none; */
   }
@@ -991,3 +986,1103 @@
       top: 15px;
       
      } }
+
+
+
+
+     /****************************************************/
+
+     
+     * {
+      margin: 0;
+      padding: 0;
+    }
+    button:hover {
+      cursor: grab;
+    }
+    .nav {
+      background-color: #f4f4f4;
+      display: grid;
+      grid-template-columns: repeat(16, 1fr);
+      height: 92px;
+      border-bottom: 3.5px solid black;
+      font-family: "Montserrat", sans-serif;
+      font-size: clamp(8px, 1vw, 20px);
+      font-weight: 700;
+    }
+    .nav div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    
+    .nav-item {
+      position: relative;
+      /* left: 80%; */
+    }
+    
+    .nav-item::after {
+      content: "";
+      width: 0%;
+      height: 2px;
+      background: #3444c5;
+    
+      position: relative;
+      transition: 0.2s;
+      top: 9%;
+    }
+    .nav-item:hover::after {
+      color: #3444c5;
+      width: 70%;
+    }
+    
+    .nav-item:hover a {
+      color: #3444c5;
+    }
+    
+    #logo {
+      grid-column: 1 /3;
+    }
+    #logo img {
+      height: 92px;
+    }
+    #home {
+      position: relative;
+      /* left: 95%; */
+    }
+    #brands {
+      position: relative;
+      right: 20%;
+    }
+    #sign {
+      grid-column: 13/15;
+      position: relative;
+      left: 25%;
+    
+      width: 60%;
+    }
+    #sign button {
+      font-family: "Montserrat", sans-serif;
+    
+      font-weight: 700;
+    
+      color: white;
+    
+      background-color: #3444c5;
+      width: 100%;
+      height: 40px;
+      border: 0px;
+      border-radius: 5px;
+      font-size: clamp(12px, 1vw, 14x);
+    }
+    #products {
+      position: relative;
+      /* left: 85%; */
+      right: 24%;
+    }
+    #abt {
+      position: relative;
+      /* left: 85%; */
+      right: 18%;
+    }
+    
+    #log {
+      grid-column: 12/13;
+      position: relative;
+      left: 35%;
+    }
+    #log a {
+      color: #3444c5;
+    }
+    #menu {
+      display: none;
+    }
+    #search {
+      grid-column: 8/10;
+      position: relative;
+      left: 15%;
+      top: 0%;
+    }
+    #search button {
+      background-color: transparent;
+      border: none;
+    }
+    #simg {
+      z-index: 99;
+      position: relative;
+      top: 23px;
+      left: 18px;
+      height: 20px;
+      width: 20px;
+    }
+    #search-mobile{
+      display: none;
+    }
+    input {
+      border-radius: 10px;
+      font-family: "montserrat", sans-serif;
+      border: none;
+      height: 40px;
+      width: 180%;
+      position: relative;
+      bottom: 20%;
+      z-index: 0;
+      padding-left: 50px;
+    }
+    
+    .material-symbols-outlined {
+      font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 48;
+    }
+    
+    .material-symbols-outlined {
+      font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+    }
+    
+    .material-symbols-outlined {
+      font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+    }
+    #profile {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      grid-column: 15/ 16;
+      position: relative;
+      right: 20%;
+      top: 1%;
+    }
+    #profile a img {
+      width: 24px;
+      height: 24px;
+    }
+    #bag {
+      grid-column: 17 / 18;
+    
+      position: relative;
+      right: 175%;
+    }
+    #cart {
+      grid-column: 16/ 17;
+      position: relative;
+      right: 50%;
+    }
+    #cart a img {
+      width: 24px;
+      height: 24px;
+    }
+    .left {
+      text-align: left;
+      font-family: "Montserrat", sans-serif;
+      width: 50%;
+      /* text-align: center; */
+      /* display: noen; */
+    }
+    #links {
+      margin-left: 5%;
+      margin-top: 17px;
+      position: relative;
+      left: 4%;
+      display: none;
+    }
+    #links div {
+      margin: 20px 0px 20px 0px;
+    }
+    .fullpage {
+      display: flex;
+      width: 100%;
+    }
+    .left a {
+      text-decoration: none;
+      color: #8b8b8b;
+      margin-top: 7%;
+      padding-top: 5%;
+      display: none;
+    }
+    .left a h1 {
+      font-size: 40px;
+      color: #fbb831;
+    }
+    .shippingaddress {
+      width: 106%;
+    }
+    #l1 {
+      color: black;
+    }
+    .signup-form {
+      font-family: "Montserrat", sans-serif;
+      width: 630px;
+      margin: 8px;
+      padding-right: 20px;
+    
+      border-radius: 10px;
+      position: relative;
+      top: 15px;
+      left: 80px;
+    }
+    .signup-form a {
+      margin: 0;
+      float: right;
+      position: relative;
+      left: 28px;
+    }
+    #fp1 {
+      position: relative;
+      top: 33px;
+    }
+    .signup-form a:hover {
+      color: #3444c5;
+    }
+    
+    .form-header h1 {
+      font-size: 30px;
+      padding: 20px 0;
+    }
+    .form-body {
+      padding: 10px 0px;
+      /* color: #666; */
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .form-body .label-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #424242;
+      position: relative;
+      bottom: 7px;
+    }
+    .form-body .form-input {
+      font-size: 18px;
+      font-weight: 500;
+      box-sizing: border-box;
+      width: 100%;
+      height: 44px;
+      padding-left: 30px;
+    
+      color: #3444c5;
+      text-align: left;
+      border: 1px solid #eeeeee;
+      border-radius: 4px;
+      background: white;
+      outline: none;
+    }
+    .form-input:focus {
+      padding-left: 20px;
+    }
+    
+    .horizontal-group .left {
+      text-align: left;
+      float: left;
+      width: 49%;
+      margin-top: 25px;
+    }
+    .horizontal-group .right {
+      margin-top: 25px;
+      float: right;
+      width: 49%;
+      position: relative;
+      left: 6%;
+    }
+    .pay-title h1 {
+      font-size: 25px;
+      font-weight: 700;
+      color: #424242;
+    }
+    #payment {
+      position: relative;
+      bottom: 12%;
+    }
+    
+    input[type="file"] {
+      outline: none;
+      cursor: pointer;
+      font-size: 17px;
+    }
+    
+    #range-label {
+      width: 15%;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 17px;
+      position: relative;
+      top: -8px;
+    }
+    ::-webkit-input-placeholder {
+      color: #3444c5;
+    }
+    .signup-form .form-footer {
+      margin-top: 20%;
+      padding: 10px;
+      text-align: right;
+    }
+    
+    .btn {
+      width: 109.5%;
+      height: 54px;
+      display: inline-block;
+    
+      background-color: #3444c5;
+      font-size: 17px;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+      position: relative;
+      right: 10px;
+    }
+
+    #bill{
+      position: relative;
+     top: 0%;
+      left: 0%;
+    /* height: 130%; */
+    width: 30vw;
+   
+     }
+    
+    /* .btn:hover {
+      background-color: rebeccapurple;
+      color: white;
+    } */
+    @media (max-width: 700px) {
+      .signup-form {
+        margin: auto;
+      }
+    
+      .form-body {
+        padding-left: 0%;
+      }
+      .form-body .input {
+        margin: right 5%;
+        width: 94%;
+      }
+      .horizontal-group .left {
+        float: left;
+        width: 100%;
+      }
+      .horizontal-group .right {
+        float: left;
+        width: 100%;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 48;
+      }
+      .nav {
+        height: 102px;
+        border: 2px solid #d0d0d0;
+        background-color: #f4f4f4;
+      }
+    
+      .nav-item a {
+        display: none;
+      }
+      #search {
+        grid-column: 13/14;
+        position: relative;
+        left: 0%;
+      }
+      #logo {
+        position: relative;
+        left: 50%;
+      }
+      #menu {
+        grid-column: 16/17;
+        position: relative;
+        right: 35%;
+        top: 1%;
+        display: flex;
+      }
+      #cart {
+        grid-column: 15/ 16;
+        position: relative;
+        top: 2%;
+        right: 60%;
+      }
+      #log {
+        display: none;
+      }
+      #sign {
+        display: none;
+      }
+    
+      #bag {
+        display: none;
+      }
+    
+      .footer {
+        height: 90vh;
+      }
+      #line1 {
+        display: none;
+        height: 0px;
+        border-bottom: 4px solid white;
+        border-top: 0.2px solid white;
+        grid-column: 3/4;
+        grid-row: 2/3;
+        position: relative;
+        top: 20%;
+        width: 85%;
+      }
+      #line2 {
+        display: none;
+        height: 0px;
+        border-bottom: 4px solid white;
+        border-top: 0.2px solid white;
+        grid-column: 4/6;
+        grid-row: 2/3;
+        position: relative;
+        top: 20%;
+    
+        width: 75%;
+      }
+      #line3 {
+        display: none;
+        height: 0px;
+        border-bottom: 4px solid white;
+        border-top: 0.2px solid white;
+        grid-column: 5/7;
+        grid-row: 2/3;
+        position: relative;
+        top: 20%;
+        left: 30%;
+    
+        width: 60%;
+      }
+      #footLogo {
+        grid-column: 1/6;
+        grid-row: 1/2;
+        position: relative;
+        right: 5%;
+        top: 5%;
+        height: 80%;
+      }
+      #footLogo img {
+        width: 80%;
+        height: 90%;
+      }
+    
+      #foot-txt {
+        position: relative;
+        font-weight: 500;
+        bottom: 25%;
+        left: 5%;
+    
+        grid-column: 1/7;
+        grid-row: 2/3;
+        width: 90%;
+      }
+    
+      #foot-icons {
+        flex-direction: row;
+        grid-row: 3/4;
+        grid-column: 1/6;
+        width: 150%;
+    
+        position: relative;
+        bottom: 10%;
+        right: 42%;
+      }
+    
+      #foot-icons a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 8%;
+        height: 80%;
+        margin: 0px 2% 0px 2%;
+      }
+      #foot-icons a img {
+        width: 100%;
+        height: 80%;
+      }
+      #foot-links-1 {
+        position: relative;
+        bottom: 65%;
+        left: 14%;
+        align-items: flex-start;
+        justify-content: flex-start;
+        grid-column: 1/4;
+        grid-row: 6/11;
+        font-weight: 550;
+      }
+      #foot-links-1 a {
+        margin: 3% 0px 3% 0px;
+        font-size: clamp(14px, 1vw, 16px);
+    
+        color: white;
+      }
+      #foot-links-1 a p {
+        font-weight: 450;
+        color: white;
+      }
+      #foot-links-2 {
+        width: 90%;
+        position: relative;
+        bottom: 64%;
+        left: 30%;
+        align-items: flex-start;
+        justify-content: flex-start;
+        grid-column: 2/6;
+        grid-row: 6/11;
+        font-weight: 550;
+      }
+      #foot-links-2 a {
+        margin: 1.8% 0px 1.8% 0px;
+        font-size: clamp(14px, 1vw, 16px);
+        width: 100%;
+    
+        color: white;
+      }
+      #foot-links-2 a p {
+        font-weight: 450;
+        color: white;
+      }
+      #foot-links-3 {
+        display: none;
+        position: relative;
+        bottom: 45%;
+        right: 30%;
+    
+        align-items: flex-start;
+        justify-content: flex-start;
+        grid-column: 6/7;
+        grid-row: 4/9;
+        font-weight: 550;
+      }
+      #foot-links-3 a {
+        margin: 3% 0px 3% 0px;
+        font-size: clamp(14px, 1vw, 16px);
+    
+        color: white;
+      }
+      #foot-links-3 a p {
+        font-weight: 450;
+        color: white;
+      }
+      #foot-links-4 {
+        display: flex;
+        flex-direction: row;
+    
+        justify-content: space-between;
+        text-align: center;
+        position: relative;
+        left: 7%;
+        width: 90%;
+        grid-column: 1/7;
+        grid-row: 8/9;
+      }
+      #foot-links-4 a {
+        font-weight: 500;
+        color: white;
+        font-size: clamp(13px, 1vw, 15px);
+      }
+    }
+    @media screen and (max-width: 925px) {
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 48;
+      }
+      .nav {
+        height: 102px;
+        border: 2px solid #d0d0d0;
+        background-color: #f4f4f4;
+      }
+    
+      .nav-item a {
+        display: none;
+      }
+      #search {
+        grid-column: 13/14;
+        position: relative;
+        left: 0%;
+      }
+    
+      .nav form input {
+        display: none;
+      }
+      #logo {
+        position: relative;
+        left: 50%;
+      }
+      #menu {
+        grid-column: 16/17;
+        position: relative;
+        right: 35%;
+        top: 1%;
+        display: flex;
+      }
+      #profile {
+        grid-column: 12/ 13;
+        grid-row: 1/2;
+        top: 2%;
+        /* top: -50%; */
+      }
+    
+      #cart {
+        grid-column: 14/ 15;
+        position: relative;
+        /* top: 2%; */
+        right: 30%;
+      }
+      #log {
+        display: none;
+      }
+      #sign {
+        display: none;
+      }
+    
+      #bag {
+        display: none;
+      }
+    }
+    
+    .hamburger-menu{
+      display: none;
+    }
+    .menu__box{
+      display: none;
+    }
+    #menu__toggle{
+      display: none;
+    }
+    @media screen and (max-width: 925px) {
+    .hamburger-menu{
+    
+    
+    
+    
+      z-index: 999999;
+    }
+    
+    #menu__toggle {
+      opacity: 0;
+    }
+    #menu__toggle:checked + .menu__btn > span {
+      transform: rotate(45deg);
+    }
+    #menu__toggle:checked + .menu__btn > span::before {
+      top: 0;
+      transform: rotate(0deg);
+    }
+    #menu__toggle:checked + .menu__btn > span::after {
+      top: 0;
+      transform: rotate(90deg);
+    }
+    #menu__toggle:checked ~ .menu__box {
+      left: 0 !important;
+    }
+    .menu__btn {
+      position: absolute;
+      top: 55px;
+      left: 15px;
+      width: 26px;
+      height: 26px;
+      cursor: pointer;
+      z-index: 99;
+      
+    
+    }
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 2.5px;
+      background-color: black;
+      transition-duration: .5s;
+    }
+    .menu__btn > span::before {
+      content: '';
+      top: -8px;
+    }
+    .menu__btn > span::after {
+      content: '';
+      top: 8px;
+    }
+    .menu__box {
+      display: block;
+      position: fixed;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      
+      top: -50px;
+      left: -100%;
+      width: 300px;
+      height: 100vh;
+      margin: 0;
+      padding: 80px 0;
+      
+      background-color: white;
+      box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+      transition-duration: .5s;
+    }
+    .menu__item {
+      display: block;
+      padding: 5px 24px;
+      color: black;
+      font-family: 'montserrat', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      text-decoration: none;
+      transition-duration: .5s;
+    }
+    .menu__item img{
+      height: 40px;
+      width: 40px;
+     
+    }
+    .menu__item span{
+      position: relative;
+      bottom: 15px;
+      left: 20px;
+    }
+    #logo-hm img{
+      position: relative;
+      left: 40px;
+      width: 150px;
+      height: 100px;
+    }
+    #logo-c-name{
+      position: relative;
+      bottom: 10px;
+      left: 30px;
+      font-size: 20px;
+      font-weight: 700;
+    
+    }
+    #logo-c-name1{
+      font-size: 12px;
+      position: relative;
+      bottom: 15px;
+      left:50px;
+    }
+    .menu__item:hover {
+      background-color: #CFD8DC;
+    }
+    .drop-list{
+      display: none;
+      background-color: #e5e5e5;
+      transition: 1s;
+      height: 45px;
+    }
+    .drop-list a span{
+    
+      left:5px;
+      bottom: 0px;
+    }
+    .invisible{
+      display: block;
+    }
+    }
+    @media screen and (max-width: 925px) {
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 48;
+      }
+      .nav {
+        height: 102px;
+        border: 2px solid #d0d0d0;
+        background-color: #f4f4f4;
+      }
+    
+      .nav-item a {
+        display: none;
+      }
+      #search {
+        grid-column: 14/15;
+        position: relative;
+        left: 0%;
+      }
+      #simg{
+        /* display: none; */
+        position: relative;
+        top: 80%;
+        }
+    
+      #logo {
+        grid-column: 4/7;
+        position: relative;
+        left: 0%;
+       
+      }
+      #logo img{
+        width: 150%;
+        height: 55%;
+      }
+      #menu {
+        grid-column: 1/4;
+        grid-row: 1/2;
+        position: relative;
+        right: -15%;
+        top: 40%;
+        display: none;
+      }
+      #profile{
+        grid-column: 12/ 13;
+        grid-row: 1/2;
+        top: 2%;
+        /* top: -50%; */
+        display: none;
+    
+      }
+    
+      #cart {
+        grid-column: 14/ 15;
+        position: relative;
+        /* top: 2%; */
+        right: 30%;
+        display: none;
+      }
+      #log {
+        display: none;
+      }
+      #sign {
+        display: none;
+      }
+    
+      #bag {
+        display: none;
+      }}
+    
+    
+    
+      @media screen and (max-width: 925px) {
+    
+        .left {
+          text-align: left;
+          font-family: "Montserrat", sans-serif;
+          width: 20%;
+          /* text-align: center; */
+          /* display: none; */
+        }
+        #links {
+          margin-left: 5%;
+          margin-top: 17px;
+          position: relative;
+          left: 4%;
+          display: none;
+        }
+        #links div {
+          margin: 20px 0px 20px 0px;
+        }
+        .fullpage {
+          display: flex;
+          flex-direction: column;
+        }
+        .left a {
+          text-decoration: none;
+          color: #8b8b8b;
+          margin-top: 7%;
+          padding-top: 5%;
+        }
+        .left a h1 {
+          font-size: 40px;
+          color: #fbb831;
+        }
+        .shippingaddress {
+          width: 106%;
+    
+        }
+        #l1 {
+          color: black;
+        }
+        .signup-form {
+          font-family: "Montserrat", sans-serif;
+          width: 100vw;
+          height: 105vh;
+          margin: 8px;
+          padding-right: 20px;
+        
+          border-radius: 10px;
+          position: relative;
+          top: 15px;
+          left: 0px;
+          
+        }
+        .signup-form a {
+          margin: 0;
+          float: right;
+          position: relative;
+          left: 0px;
+          font-size: 12px;
+        }
+        #fp1 {
+          position: relative;
+          top: 33px;
+          /* right: 10px; */
+          font-size: 12px;
+        }
+        .signup-form a:hover {
+          color: #3444c5;
+        }
+        
+        .form-header h1 {
+          font-size: 20px;
+          padding: 20px 0;
+        }
+        .form-body {
+          padding: 10px 0px;
+          /* color: #666; */
+        }
+        .form-group {
+          margin-bottom: 20px;
+        }
+        
+        .form-body .label-title {
+          font-size: 12px;
+          font-weight: 700;
+          color: #424242;
+          position: relative;
+          bottom: 7px;
+        }
+        .form-body .form-input {
+          font-size: 10px;
+          font-weight: 500;
+          box-sizing: border-box;
+          width: 100%;
+          height: 34px;
+          padding-left: 30px;
+        
+          color: #3444c5;
+          text-align: left;
+          border: 1px solid #eeeeee;
+          border-radius: 4px;
+          background: white;
+          outline: none;
+        }
+        .form-input:focus {
+          padding-left: 20px;
+        }
+        
+        .horizontal-group .left {
+          text-align: left;
+          float: left;
+          width: 100%;
+          margin-top: 10px;
+          position: relative;
+          top: 100%;
+          margin-bottom: 10px;
+        }
+        .horizontal-group .right {
+          margin-bottom: 10px;
+          margin-top: 10px;
+          float: left;
+          width: 100%;
+          position: relative;
+          left: 0%;
+          top: 5px;
+        }
+        .shippingaddress label{
+          display: none;
+        }
+        #shippingaddress{
+          display: none;
+        }
+        .pay-title h1 {
+          font-size: 20px;
+          font-weight: 700;
+          color: #424242;
+          margin-top:300px;
+        }
+        #payment {
+          position: relative;
+          bottom: 12%;
+        }
+        
+        input[type="file"] {
+          outline: none;
+          cursor: pointer;
+          font-size: 17px;
+        }
+        
+        
+        #range-label {
+          width: 15%;
+          padding: 5px;
+          border-radius: 5px;
+          font-size: 17px;
+          position: relative;
+          top: -8px;
+        }
+        ::-webkit-input-placeholder {
+          color: #3444c5;
+        }
+        .signup-form .form-footer {
+          margin-top: 0%;
+          padding: 20px;
+          text-align: right;
+            position: relative;
+        /* top: 200px; */
+        
+        }
+        
+        .btn {
+          width: 109.5%;
+          height: 54px;
+          display: inline-block;
+        
+          background-color: #3444c5;
+          font-size: 17px;
+          border: none;
+          border-radius: 5px;
+          color: white;
+          cursor: pointer;
+          position: relative;
+          right: 10px;
+          top: 20px;
+        }
+        #home{
+          display: none;
+        }
+        #brands{
+          display: none;
+        }
+        #products{
+          display: none;
+        }
+        #abt{
+          display: none;
+        }
+        #footLogo img {
+          height: 100px;
+          width: 190px;
+          }
+          #simg
+          {
+            position: relative;
+            left: 10px;
+            bottom: 10px;
+            z-index: 1;
+          }
+          .hamburger-menu{
+            z-index: 9999999;
+          }
+          #search{
+            z-index: 9999;
+          }
+           #search form button{
+            /* display: none; */
+            z-index: 1;
+           }
+           #search-mobile{
+            display: block;
+            height: 30px;
+            width: 30px;
+            background-color: transparent;
+            
+            
+            z-index: 9999999999;
+            position: relative;
+            top: 15px;
+            
+           } 
+    
+      }

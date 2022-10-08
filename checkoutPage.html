@@ -95,7 +95,7 @@
           
        }
   </script>
-  <section class="content1">
+  <!-- <section class="content1">
     <div id="form">
       <h1 id="form-h1">Shipping Details</h1>
       <form action="">
@@ -137,8 +137,147 @@
       <p id="foot-p">Need Anything Else? </p> <a href="/E-Commerce/contactUs.html"> ContactUs</a>
   </div> -->
 
-  </section>
+  <!-- </section> --> -->
    
+  <div class="fullpage">
+    <div class="left" id="links">
+        <div class="list-item"><a href="profile.html">
+                <h1>Account</h1>
+            </a></div>
+        <div class="list-item" id=""><a href="/E-Commerce/profile.html">
+                <h3 id="l1">Account Details</h3>
+            </a> </div>
+        <div class="list-item" id=""><a href="/E-Commerce/AccountPages/ac-order.html">
+                <h3 id="l2">My order</h3>
+            </a> </div>
+        <div class="list-item"><a href="/E-Commerce/AccountPages/ac-wish.html">
+                <h3 id="l3">My wishlist</h3>
+            </a> </div>
+        <div class="list-item"><a href="/E-Commerce/AccountPages/ac-review.html">
+                <h3 id="l4">My reviews</h3>
+            </a> </div>
+      
+        <div class="list-item"><a href="/E-Commerce/AccountPages/ac-enquiries.html">
+                <h3 id="l5">Enquiries</h3>
+            </a> </div>
+        <div class="list-item"> <a href="/">
+                <h3 >log out</h3>
+            </a> </div>
+    </div>
+    
+    <form class="signup-form" action="/register" method="post">
+        <!-- form header -->
+        <a href="" id="fp1">Forgot Password</a>
+        <div class="form-header">
+            <h1>Profile</h1>
+        </div>
+        <!-- form body -->
+        <!-- form body -->
+        <div class="form-body">
+            <!-- Firstname and phone no -->
+            <div class="horizontal-group">
+                <div class="form-group left">
+                    <label for="firstname" class="label-title">First name </label>
+                    <input type="text" id="firstname" class="form-input" placeholder="Suraj Seervi"
+                        required="required" />
+                </div>
+                <div class="form-group right">
+                    <label for="phone no" class="label-title">Phone Number</label>
+                    <input type="text" id="phone no" class="form-input" placeholder="+1 323 343 4545" />
+                </div>
+            </div>
+            <!-- <a id="fp-2" href="">Forgot Password</a> -->
+
+
+            <!-- Passwrod and Email-->
+            <div class="horizontal-group">
+                <div class="form-group left">
+                    <label for="email" class="label-title">Email</label>
+                    <input type="email" id="email" class="form-input" placeholder="Surajseervi@icloud.com"
+                        required="required" />
+                </div>
+                <div class="form-group right">
+                    <label for="confirm-password" class="label-title">Password</label>
+                    <input type="password" class="form-input" id="confirm-password" placeholder="**********"
+                        required="required" />
+                </div>
+            </div>
+            <!---shipping address-->
+            <div class="shippingaddress">
+                <label for="shippingaddress" class="label-title">Shipping Address</label>
+                <input type="email" id="shippingaddress" class="form-input" placeholder="No 123 Street name,city"
+                    required="required" />
+            </div>
+            <!-- state  and country -->
+            <div class="horizontal-group">
+                <div class="form-group left">
+                    <label for="state" class="label-title">State</label>
+                    <input type="text" id="state" class="form-input" placeholder="Tamil nadu" required="required" />
+                </div>
+                <div class="form-group right">
+                    <label for="Country" class="label-title">Country</label>
+                    <input type="country" class="form-input" id="country" placeholder="India" required="required" />
+                </div>
+
+            </div>
+            <br><br><br> <br><br><br> <br><br>
+     
+            <a href="">Edit Profile</a>
+                <div class="pay-title">
+                    <h1> Payment</h1>
+                </div>
+                <div class="horizontal-group">
+                    <div class="form-group left">
+                        <label for="card holder" class="label-title">Card Holder</label>
+                        <input type="text" id="card holder" class="form-input" placeholder="Suraj Seervi"
+                            required="required" />
+                    </div>
+                    <div class="form-group right">
+                        <label for="card number" class="label-title">Card Number</label>
+                        <input type="text" class="form-input" id="card number" placeholder="xxxx xxxx 4535"
+                            required="required" />
+                    </div>
+                </div>
+                <div class="horizontal-group">
+                    <div class="form-group left">
+                        <label for="card holder" class="label-title">Card Holder</label>
+                        <input type="text" id="card holder" class="form-input" placeholder="Suraj Seervi"
+                            required="required" />
+                    </div>
+                    <div class="form-group right">
+                        <label for="card number" class="label-title">Card Number</label>
+                        <input type="text" class="form-input" id="card number" placeholder="xxxx xxxx 4535"
+                            required="required" />
+                    </div>
+                </div>
+
+                
+      
+               
+        </div>
+        <div id="bill">
+          <p id="p-1">Order Details</p>
+          <p id="p-2">Subtotal </p>
+          <p id="p-price1">$6300</p>
+          <p id="p-3">Shipping Charges </p>
+          <p id="p-price2">$300</p>
+          <p id="p-4">Tax </p>
+          <p id="p-price3">$30</p>
+          <p id="p-5">Total </p>
+          <p id="p-price4">$6630</p>
+      
+      
+          <div id="btn"><button onclick="location.href='/E-Commerce/thankyou.html'" id="btn-1">Checkout</button></div>
+      </div>
+    
+    </form>
+</div>
+  
+   
+
+
+
+  
 
   </body>
 </html>

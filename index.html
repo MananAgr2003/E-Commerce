@@ -64,7 +64,7 @@
                 menu
             </span></div>
         <div class="hamburger-menu">
-            <input id="menu__toggle" type="checkbox" />
+            <input onclick="lockScroll()" id="menu__toggle" type="checkbox" />
             <label class="menu__btn" for="menu__toggle">
                 <span></span>
             </label>
@@ -517,6 +517,12 @@
 
     <script src="js/main.js"></script>
     <!-- <script src="js/main2.js"></script> -->
+
+    <script>
+        function lockScroll() {
+              document.body.classList.toggle('lock-scroll');
+        }
+  </script>
 
 
 
