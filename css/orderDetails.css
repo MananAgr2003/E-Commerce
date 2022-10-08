@@ -232,6 +232,7 @@ input {
 #progress-img img {
   height: 58%;
   width: 100%;
+ min-width: 500px;
 }
 #prog-lbl {
   display: flex;
@@ -1010,7 +1011,7 @@ input {
 #menu__toggle {
   display: none;
 }
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 925px) {
   .hamburger-menu {
     z-index: 999999;
   }
@@ -1131,7 +1132,7 @@ input {
     display: block;
   }
 }
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 925px) {
   .material-symbols-outlined {
     font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 48;
   }
@@ -1249,6 +1250,7 @@ input {
   #progress-img img {
     height: 45%;
     width: 95%;
+    min-width: 0px;
   }
   #prog-lbl {
     display: flex;
