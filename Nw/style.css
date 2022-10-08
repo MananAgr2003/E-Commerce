@@ -890,3 +890,7 @@ bottom: 10px;}
 
 
 }
+
+.lock-scroll {
+  overflow: hidden;
+}
