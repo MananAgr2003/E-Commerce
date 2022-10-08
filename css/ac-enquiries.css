@@ -799,6 +799,7 @@ h3{
   
       grid-row: 1/ 2;
       position: relative;
+      right: 15px;
       top: 40%;
      
     }
@@ -844,7 +845,7 @@ h3{
       color: #3444c5;
       font-size: clamp(16px, 1vw, 20px);
       position: relative;
-      left: -25px;
+      left: -27px;
       top: 0px;
     }
     #pro-2 h1 {
@@ -1217,13 +1218,13 @@ h3{
       font-weight: 600;
     }
     #btn{
-      grid-row: 16/17;
+      grid-row: 20/21;
       grid-column: 1/16;
       background-color: #1bc150;
       margin: 0px 0px 0px 0px; 
       height: 100%;
       position: relative;
-      top: 50%;
+      top: 00%;
     }
     #btn button{
     font-size: 18px;
