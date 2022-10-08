@@ -1084,3 +1084,7 @@ input[type="file"] {
        } 
 
   }
+
+  .lock-scroll {
+    overflow: hidden;
+  }

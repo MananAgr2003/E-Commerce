@@ -1391,4 +1391,8 @@ label {
       top: 15px;
       
      } }
+
+     .lock-scroll {
+      overflow: hidden;
+    }
   

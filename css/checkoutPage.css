@@ -2086,3 +2086,6 @@
            } 
     
       }
+      .lock-scroll {
+        overflow: hidden;
+      }

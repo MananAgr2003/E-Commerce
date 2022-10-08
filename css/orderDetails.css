@@ -1611,3 +1611,8 @@ input {
       
      } 
 }
+
+
+.lock-scroll {
+  overflow: hidden;
+}

@@ -1524,4 +1524,6 @@ hr {
      } 
     }
   
-   
+    .lock-scroll {
+      overflow: hidden;
+    }

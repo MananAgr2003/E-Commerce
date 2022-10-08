@@ -313,7 +313,7 @@
   }
   .input:focus {
     font-size: 16px;
-    padding-left: 50px;
+    padding-left: 30px;
   }
   
   .hotp{
@@ -2725,4 +2725,8 @@
 
     #simg{
         display: none;
+    }
+
+    .lock-scroll {
+      overflow: hidden;
     }

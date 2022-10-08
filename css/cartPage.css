@@ -1253,3 +1253,7 @@ input{
       top: 15px;
       
      } }
+
+     .lock-scroll {
+      overflow: hidden;
+    }

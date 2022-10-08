@@ -1492,4 +1492,7 @@ h3{
     position: relative;
     top: 15px;
     
-   } 
+   }
+   .lock-scroll {
+    overflow: hidden;
+  }
