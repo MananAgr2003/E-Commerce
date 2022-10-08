@@ -230,6 +230,7 @@ input {
   float: right;
   position: relative;
   left: 28px;
+  top: 20px;
 }
 #fp1 {
   position: relative;
@@ -242,6 +243,7 @@ input {
 .form-header h1 {
   font-size: 30px;
   padding: 20px 0;
+  color: #fbb831;
 }
 .form-body {
   padding: 10px 0px;
@@ -293,7 +295,7 @@ input {
 .pay-title h1 {
   font-size: 25px;
   font-weight: 700;
-  color: #424242;
+  color: #fbb831;
 }
 #payment {
   position: relative;
@@ -916,6 +918,8 @@ input[type="file"] {
     .form-header h1 {
       font-size: 20px;
       padding: 20px 0;
+      position: relative;
+      left: 18px;
     }
     .form-body {
       padding: 10px 0px;
@@ -954,19 +958,20 @@ input[type="file"] {
     .horizontal-group .left {
       text-align: left;
       float: left;
-      width: 100%;
+      width: 90%;
       margin-top: 10px;
       position: relative;
       top: 100%;
+      left: 20px;
       margin-bottom: 10px;
     }
     .horizontal-group .right {
       margin-bottom: 10px;
       margin-top: 10px;
       float: left;
-      width: 100%;
+      width: 90%;
       position: relative;
-      left: 0%;
+      left: 20px;
       top: 5px;
     }
     .shippingaddress label{
@@ -978,8 +983,10 @@ input[type="file"] {
     .pay-title h1 {
       font-size: 20px;
       font-weight: 700;
-      color: #424242;
+      color: #fbb831;
       margin-top:300px;
+      position: relative;
+      left: 18px;
     }
     #payment {
       position: relative;
@@ -1006,10 +1013,12 @@ input[type="file"] {
     }
     .signup-form .form-footer {
       margin-top: 0%;
-      padding: 20px;
+      padding: 15px;
       text-align: right;
         position: relative;
-    /* top: 200px; */
+
+      
+    /* top: 210px; */
     
     }
     
@@ -1025,7 +1034,7 @@ input[type="file"] {
       color: white;
       cursor: pointer;
       position: relative;
-      right: 10px;
+      right: 5px;
       top: 20px;
     }
     #home{
