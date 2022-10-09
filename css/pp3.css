@@ -681,7 +681,19 @@ input{
    } 
    .footer{
     background-image: url("../img/foot1.png");
-   }}
+   }
+   
+   #policy{
+     display: flex;
+     flex-direction: column;
+     padding: 20px;
+  }  
+  #policy-points{
+
+    position: relative;
+    right: 20px;
+  }
+  }
    .lock-scroll {
     overflow: hidden;
   }
