@@ -278,13 +278,13 @@ input{
 
 }
 
-#General-legal-terms  h3{
+#General-legal-terms h3{
   color: #3444c5;
 }
 
 .invisible{
   display: none;
-  /* background-color: black; */
+  
 }
 
 .visible{
