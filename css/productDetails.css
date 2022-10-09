@@ -208,6 +208,7 @@ input {
 #banner-img img {
   width: 100%;
   height: 100%;
+  /* aspect-ratio: attr(width) / attr(height); */
 }
 #head1 {
   grid-column: 9/14;
@@ -255,11 +256,10 @@ input {
   position: relative;
   left: 10%;
   bottom: 30%;
-  font-size: clamp(12px, 1vw, 16px);
+  font-size: clamp(11px, 1vw, 15px);
   font-weight: 500;
-  line-height: 25px;
+  line-height: 20px;
 
-  overflow-y: hidden;
 }
 
 #price {
@@ -1666,6 +1666,7 @@ visibility: hidden;
     position: relative;
     right: 0%;
     top: 10%;
+    margin-top: 1rem;
   }
 
   #banner-img{
@@ -2535,7 +2536,7 @@ visibility: hidden;
 
   .content5 {
     /* display: none; */
-    height: 110vh;
+    height: 120vh;
     /* background-color: #f4f4f4; */
     padding:0px 5% 50px 7%;
     display: grid;
@@ -2996,12 +2997,18 @@ visibility: hidden;
     }
     .mySlides img{
       display: block;
+      aspect-ratio: 1 / 1;
     }
     .next{
       display: block;
+      margin: 1rem;
+      filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(137deg) brightness(103%) contrast(101%);
     }
     .prev{
       display: block;
+      margin: 1rem;
+      filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(137deg) brightness(103%) contrast(101%);
+      transform: translateY(-1.6rem);
     }
     * {box-sizing:border-box}
   
@@ -3024,9 +3031,8 @@ visibility: hidden;
     
     max-height: 550px;
     max-width: 550px;
-   right: 5px;
-   bottom: 100px;
-   
+    right: 5px;
+    bottom: 100px;
   }
   .mySlides img{
     max-height: 325px;
