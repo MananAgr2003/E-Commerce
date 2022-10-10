@@ -2862,9 +2862,9 @@ input{
   }
   .content3 {
     display: grid;
-    height: 90vh;
+    height: 80vh;
     padding: 20px 2% 0px 2%;
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     grid-template-columns: repeat(21, 1fr);
   }
 
@@ -2880,6 +2880,8 @@ input{
     grid-column: 1/22;
     grid-row: 2/3;
     font-size: 14px;
+    position: relative;
+    bottom: 30px;
   }
   .c3-categories {
     min-height: 80px;
@@ -2888,6 +2890,7 @@ input{
   #c3-categories-img1 {
     position: relative;
     right: 5%;
+   top: 0%;
 
     grid-row: 3/6;
     grid-column: 2/11;
@@ -2895,7 +2898,7 @@ input{
   }
   #c3-categories-img1 a img {
     width: 110%;
-    height: 115%;
+    height: 105%;
   }
   #c3-categories-img1 a {
     width: 110%;
@@ -2904,6 +2907,7 @@ input{
   #c3-categories-img2 {
     position: relative;
     right: 5%;
+   top: 0%;
 
     grid-row: 3/6;
     grid-column: 12/21;
@@ -2911,7 +2915,7 @@ input{
   }
   #c3-categories-img2 a img {
     width: 110%;
-    height: 115%;
+    height: 105%;
   }
   #c3-categories-img2 a {
     width: 110%;
@@ -2921,7 +2925,7 @@ input{
     position: relative;
     right: 5%;
 
-    grid-row: 5/8;
+    grid-row: 4/7;
     grid-column: 2/11;
     position: relative;
     top: 45%;
@@ -2929,7 +2933,7 @@ input{
   }
   #c3-categories-img3 a img {
     width: 110%;
-    height: 115%;
+    height: 105%;
   }
   #c3-categories-img3 a {
     width: 110%;
@@ -2938,7 +2942,7 @@ input{
   #c3-categories-img4 {
     position: relative;
     right: 5%;
-    grid-row: 5/8;
+    grid-row: 4/7;
     grid-column: 12/21;
     position: relative;
     top: 45%;
@@ -2946,7 +2950,7 @@ input{
   }
   #c3-categories-img4 a img {
     width: 110%;
-    height: 115%;
+    height: 105%;
   }
   #c3-categories-img4 a {
     width: 110%;
@@ -3936,6 +3940,8 @@ top: 135.5px;
 }
 .prev{
   position: relative;
+  bottom: 85px;
+
   right: 25px;
  
 }
@@ -4034,7 +4040,7 @@ top: 135.5px;
   color:black;
   font-size: 25px;
   position: relative;
-  bottom: 10px;
+  bottom: 90px;
 }
 .next1{
 
@@ -4042,7 +4048,7 @@ top: 135.5px;
   grid-column: 21/23;
   position: relative;
   left: 5px;
-  bottom: 12px;
+  bottom: 92px;
   cursor: pointer;
   color:black;
   font-size: 25px;

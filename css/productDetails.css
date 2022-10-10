@@ -2065,7 +2065,7 @@ visibility: hidden;
     padding: 0px 5% 0px 5%;
     font-family: "Montserrat", sans-serif;
     position: relative;
-    bottom: 80px;
+    bottom: 130px;
     font-size: clamp(12px, 1vw, 16px);
   display: none;
     
@@ -2080,6 +2080,7 @@ visibility: hidden;
   #c2-p2{
       display: none;
     font-size: clamp(12px, 1vw, 16px);
+ 
   
       
   }
@@ -2094,7 +2095,7 @@ visibility: hidden;
     grid-template-rows: repeat(14 , 1fr);
     padding: 0px 4% 0px 4%;
     position: relative;
-    bottom: 40px;
+    bottom: 100px;
   }
  #c4-hr{
   z-index: 9999;
@@ -2104,7 +2105,7 @@ visibility: hidden;
   grid-column: 1/15;
   height: 8%;
   position: relative;
-  top: -10%;
+  top: 0%;
  }
   #view {
     display: none;
@@ -2538,12 +2539,14 @@ visibility: hidden;
     /* display: none; */
     height: 120vh;
     /* background-color: #f4f4f4; */
-    padding:0px 5% 50px 7%;
+    padding:0px 5% 0px 7%;
     display: grid;
     font-family: "Montserrat", sans-serif;
     grid-template-columns: repeat(14, 1fr);
     grid-template-rows: repeat(27, 1fr);
     font-weight: 600;
+    position: relative;
+    bottom: 60px;
   }
   .content5 div {
     /* display: flex; */

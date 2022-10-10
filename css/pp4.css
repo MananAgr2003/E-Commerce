@@ -732,12 +732,16 @@ input{
 
 
 }
+#privacy-policy{
+  overflow-y: hidden;
+}
 #privacy-policy h2{
   margin: 0px;
   position: relative;
   top: 20px;
   left: 10px;
   font-size: clamp(2.3rem,1vw,3.5rem);
+  width: 400px;
 }
 
 #privacy-policy  > p{
@@ -747,6 +751,6 @@ input{
  top: 20px;
  left: 12px;
  margin-bottom: 10px;
-}
-  
+ width: 400px;
+}  
 }
