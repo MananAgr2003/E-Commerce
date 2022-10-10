@@ -2026,7 +2026,7 @@ visibility: hidden;
       
   }
   #down img{
-      width: 100%;
+      width: 150%;
       height: 60%;
   }
   #content2-null{
@@ -2104,7 +2104,7 @@ visibility: hidden;
   grid-column: 1/15;
   height: 8%;
   position: relative;
-  top: 10%;
+  top: -10%;
  }
   #view {
     display: none;
