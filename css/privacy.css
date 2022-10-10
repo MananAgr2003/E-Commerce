@@ -226,7 +226,7 @@ input{
 
 #policy-points{
   grid-column: 1;
-  margin-left: clamp(3rem,1vw,4rem) 
+  margin-left: clamp(3rem,1vw,4rem) ;
 }
 
 #policy-points span{
@@ -338,7 +338,19 @@ input{
 
 
 
-@media (max-width:768px){
+@media (max-width:925px){
+
+  #policy-points{
+    grid-column: 1;
+    margin-left:0px;
+    padding-left: 15px;
+
+    display: flex;
+    overflow-y: scroll;
+  }
+  #policy-points div{
+    margin-left: 30px;
+  }
   
 }
 

@@ -247,7 +247,8 @@ function currentSlide1(n) {
 function showSlides1(n) {
   let i;
   // let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot1");
+  let dots = document.getElementsByClassName("domt");
+
   if (n > dots.length) {SlideIndex = 1}
   if (n < 1) {SlideIndex = dots.length}
   
@@ -255,26 +256,31 @@ function showSlides1(n) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
 
-  dots[slideIndex-1].className += " active";
+  dots[SlideIndex-1].className += " active";
   console.log(i);
   console.log(n);
-  if(n == 4 || n == 1){
+  if(n == 1 || n == 0){
 
 
     document.getElementById("cat1img").src = "img/cat1.png";
-      document.getElementById("cat2img").src = "img/cat2.png";
-      document.getElementById("cat3img").src = "img/cat3.png";
-      document.getElementById("cat4img").src = "img/cat4.png";
+    document.getElementById("cat2img").src = "img/cat2.png";
+    document.getElementById("cat3img").src = "img/cat3.png";
+    document.getElementById("cat4img").src = "img/cat4.png";
+    
+
   }
-  if(n == 2){
+  if(n == 2 || n == 3){
 
     
     document.getElementById("cat1img").src = "img/cat5.png";
     document.getElementById("cat2img").src = "img/cat6.png";
     document.getElementById("cat3img").src = "img/cat7.png";
     document.getElementById("cat4img").src = "img/white.png";
-
+    
   }
+
+  
+  
 
 }
 

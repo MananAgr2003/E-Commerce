@@ -771,11 +771,12 @@
         grid-template-rows: repeat(20, 1fr);
       }
       .content1 h1 {
-        grid-column: 2 /10;
+        grid-column: 1 /10;
     
         grid-row: 1/ 2;
         position: relative;
         top: 40%;
+        left: 6%;
         visibility: visible;
       }
     
@@ -789,7 +790,7 @@
         grid-template-columns: repeat(14, 1fr);
         grid-template-rows: repeat(5, 1fr);
         position: relative;
-        top: 15%;
+        top: 5%;
         border-bottom: 3px solid #909090;
         height: 80%;
       }
