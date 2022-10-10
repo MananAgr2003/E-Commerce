@@ -692,6 +692,8 @@ input{
 
     position: relative;
     right: 20px;
+    top: 30px;
+
   }
   }
    .lock-scroll {
@@ -714,4 +716,35 @@ input{
     margin-left: 30px;
   }
   
+  #policy-points span{
+   
+    padding: 19px 24px 19px 24px;
+    color: white;
+    font-weight:600 ;
+    border-radius: 50%;
+    margin-right: clamp(2rem ,1vw,3rem);
+  }
+    
+.point-10{
+
+  padding: 19px 22px 19px 22px;
+
+
+}
+#privacy-policy h2{
+  margin: 0px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  font-size: clamp(2.3rem,1vw,3.5rem);
+}
+
+#privacy-policy  > p{
+  color:#B4B4B4;
+ margin: 0px;
+ position: relative;
+ top: 20px;
+ left: 12px;
+ margin-bottom: 10px;
+} 
 }
