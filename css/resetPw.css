@@ -262,7 +262,7 @@
   #final-login{
     font-size: clamp(10px, 1vw, 40px);
     width: 100%;
-    padding: 2.7%;
+    padding: 3.7%;
     background: #3444c5;
     color: white;
     margin-bottom:clamp(10px,1vw,20px) ;
