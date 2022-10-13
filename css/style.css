@@ -3582,7 +3582,7 @@ input{
     
   }
   .footer {
-    height: 85vh;
+    height: 95vh;
   }
   #line1 {
     display: none;
@@ -3711,24 +3711,25 @@ input{
     color: white;
   }
   #foot-links-3 {
-    display: none;
+    display: block;
     position: relative;
-    bottom: 45%;
-    right: 30%;
+    bottom: -30%;
+    right: -17%;
+
 
     align-items: flex-start;
     justify-content: flex-start;
-    grid-column: 6/7;
-    grid-row: 4/9;
+    grid-column: 1/4;
+    grid-row: 6/8;
     font-weight: 550;
+   
   }
   #foot-links-3 a {
-    margin: 3% 0px 3% 0px;
     font-size: clamp(14px, 1vw, 16px);
-
     color: white;
   }
   #foot-links-3 a p {
+    margin: 8% 0px 8% 0px;
     font-weight: 450;
     color: white;
   }
@@ -4143,5 +4144,5 @@ top: 135.5px;
   width: 22px;
 }
 #cart{
-  left: -58px;
+  left: -50%;
 }

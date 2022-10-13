@@ -113,12 +113,13 @@ function changeImage3() {
 
 
 const buttonRight = document.getElementById('right');
+const buttonLeft = document.getElementById('left');
 
 buttonRight.onclick = function () {
   document.getElementById('pro-images').scrollLeft += 200;
 };
 buttonLeft.onclick = function () {
-  document.getElementById('container').scrollLeft -= 20;
+  document.getElementById('pro-images').scrollLeft -= 200;
 };
 
 function border(){
@@ -128,4 +129,28 @@ function border(){
 function border2(){
 
   $("#c2").toggleClass("border")
+}
+
+function changeImg(n){
+  if(n==1){
+
+    document.getElementById("banner-images").src = "img/c1.png";
+  }
+  if(n==2){
+
+    document.getElementById("banner-images").src = "img/p1.png";
+  }
+ 
+  if(n==3){
+
+    document.getElementById("banner-images").src = "img/p2.png";
+  }
+  if(n==4){
+
+    document.getElementById("banner-images").src = "img/p3.png";
+  }
+  if(n==5){
+
+    document.getElementById("banner-images").src = "img/p4.png";
+  }
 }
