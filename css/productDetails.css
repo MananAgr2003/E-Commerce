@@ -3,6 +3,9 @@
   padding: 0;
   /* background-color: #f4f4f4; */
 }
+a{
+  cursor: pointer;
+}
 button:hover {
   cursor: grab;
 }
@@ -210,6 +213,55 @@ input {
   height: 100%;
   /* aspect-ratio: attr(width) / attr(height); */
 }
+
+#right{
+
+  grid-column: 9/11;
+  grid-row: 13/14;
+  /* background-color: #717171; */
+
+  z-index: 99999;
+  position: relative;
+  top: 120%;
+  left: 30%;
+}
+#right img{
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  
+
+}
+
+#pro-images{
+   grid-column: 1/10;
+   grid-row: 13/17;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: start;
+   overflow-x: scroll;
+   scroll-behavior: smooth;
+   
+  }
+
+  #pro-images::-webkit-scrollbar {
+    display: none;
+  }
+
+  
+  
+  #pro-images img{
+  padding-left: 50px;
+  height: 180px;
+  width: 200px;
+  cursor: pointer;
+
+}
+
+#img1 img{
+  padding-left: 0px;
+}
 #head1 {
   grid-column: 9/14;
   grid-row: 1/2;
@@ -369,21 +421,21 @@ justify-content: flex-start;
 
 #b-1 {
   grid-row: 7/8;
-  grid-column: 10/12;
+  grid-column: 10/11;
   width: 120%;
   height: 100%;
   position: relative;
   top: 4%;
-  right: 20%;
+  right: 50%;
 }
 #b-2 {
-  grid-column: 10/12;
-  grid-row: 8/9;
+  grid-row: 7/8;
+  grid-column: 12/13;
   width: 120%;
   height: 100%;
   position: relative;
-  top: 35%;
-  right: 20%;
+  top: 4%;
+  right: 0%;
 }
 
 #p-2 {
@@ -399,20 +451,20 @@ justify-content: flex-start;
   font-weight: 700;
   position: relative;
 
-  grid-column: 8/9;
-  grid-row: 8/9;
-  top: 36px;
-  left: 52%;
+  grid-column: 11/12;
+  grid-row: 7/8;
+  top: 16px;
+  left: 15%;
 }
 
 #counter {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-row: 10/11;
+  grid-row: 9/10;
   grid-column: 9/10;
   position: relative;
-  top: 0px;
+  top: -20px;
   right: 52%;
 }
 #counter p {
@@ -468,21 +520,21 @@ justify-content: flex-start;
 }
 
 #btn1 {
-  grid-row: 11/12;
+  grid-row: 10/11;
   grid-column: 8/11;
   position: relative;
   left: 16%;
   z-index: 5;
 }
 #btn2 {
-  grid-row: 11/12;
+  grid-row: 10/11;
   grid-column: 10/13;
   position: relative;
   left: 16%;
   z-index: 5;
 }
 #btn3 {
-  grid-row: 11/12;
+  grid-row: 10/11;
   grid-column: 8/14;
   position: relative;
   left: 8%;
@@ -496,34 +548,7 @@ justify-content: flex-start;
   color: white;
 }
 
-#img1 {
-  grid-row: 13/16;
-  grid-column: 1/3;
-  padding: 0px 20px 0px 0px;
-}
-#img1 img {
-  width: 100%;
-  height: 100%;
-}
-#img2 {
-  grid-row: 13/16;
-  grid-column: 3/5;
-  padding: 0px 20px 0px 0px;
-}
-#img2 img {
-  width: 100%;
-  height: 100%;
-}
-#img3 {
-  grid-row: 13/16;
-  grid-column: 5/7;
-  padding: 0px 20px 0px 0px;
-}
 
-#img3 img {
-  width: 100%;
-  height: 100%;
-}
 
 .headlines{
     color: black;
@@ -552,14 +577,22 @@ justify-content: flex-start;
 }
 #h3-1{
     grid-row: 17/18;
-    grid-column: 1/5;
-  font-size: clamp(25px, 1vw, 35px);
+    grid-column: 1/4;
+  font-size: clamp(25px, 1vw, 30px);
+  border-bottom: 2px solid #3444c5;
+  height: 60%;
+  width: 80%;
+  cursor: pointer;
 
 }
 #h3-2{
     grid-row: 17/18;
-    grid-column: 5/10;
-  font-size: clamp(25px, 1vw, 35px);
+    grid-column: 4/7;
+  font-size: clamp(25px, 1vw, 30px);
+  border-bottom: 2px solid #3444c5;
+  height: 60%;
+  width: 80%;
+  cursor: pointer;
 
 }
 #down{
@@ -567,7 +600,9 @@ justify-content: flex-start;
     grid-column: 14/15;
     width: 60%;
     position: relative;
-    bottom: 15%;
+    bottom: 18%;
+  cursor: pointer;
+
 }
 #down img{
     width: 100%;
@@ -1814,7 +1849,9 @@ visibility: hidden;
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
+  #right{
+    display: none;
+  }
   #b-1 {
     grid-row: 11/12;
     grid-column: 6/14;
@@ -3167,8 +3204,44 @@ visibility: hidden;
    .footer{
     background-image: url("../img/foot1.png");
    }
+
+   #logo {
+    grid-column: 4/7;
+    position: relative;
+    top: 0%;
+    left: 15%;
+   
+  }
+  #logo img{
+    width: 190%;
+    height:80%;
+  }
   }
 
   .lock-scroll {
     overflow: hidden;
   }
+  #log {
+    grid-column: 12/13;
+    position: relative;
+    left: 45%;
+  }
+  #sign {
+    grid-column: 13/15;
+    position: relative;
+    left: 30%;
+  
+    width: 60%;
+  }
+
+  #bag a img{
+    height: 22px;
+    width: 22px;
+  }
+  #cart{
+    left: -58px;
+  }
+
+  .border{
+    border: 3px solid black;
+      }

@@ -362,7 +362,7 @@
     grid-row: 4/5;
     position: relative;
     left: 18%;
-    bottom: 10%;
+    bottom: 30%;
     color: #3444c5;
     font-size: clamp(14px , 1vw , 16px);
     font-weight: 600;
@@ -371,7 +371,7 @@
     color:#8b8b8b;
     position: relative;
     /* left: 18%; */
-    bottom: 60%;
+    bottom: 70%;
     right: 5%;
   }
   
@@ -425,7 +425,7 @@
    color: white;
 
 }
-.content1 h1{
+#WL{
   display: none;
 }
 #afoot{
@@ -434,6 +434,10 @@
 }
   
   @media screen and (max-width: 768px) {
+
+    #WL{
+      display: block;
+    }
     .material-symbols-outlined {
       font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 48;
     }
@@ -1399,8 +1403,42 @@
      } 
      .footer{
       background-image: url("../img/foot1.png");
-     }}
+     }
+
+     #logo {
+      grid-column: 4/7;
+      position: relative;
+      top: 0%;
+      left: 15%;
+     
+    }
+    #logo img{
+      width: 190%;
+      height:80%;
+    }
+    }
+    
 
      .lock-scroll {
       overflow: hidden;
+    }
+    #log {
+      grid-column: 12/13;
+      position: relative;
+      left: 45%;
+    }
+    #sign {
+      grid-column: 13/15;
+      position: relative;
+      left: 30%;
+    
+      width: 60%;
+    }
+
+    #bag a img{
+      height: 22px;
+      width: 22px;
+    }
+    #cart{
+      left: -58px;
     }

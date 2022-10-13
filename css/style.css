@@ -2661,12 +2661,13 @@ input{
   #logo {
     grid-column: 4/7;
     position: relative;
-    left: 0%;
+    top: 0%;
+    left: 15%;
    
   }
   #logo img{
-    width: 150%;
-    height: 55%;
+    width: 190%;
+    height:80%;
   }
   #menu {
     grid-column: 1/4;
@@ -2786,11 +2787,13 @@ input{
   }
   .content2 {
     grid-template-rows: repeat(5, 1fr);
-    height: 45vh;
+    height: 55vh;
     width: 100vw;
     padding: 0px 3% 0px 3%;
     overflow-x: hidden;
     overflow-y: hidden;
+    position: relative;
+    bottom: 20px;
   }
   .content2 div {
     justify-content: flex-start;
@@ -2803,6 +2806,8 @@ input{
     grid-row: 1 / 2;
     position: relative;
     top: 10%;
+    padding-top: 50px;
+    padding-bottom: 0px;
   }
   #content2-img {
     display: none;
@@ -2863,9 +2868,11 @@ input{
   .content3 {
     display: grid;
     height: 80vh;
-    padding: 20px 2% 0px 2%;
+    padding: 0px 2% 0px 2%;
     grid-template-rows: repeat(7, 1fr);
     grid-template-columns: repeat(21, 1fr);
+    position: relative;
+    bottom: 40px;
   }
 
   #head3 {
@@ -3926,17 +3933,19 @@ input{
   padding: 16px;
   color: black;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  background-color: #717171;
+  border-radius: 50%;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: -25px;
 top: 135.5px;
-  border-radius: 3px 0 0 3px;
+ 
 }
 .prev{
   position: relative;
@@ -3961,6 +3970,15 @@ top: 135.5px;
 }
 
 /* The dots/bullets/indicators */
+
+#fb-dot{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 150px;
+  top: 50px;
+  z-index: 99999999;
+}
 .dot {
   cursor: pointer;
   height: 15px;
@@ -3968,8 +3986,10 @@ top: 135.5px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
-  display: inline-block;
+
   transition: background-color 0.6s ease;
+  z-index: 99999999;
+ 
 }
 
 .active, .dot:hover {
@@ -4096,13 +4116,32 @@ top: 135.5px;
  }
 
 
- #c3-circle{
-  display: none;
- }
+
   
 }
 
 
 .lock-scroll {
   overflow: hidden;
+}
+
+#log {
+  grid-column: 12/13;
+  position: relative;
+  left: 45%;
+}
+#sign {
+  grid-column: 13/15;
+  position: relative;
+  left: 30%;
+
+  width: 60%;
+}
+
+#bag a img{
+  height: 22px;
+  width: 22px;
+}
+#cart{
+  left: -58px;
 }

@@ -106,3 +106,26 @@ function changeImage3() {
 
 
 }
+
+/* *******************************************************                        button click animations
+********************************************************/
+
+
+
+const buttonRight = document.getElementById('right');
+
+buttonRight.onclick = function () {
+  document.getElementById('pro-images').scrollLeft += 200;
+};
+buttonLeft.onclick = function () {
+  document.getElementById('container').scrollLeft -= 20;
+};
+
+function border(){
+
+  $("#c1").toggleClass("border")
+}
+function border2(){
+
+  $("#c2").toggleClass("border")
+}

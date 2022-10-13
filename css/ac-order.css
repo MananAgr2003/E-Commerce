@@ -226,6 +226,10 @@ h3 {
   grid-column: 2 /6;
 
   grid-row: 2 / 3;
+  /* visibility: hidden; */
+}
+
+#MO{
   visibility: hidden;
 }
 #pro-1 {
@@ -1354,7 +1358,39 @@ h3 {
      } 
      .footer{
       background-image: url("../img/foot1.png");
-     }}
+     }
+    
+     #logo {
+      grid-column: 4/7;
+      position: relative;
+      top: 0%;
+      left: 15%;
+     
+    }
+    #logo img{
+      width: 190%;
+      height:80%;
+    }}
      .lock-scroll {
       overflow: hidden;
+    }
+    #log {
+      grid-column: 12/13;
+      position: relative;
+      left: 45%;
+    }
+    #sign {
+      grid-column: 13/15;
+      position: relative;
+      left: 30%;
+    
+      width: 60%;
+    }
+
+    #bag a img{
+      height: 22px;
+      width: 22px;
+    }
+    #cart{
+      left: -58px;
     }

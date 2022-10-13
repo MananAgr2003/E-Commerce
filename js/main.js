@@ -206,30 +206,31 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   console.log(i);
   console.log(n);
-  if(n == 4 || n == 0){
+  // if(n == 4 || n == 0){
 
 
-    document.getElementById("cat1img").src = "img/cat1.png";
-      document.getElementById("cat2img").src = "img/cat2.png";
-      document.getElementById("cat3img").src = "img/cat3.png";
-      document.getElementById("cat4img").src = "img/cat4.png";
-  }
-  if(n == 2){
+  //   document.getElementById("cat1img").src = "img/cat1.png";
+  //     document.getElementById("cat2img").src = "img/cat2.png";
+  //     document.getElementById("cat3img").src = "img/cat3.png";
+  //     document.getElementById("cat4img").src = "img/cat4.png";
+  // }
+  // if(n == 2){
 
     
-    document.getElementById("cat1img").src = "img/cat5.png";
-    document.getElementById("cat2img").src = "img/cat6.png";
-    document.getElementById("cat3img").src = "img/cat7.png";
-    document.getElementById("cat4img").src = "img/cat2.png";
+  //   document.getElementById("cat1img").src = "img/cat5.png";
+  //   document.getElementById("cat2img").src = "img/cat6.png";
+  //   document.getElementById("cat3img").src = "img/cat7.png";
+  //   document.getElementById("cat4img").src = "img/white.png";
+    
 
-  }
+  // }
 
-  if(n == 3 || n == 1){
-    document.getElementById("cat1img").src = "img/cat4.png";
-    document.getElementById("cat2img").src = "img/cat5.png";
-    document.getElementById("cat3img").src = "img/cat7.png";
-    document.getElementById("cat4img").src = "img/cat1.png";
-  }
+  // if(n == 3 || n == 1){
+  //   document.getElementById("cat1img").src = "img/cat4.png";
+  //   document.getElementById("cat2img").src = "img/cat5.png";
+  //   document.getElementById("cat3img").src = "img/cat7.png";
+  //   document.getElementById("cat4img").src = "img/cat1.png";
+  // }
 }
 
 showSlides1(SlideIndex);
