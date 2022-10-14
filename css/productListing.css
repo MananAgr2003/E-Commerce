@@ -2785,7 +2785,7 @@ grid-row: 2/3;
     position: relative;
     top: -120px;
     right: 4%;
-    display: grid;
+    display: none;
   
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(11, 1fr);
@@ -2852,7 +2852,7 @@ grid-row: 2/3;
   width:20px;
 }
 #black-bg{
-  display: block;
+  display: none;
   height: 1000px;
   width: 100vw;
   background-color: black;
@@ -2860,7 +2860,8 @@ grid-row: 2/3;
   z-index: 8000;
   position: absolute;
   bottom: 600px;
-}}
+}
+}
 
      .lock-scroll {
       overflow: hidden;

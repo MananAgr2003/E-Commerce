@@ -3271,6 +3271,17 @@ visibility: hidden;
     font-weight: 450;
     color: white;
   }
+  #pro-images{
+    visibility: hidden;
+  }
+  #right{
+      visibility: hidden;
+      
+    }
+    #left{
+      visibility: hidden;
+
+    }
   }
 
   .lock-scroll {
