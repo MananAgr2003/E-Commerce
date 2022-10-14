@@ -13,3 +13,16 @@ $("#check-2").change(function() {
     
 }});
 
+function filterBar(){
+
+    $("#filter-bar").css("display" , "grid");
+    $("#black-bg").css("display" , "block");
+
+  }
+function filterBar1(){
+
+    $("#filter-bar").css("display" , "none");
+    $("#black-bg").css("display" , "none");
+ 
+  }
+

@@ -122,10 +122,7 @@ buttonLeft.onclick = function () {
   document.getElementById('pro-images').scrollLeft -= 200;
 };
 
-function border(){
-
-  $("#c1").toggleClass("border")
-}
+id="cross"
 function border2(){
 
   $("#c2").toggleClass("border")

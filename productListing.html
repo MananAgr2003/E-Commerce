@@ -107,6 +107,9 @@
 
     <section class="content2">
 
+        <div id="black-bg"></div>
+
+
         <div class="box">
             <div id="search1">
                 <a href=""><img src="img/search-sm.png" alt="">
@@ -116,15 +119,18 @@
                 <input type="text" class="input" name="txt" onmouseout="this.value = ''; this.blur();"
                     placeholder="             Search">
             </form>
-            <!-- <div id="filter"><img src="img/filter.png" alt=""></div> -->
             <!-- <div class="hotp">
             <input type="checkbox" name="" id="hp">
             <p id="hp1">Hot Products</p>
             </div> -->
         </div>
+
+        <div onclick="filterBar()" id="filter"><img src="img/filter.png" alt=""></div>
+
         <div id="filter-bar">
             <h1>Filter By</h1>
             <a href="">Clear All</a>
+            <div onclick="filterBar1()" id="cross" ><img onclick="filterBar1()" src="img/cross.png" alt=""></div>
             <p id="p-1">Brand</p>
             <img src="img/list-filter.png" alt="">
             <p id="p-2">Panel Size</p>
