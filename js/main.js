@@ -204,8 +204,7 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-  console.log(i);
-  console.log(n);
+
   // if(n == 4 || n == 0){
 
 
@@ -242,7 +241,21 @@ function plusSlides1(n) {
 
 // Thumbnail image controls
 function currentSlide1(n) {
+
+  console.log(n);
   showSlides1(SlideIndex = n);
+  if(n == 1){
+    
+  
+    $("#dot1").css("background-color", "#717171");
+    $("#dot2").css("background-color", "#bbb");
+    }
+  if(n == 2){
+
+    $("#dot2").css("background-color", "#717171");
+    $("#dot1").css("background-color", "#bbb");
+
+  }
 }
 
 function showSlides1(n) {
@@ -283,4 +296,5 @@ function showSlides1(n) {
   
 
 }
+
 
