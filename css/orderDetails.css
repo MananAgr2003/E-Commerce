@@ -186,9 +186,9 @@ input {
 }
 .content1 {
   display: none;
-  height: 80vh;
+  height: 70vh;
   /* background-color: #f4f4f4; */
-  padding: 10px 0% 30px 5%;
+  padding: 10px 5% 30px 5%;
   display: grid;
   font-family: "Montserrat", sans-serif;
   grid-template-columns: repeat(12, 1fr);
@@ -230,7 +230,7 @@ input {
   right: 4%;
 }
 #progress-img img {
-  height: 58%;
+  height: 65%;
   width: 100%;
  min-width: 500px;
 }
