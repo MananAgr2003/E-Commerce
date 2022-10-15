@@ -248,18 +248,17 @@ function currentSlide1(n) {
 function showSlides1(n) {
   let i;
   // let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("domt");
+  let dots1 = document.getElementsByClassName("domt");
 
-  if (n > dots.length) {SlideIndex = 1}
-  if (n < 1) {SlideIndex = dots.length}
+  if (n > dots1.length) {SlideIndex = 1}
+  if (n < 1) {SlideIndex = dots1.length}
   
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+  for (i = 0; i < dots1.length; i++) {
+    dots1[i].className = dots1[i].className.replace(" active", "");
   }
 
-  dots[SlideIndex-1].className += " active";
-  console.log(i);
-  console.log(n);
+  dots1[SlideIndex-1].className += " active";
+
   if(n == 1 || n == 0){
 
 
