@@ -188,7 +188,7 @@ input {
   display: none;
   height: 70vh;
   /* background-color: #f4f4f4; */
-  padding: 10px 5% 30px 5%;
+  padding: 10px 5% 0px 5%;
   display: grid;
   font-family: "Montserrat", sans-serif;
   grid-template-columns: repeat(12, 1fr);
@@ -325,7 +325,7 @@ input {
   background-color: #fbb831;
   position: relative;
   left: 45px;
-  bottom: 65px;
+  bottom: 60px;
 }
 #p6 {
   grid-row: 5/6;
@@ -431,12 +431,13 @@ input {
   display: none;
   height: 150vh;
   /* background-color: #f4f4f4; */
-  padding: 20px 5% 30px 5%;
+  padding: 0px 5% 30px 5%;
   display: grid;
   font-family: "Montserrat", sans-serif;
   grid-template-columns: repeat(15, 1fr);
   grid-template-rows: repeat(12, 1fr);
   font-weight: 600;
+  
 }
 .content2 div {
   display: flex;
@@ -605,13 +606,14 @@ input {
   grid-row: 1 /8;
   grid-column: 11/15;
 
-  padding: 10px 0% 30px 0%;
+  padding: 0px 0% 30px 0%;
   display: grid;
   font-family: "Montserrat", sans-serif;
 
   font-weight: 600;
 
   position: relative;
+  bottom: 1.5%;
 font-size: 18px;  
 
 }
