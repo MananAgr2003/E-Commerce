@@ -187,7 +187,7 @@ input {
 
 .content1 {
   /* display: none; */
-  height: 110vh;
+  height: 140vh;
   /* background-color: #f4f4f4; */
   padding: 30px 5% 0px 5%;
   display: grid;
@@ -335,7 +335,7 @@ input {
 #price {
   grid-column: 8/10;
   grid-row: 4/5;
-  font-size: clamp(20px, 1vw, 25px);
+  font-size: clamp(15px, 1vw, 25px);
   color: #1bc150;
   font-weight: 500;
   position: relative;
@@ -395,7 +395,7 @@ justify-content: flex-start;
   background-color: #3444c5;
   color: white;
   padding: 16px;
-  font-size: 16px;
+  font-size: clamp(10px , 1vw , 13px);
   height: 50px;
   border: none;
   cursor: pointer;
@@ -444,7 +444,7 @@ justify-content: flex-start;
   height: 100%;
   position: relative;
   top: 4%;
-  right: 50%;
+  right: 45%;
 }
 #b-2 {
   grid-row: 7/8;
@@ -464,6 +464,7 @@ justify-content: flex-start;
   grid-row: 7/8;
   top: 16px;
   left: 52%;
+  width: 100px;
 }
 #p-3 {
   font-weight: 700;
@@ -473,6 +474,7 @@ justify-content: flex-start;
   grid-row: 7/8;
   top: 16px;
   left: 15%;
+  width: 100px;
 }
 
 #counter {
