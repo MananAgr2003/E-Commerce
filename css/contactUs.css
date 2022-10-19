@@ -532,7 +532,7 @@ input[type="file"] {
 }
 /**********************/
 .footer {
-  height: 70vh;
+  height: 85vh;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(8, 1fr);
