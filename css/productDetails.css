@@ -187,7 +187,7 @@ input {
 
 .content1 {
   /* display: none; */
-  height: 130vh;
+  height: 115vh;
   /* background-color: #f4f4f4; */
   padding: 30px 5% 0px 5%;
   display: grid;
@@ -444,7 +444,10 @@ justify-content: flex-start;
   height: 100%;
   position: relative;
   top: 4%;
-  right: 45%;
+   left: -50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 #b-2 {
   grid-row: 7/8;
@@ -454,16 +457,19 @@ justify-content: flex-start;
   position: relative;
   top: 4%;
   right: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #p-2 {
   font-weight: 700;
   position: relative;
 
-  grid-column: 8/9;
+  grid-column: 9/10;
   grid-row: 7/8;
   top: 16px;
-  left: 52%;
+  left:-50%;
   width: 100px;
 }
 #p-3 {
